@@ -1,0 +1,24 @@
+[flake8]
+ignore =
+    E203,  # whitespace before ':'
+    E501,  # line too long
+
+    D100,  # Missing docstring in public module
+    D101,  # Missing docstring in public class
+    D102,  # Missing docstring in public method
+    D103,  # Missing docstring in public function
+    D104,  # Missing docstring in public package
+    D105,  # Missing docstring in magic method
+    D107,  # Missing docstring in __init__
+    D200,  # One-line docstring should fit on one line with quotes
+    D205,  # 1 blank line required between summary line and description
+    D400,  # First line should end with a period
+    D401,  # First line should be in imperative mood
+    D403,  # First word of the first line should be properly capitalized
+
+per-file-ignores =
+    # F401: Ignore "imported but unused" errors in __init__ files, as those
+    # imports are there to expose submodule functions so they can be imported
+    # directly from that module
+    # F403: Ignore * imports in these files
+    zyte_parsers/__init__.py:F401,F403

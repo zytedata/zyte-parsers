@@ -1,0 +1,45 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "zyte-parsers"
+authors = [{name = "Zyte Group Ltd", email = "info@zyte.com"}]
+readme = "README.rst"
+license = {file = "LICENSE"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: BSD License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: Implementation :: CPython",
+]
+requires-python = ">=3.7"
+dependencies = [
+    "attrs>=21.3.0",
+    "html-text",
+    "lxml",
+    "parsel",
+    "w3lib",
+]
+dynamic = ["version", "description"]
+
+[project.urls]
+Source = "https://github.com/zytedata/zyte-parsers"
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[[tool.mypy.overrides]]
+module = [
+    "html_text.*",
+]
+ignore_missing_imports = true
