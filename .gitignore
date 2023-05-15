@@ -18,3 +18,4 @@
 .coverage
 htmlcov/
 .ipynb_checkpoints
+coverage.xml
