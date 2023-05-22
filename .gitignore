@@ -16,6 +16,7 @@
 .tox/
 .pytest_cache/
 .coverage
+coverage.xml
 htmlcov/
 .ipynb_checkpoints
 coverage.xml
