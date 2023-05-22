@@ -20,12 +20,9 @@ jobs:
         python-version: '3.x'
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install flit
-    - name: Build and publish
-      if: startsWith(github.ref, 'refs/tags')
-      env:
-        FLIT_USERNAME: __token__
-        FLIT_PASSWORD: ${{ secrets.PYPI_TOKEN }}
-      run: |
-        flit publish --no-use-vcs
+        pip install --upgrade build twine
+        python -m build
+    - name: Publish to PyPI
+      uses: pypa/gh-action-pypi-publish@v1.6.4
+      with:
+        password: ${{ secrets.PYPI_TOKEN }}
