@@ -5,7 +5,7 @@ from typing import List, Optional, Tuple
 
 import attr
 
-from .api import InputType, input_to_element
+from .api import SelectorOrElement, input_to_element
 from .utils import extract_link, extract_text, first_satisfying
 
 
@@ -30,7 +30,7 @@ RSTRIP_SEP_REG = re.compile(rf"\s+{SEP_REG_STR}$")
 
 
 def extract_breadcrumbs(
-    node: InputType, *, base_url: Optional[str], max_search_depth: int = 10
+    node: SelectorOrElement, *, base_url: Optional[str], max_search_depth: int = 10
 ) -> Optional[Tuple[Breadcrumb, ...]]:
     """Extract breadcrumb items from node that represents breadcrumb component.
 

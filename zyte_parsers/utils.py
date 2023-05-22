@@ -4,7 +4,7 @@ from urllib.parse import urljoin
 import html_text
 from w3lib.html import strip_html5_whitespace
 
-from zyte_parsers.api import InputType, input_to_element
+from zyte_parsers.api import SelectorOrElement, input_to_element
 
 
 def is_js_url(url: str) -> bool:
@@ -24,7 +24,7 @@ def strip_urljoin(base_url: Optional[str], url: Optional[str]) -> str:
     return urljoin(base_url or "", url or "")
 
 
-def extract_link(a_node: InputType, base_url: str) -> Optional[str]:
+def extract_link(a_node: SelectorOrElement, base_url: str) -> Optional[str]:
     """
     Extracts the absolute url link form a ``<a>`` HTML tag.
     """
@@ -42,7 +42,7 @@ def extract_link(a_node: InputType, base_url: str) -> Optional[str]:
     return link
 
 
-def extract_text(node: InputType, guess_layout: bool = False) -> Optional[str]:
+def extract_text(node: SelectorOrElement, guess_layout: bool = False) -> Optional[str]:
     node = input_to_element(node)
     value = html_text.extract_text(node, guess_layout=guess_layout)
     if value:
