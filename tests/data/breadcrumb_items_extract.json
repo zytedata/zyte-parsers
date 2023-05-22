@@ -1,0 +1,5728 @@
+[
+  {
+    "expected": [
+      {
+        "url": "http://www.patioheatingplus.com",
+        "name": "Home"
+      },
+      {
+        "url": "http://www.patioheatingplus.com/Patio-Heater-Brands-s/2.htm",
+        "name": "Shop By Brand"
+      },
+      {
+        "url": "http://www.patioheatingplus.com/Infratech-Electric-Patio-Heaters-s/41.htm",
+        "name": "Infratech Electric Heaters"
+      },
+      {
+        "url": "http://www.patioheatingplus.com/Infratech-Patio-Heater-Control-Options-s/423.htm",
+        "name": "Infratech Controls"
+      }
+    ],
+    "snippet_path": "anchors1.html",
+    "base_url": "http://www.patioheatingplus.com"
+  },
+  {
+    "expected": [
+      {
+        "url": "http://www.talotarvike.com",
+        "name": "Etusivu"
+      },
+      {
+        "url": "http://www.talotarvike.com/piha/c238",
+        "name": "Piha"
+      },
+      {
+        "url": "http://www.talotarvike.com/grillit-savustimet/c456",
+        "name": "Grillit ja savustimet"
+      },
+      {
+        "url": "http://www.talotarvike.com/hiiligrillit/c951",
+        "name": "Hiiligrillit"
+      },
+      {
+        "name": "Big Green Egg Suojahuppu XLarge EGG - musta (TMXL pöydälle)"
+      }
+    ],
+    "snippet_path": "anchors2.html",
+    "base_url": "http://www.talotarvike.com"
+  },
+  {
+    "expected": [
+      {
+        "url": "http://www.example.com/foo",
+        "name": "Category"
+      },
+      {
+        "url": "http://www.example.com/foo/bar",
+        "name": "Sub-Category"
+      },
+      {
+        "url": "http://www.example.com/foo/bar/baz",
+        "name": "Product"
+      }
+    ],
+    "snippet_path": "nested-breadcrumbs.html",
+    "base_url": "http://www.example.com"
+  },
+  {
+    "expected": [
+      {
+        "url": "http://www.viporlandovacationrental.com/es",
+        "name": "Inicio"
+      },
+      {
+        "url": "http://www.viporlandovacationrental.com/es/propiedades",
+        "name": "Propiedades"
+      },
+      {
+        "name": "RENTA DE CASAS VACACIONALES EN ORLANDO"
+      }
+    ],
+    "snippet_path": "nested-data-vocabulary.html",
+    "base_url": "http://www.viporlandovacationrental.com"
+  },
+  {
+    "expected": [
+      {
+        "url": "http://www.fiskars.sk/",
+        "name": null
+      },
+      {
+        "url": "http://www.fiskars.sk/vyrobky",
+        "name": "Výrobky"
+      },
+      {
+        "url": "http://www.fiskars.sk/vyrobky/zahrada",
+        "name": "Záhrada"
+      },
+      {
+        "url": "http://www.fiskars.sk/vyrobky/zahrada/sekery",
+        "name": "Sekery"
+      },
+      {
+        "url": "http://www.fiskars.sk/vyrobky/zahrada/sekery/univerzalna-sekera-x10-1000604",
+        "name": "Univerzálna sekera X10 - 1000604"
+      }
+    ],
+    "snippet_path": "nested-ul-element1.html",
+    "base_url": "http://www.fiskars.sk"
+  },
+  {
+    "expected": [
+      {
+        "url": "http://buypcgame.eu/",
+        "name": "Pagrindinis"
+      },
+      {
+        "url": "https://buypcgame.eu/lt/24-simuliatoriai",
+        "name": "Simuliatoriai"
+      },
+      {
+        "name": "The Sims 3 Pets"
+      }
+    ],
+    "snippet_path": "nested-ul-element2.html",
+    "base_url": "https://buypcgame.eu"
+  },
+  {
+    "expected": [
+      {
+        "url": "http://www.toplaptop.hu/",
+        "name": "Kezdő oldal"
+      },
+      {
+        "url": "http://www.toplaptop.hu/ultrabook",
+        "name": "Ultrabook"
+      },
+      {
+        "url": "http://www.toplaptop.hu/ultrabook/lenovo",
+        "name": "Lenovo"
+      },
+      {
+        "name": "Lenovo ThinkPad Edge E130 Fekete Ultrabook"
+      }
+    ],
+    "snippet_path": "semantic-markup.html",
+    "base_url": "http://www.toplaptop.hu"
+  },
+  {
+    "expected": [
+      {
+        "url": "http://www.microport.com.tw/index.htm",
+        "name": "首頁"
+      },
+      {
+        "url": "http://www.microport.com.tw/big5/PRODUCT.ASP",
+        "name": "產品簡介"
+      },
+      {
+        "name": "QB-FPGA200EP2C Starter Kit"
+      }
+    ],
+    "snippet_path": "td-element.html",
+    "base_url": "http://www.microport.com.tw"
+  },
+  {
+    "expected": [
+      {
+        "url": "http://www.slickwillies.co.uk/",
+        "name": "Home"
+      },
+      {
+        "url": "http://www.slickwillies.co.uk/skateboards.html",
+        "name": "Skateboards"
+      },
+      {
+        "url": "http://www.slickwillies.co.uk/skateboards/skateboard-decks.html",
+        "name": "Skateboard Decks"
+      },
+      {
+        "url": "http://www.slickwillies.co.uk/skateboards/skateboard-decks/primitive-decks.html",
+        "name": "Primitive Decks"
+      },
+      {
+        "url": null,
+        "name": "Primitive Peacock Teal Peacock Skateboard Deck - 8.0"
+      }
+    ],
+    "snippet_path": "ul-element.html",
+    "base_url": "http://www.slickwillies.co.uk"
+  },
+  {
+    "expected": [
+      {
+        "url": "https://www.testbericht.de/",
+        "name": "Testbericht.de"
+      },
+      {
+        "url": "https://www.testbericht.de/foto-video/",
+        "name": "Foto Video"
+      },
+      {
+        "url": "https://www.testbericht.de/camcorder/",
+        "name": "Camcorder"
+      },
+      {
+        "name": "Panasonic HC-V707EG-K"
+      }
+    ],
+    "snippet_path": "with-drop-down.html",
+    "base_url": "https://www.testbericht.de"
+  },
+  {
+    "expected": [
+      {
+        "url": "https://www.example2.com/",
+        "name": "Home"
+      },
+      {
+        "url": "https://www.example2.com/foo",
+        "name": "Category 1"
+      },
+      {
+        "url": "https://www.example2.com/bar",
+        "name": "Category 2"
+      },
+      {
+        "url": "https://www.example2.com/baz",
+        "name": "Category 3"
+      }
+    ],
+    "snippet_path": "with-drop-down2.html",
+    "base_url": "https://www.example2.com"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.alexisbittar.com/"
+      },
+      {
+        "name": "Multi Wrap Leather Bracelet",
+        "url": null
+      }
+    ],
+    "snippet_path": "self-link.html",
+    "base_url": "https://www.alexisbittar.com/multi-wrap-leather-br-black_1506997808689.html"
+  },
+  {
+    "expected": [
+      {
+        "url": "http://www.charlestonseafood.com/",
+        "name": "Home"
+      },
+      {
+        "url": "http://www.charlestonseafood.com/SearchResults.asp?Cat=1514",
+        "name": "Shellfish"
+      }
+    ],
+    "snippet_path": "snippet1.html",
+    "base_url": "http://www.charlestonseafood.com"
+  },
+  {
+    "expected": [
+      {
+        "url": "http://electricshaverstore.co.uk/mens-electric-shavers/",
+        "name": "Men's Electric Shavers"
+      }
+    ],
+    "snippet_path": "snippet2.html",
+    "base_url": "http://electricshaverstore.co.uk"
+  },
+  {
+    "expected": [
+      {
+        "url": "http://denkovi.com/",
+        "name": "Home"
+      },
+      {
+        "url": "http://denkovi.com/smartden-modules",
+        "name": "smartDEN IP Modules"
+      },
+      {
+        "name": "smartDEN IoT Internet / Ethernet 16 Relay Module - DIN Rail BOX"
+      }
+    ],
+    "snippet_path": "snippet3.html",
+    "base_url": "http://denkovi.com"
+  },
+  {
+    "expected": [
+      {
+        "url": "http://www.fredao.com/",
+        "name": null
+      },
+      {
+        "name": "Camiseta bege gola portuguesa em tecido de &#243;tima qualidade com perfeito caimento, c&#243;d 870"
+      }
+    ],
+    "snippet_path": "snippet4.html",
+    "base_url": "https://www.fredao.com",
+    "xfail": "It returns additional links that relate more to navigation rather than breadcrumbs"
+  },
+  {
+    "expected": [
+      {
+        "url": "http://www.oldieoel.de/index.php?XTCsid=on0286ii48q2k4pfh1uv79qjb6",
+        "name": "Startseite"
+      },
+      {
+        "url": "http://www.oldieoel.de/Additive/?XTCsid=on0286ii48q2k4pfh1uv79qjb6",
+        "name": "Additive"
+      },
+      {
+        "url": "http://www.oldieoel.de/Additive/Benzin-Additiv/?XTCsid=on0286ii48q2k4pfh1uv79qjb6",
+        "name": "Benzin-Additiv"
+      },
+      {
+        "url": "http://www.oldieoel.de/Additive/Benzin-Additiv/Bactofin-Benzinstabilisator-Tankrostschutz-Bleiersatz-Benzinadditiv.html?XTCsid=on0286ii48q2k4pfh1uv79qjb6",
+        "name": "WAGNER Bactofin Benzinstabilisator"
+      }
+    ],
+    "snippet_path": "snippet5.html",
+    "base_url": "http://www.oldieoel.de"
+  },
+  {
+    "expected": [
+      {
+        "url": "https://servicesales.com",
+        "name": "Home"
+      },
+      {
+        "url": "https://servicesales.com/product-category/stove-parts/",
+        "name": "Wood Stove Parts"
+      },
+      {
+        "url": "https://servicesales.com/product-category/stove-parts/buck-stove-parts/",
+        "name": "Buck Stove Parts"
+      },
+      {
+        "url": "https://servicesales.com/product-category/stove-parts/buck-stove-parts/buck-stove-model-51/",
+        "name": "Buck Stove Model 51"
+      },
+      {
+        "name": "Blower Assembly SBR084 for Models 18, 21, 51, & 20"
+      }
+    ],
+    "snippet_path": "snippet6.html",
+    "base_url": "http://servicesales.com"
+  },
+  {
+    "expected": [
+      {
+        "url": "http://www.christineclevy.com",
+        "name": "Accueil"
+      },
+      {
+        "url": "http://www.christineclevy.com/colliers-xsl-368.html",
+        "name": "colliers"
+      },
+      {
+        "url": "http://www.christineclevy.com/colliers-ethnique-xsl-368_391.html",
+        "name": "ethnique"
+      },
+      {
+        "name": "Collier en résine et en os orange"
+      }
+    ],
+    "snippet_path": "snippet7.html",
+    "base_url": "http://www.christineclevy.com"
+  },
+  {
+    "expected": [
+      {
+        "url": "http://www.poppin.com",
+        "name": "Home"
+      },
+      {
+        "url": "http://www.poppin.com/office-supplies/",
+        "name": "Office Supplies"
+      },
+      {
+        "url": "http://www.poppin.com/office-supplies/desktop-organization/",
+        "name": "Desk Organization"
+      },
+      {
+        "url": "http://www.poppin.com/desktop-organization/pen-holders/",
+        "name": "Pen Holders"
+      },
+      {
+        "name": "Pink Pen Cup"
+      }
+    ],
+    "snippet_path": "snippet8.html",
+    "base_url": "http://www.poppin.com"
+  },
+  {
+    "expected": [
+      {
+        "url": "https://www.carrefour.es/",
+        "name": "Inicio"
+      },
+      {
+        "url": "https://www.carrefour.es/informatica",
+        "name": "Informática"
+      },
+      {
+        "url": "https://www.carrefour.es/portatiles/cat410364/c",
+        "name": "Portátiles"
+      },
+      {
+        "name": "Portátil HP Notebook 15-da0045ns con i5, 8GB, 256GB, 39,62 cm - 15,6''"
+      }
+    ],
+    "snippet_path": "include-non-anchor.html",
+    "base_url": "https://www.carrefour.es/portatil-hp-notebook-15-da0045ns-con-i5-8gb-256gb-39-62-cm-15-6/VC4A-5912063/p"
+  },
+  {
+    "expected": [
+      {
+        "name": "alaTest",
+        "url": "http://alatest.dk/"
+      },
+      {
+        "name": "Computere",
+        "url": "http://alatest.dk/anmeldelser/computere/c3-209/"
+      },
+      {
+        "name": "Bærbare PCere",
+        "url": "http://alatest.dk/anmeldelser/baerbare-pcere/c3-30/"
+      },
+      {
+        "name": "Medion ERAZER X6813"
+      }
+    ],
+    "snippet_path": "generated/snippet0001.html",
+    "base_url": "http://alatest.dk/anmeldelser/baerbare-pcere/medion-erazer-x6813/po3-132365677,30/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.eau-thermale-avene.ca/en_CA"
+      },
+      {
+        "name": "Face",
+        "url": "https://www.eau-thermale-avene.ca/en_CA/face"
+      },
+      {
+        "name": "Specific products",
+        "url": "https://www.eau-thermale-avene.ca/en_CA/face"
+      },
+      {
+        "name": "Skin prone to acne",
+        "url": "https://www.eau-thermale-avene.ca/en_CA/face/specific-products/cleanance"
+      },
+      {
+        "name": "CLEANANCE EXPERT"
+      }
+    ],
+    "snippet_path": "generated/snippet0002.html",
+    "base_url": "https://www.eau-thermale-avene.ca/en_CA/face/specific-products/skin-prone-to-acne/cleanance-expert"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.gear4music.it/"
+      },
+      {
+        "name": "Chitarre elettriche",
+        "url": "https://www.gear4music.it/it/Chitarre.html"
+      },
+      {
+        "name": "Accessori per chitarra elettrica",
+        "url": "https://www.gear4music.it/it/Chitarre-elettriche/Corde-per-chitarra-ed-accessori"
+      },
+      {
+        "name": "Cavi",
+        "url": "https://www.gear4music.it/it/Chitarre-elettriche/cavo-di-chitarra"
+      },
+      {
+        "name": "6m a 9 m chitarra cavi",
+        "url": "https://www.gear4music.it/it/cavo-di-chitarra/m-6-a-9-m"
+      }
+    ],
+    "snippet_path": "generated/snippet0003.html",
+    "base_url": "https://www.gear4music.it/it/Chitarra-e-basso/Lava-Cable-ELC-Vintage-Tweed-cavo-per-strumento-30ft/1HRL",
+    "xfail": "Link 'Indietro' should not be included in breadcrumbs."
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.elementvape.com/"
+      },
+      {
+        "name": "Guo Altus Coil-Less CVU Tank"
+      }
+    ],
+    "snippet_path": "generated/snippet0004.html",
+    "base_url": "https://www.elementvape.com/altus-coil-less-cvu-tank-by-guo"
+  },
+  {
+    "expected": [
+      {
+        "name": "Accueil",
+        "url": "http://www.all-batteries.fr/"
+      },
+      {
+        "name": "Accus bouton Lithium ML2430-HS1 3V 100mAh"
+      }
+    ],
+    "snippet_path": "generated/snippet0005.html",
+    "base_url": "http://www.all-batteries.fr/accus-bouton-lithium-ml2430-hs1-3v-100mah-abl7602.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "alaTest",
+        "url": "http://alatest.dk/"
+      },
+      {
+        "name": "Foto",
+        "url": "http://alatest.dk/anmeldelser/foto/c3-146/"
+      },
+      {
+        "name": "Videokameraer",
+        "url": "http://alatest.dk/anmeldelser/videokameraer/c3-21/"
+      },
+      {
+        "name": "Sanyo VPC-CA100"
+      }
+    ],
+    "snippet_path": "generated/snippet0006.html",
+    "base_url": "http://alatest.dk/anmeldelser/videokameraer/sanyo-vpc-ca-100/po3-114505586,21/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Kategorien",
+        "url": "http://shop.roesterei-schwarzwild.de/epages/es390644.sf/de_DE/?ObjectPath=/Shops/es390644/Categories"
+      },
+      {
+        "name": "Kaffee- und Espressosorten",
+        "url": "http://shop.roesterei-schwarzwild.de/epages/es390644.sf/de_DE/?ObjectPath=/Shops/es390644/Categories/%22Kaffees%20und%20Espressos%22"
+      },
+      {
+        "name": "Espressomischungen",
+        "url": "http://shop.roesterei-schwarzwild.de/epages/es390644.sf/de_DE/?ObjectPath=/Shops/es390644/Categories/%22Kaffees%20und%20Espressos%22/Mischungen"
+      },
+      {
+        "name": "LUXEMBOURG Spezial, Espressomischung, 75% Arabica, 25% Robusta"
+      }
+    ],
+    "snippet_path": "generated/snippet0007.html",
+    "base_url": "http://shop.roesterei-schwarzwild.de/epages/es390644.sf/de_DE/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Главная",
+        "url": "http://pbsvyaz.ru/"
+      },
+      {
+        "name": "Аккумулятор Soshine 3.7V 2200мА 18650 Li-Ion с защитой"
+      }
+    ],
+    "snippet_path": "generated/snippet0009.html",
+    "base_url": "http://pbsvyaz.ru/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://laptopbatteryone.com/"
+      },
+      {
+        "name": "iPad Extremely Soft Rubber Case (White)"
+      }
+    ],
+    "snippet_path": "generated/snippet0010.html",
+    "base_url": "http://laptopbatteryone.com/ipad-extremely-soft-rubber-case-white.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Toys",
+        "url": "https://www.goodvibes.com/s/sex-toys"
+      },
+      {
+        "name": "Vibrators and Pulsators",
+        "url": "https://www.goodvibes.com/s/sex-toys/c/gv004/vibrators-and-pulsators"
+      },
+      {
+        "name": "Rechargeable Vibrators",
+        "url": "https://www.goodvibes.com/s/sex-toys/c/gv265/vibrators-and-pulsators/rechargeable-vibrators"
+      }
+    ],
+    "snippet_path": "generated/snippet0011.html",
+    "base_url": "https://www.goodvibes.com/s/sex-toys/p/11AH09/we-vibe/tango-by-we-vibe?lref=PrdR_1-6-CA-1205__3"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.mattroisangtao.vn"
+      },
+      {
+        "name": "Sản phẩm",
+        "url": "http://www.mattroisangtao.vn/san-pham/"
+      },
+      {
+        "name": "Công nghệ",
+        "url": "http://www.mattroisangtao.vn/danh-muc/cong-nghe/"
+      },
+      {
+        "name": "Máy công cụ - Đo lường",
+        "url": "http://www.mattroisangtao.vn/danh-muc/cong-nghe/may-cong-cu-do-luong/"
+      },
+      {
+        "name": "Ni vô laser đa năng LV09"
+      }
+    ],
+    "snippet_path": "generated/snippet0012.html",
+    "base_url": "http://www.mattroisangtao.vn/san-pham/ni-vo-laser-da-nang-lv09/"
+  },
+  {
+    "expected": [
+      {
+        "name": "製品索引",
+        "url": "https://www.digikey.jp/products/ja"
+      },
+      {
+        "name": "ディスクリート半導体製品",
+        "url": "https://www.digikey.jp/products/ja/discrete-semiconductor-products/19"
+      },
+      {
+        "name": "トランジスタ - バイポーラ（BJT） - アレイ",
+        "url": "https://www.digikey.jp/products/ja/discrete-semiconductor-products/transistors-bipolar-bjt-arrays/277"
+      },
+      {
+        "name": "Texas Instruments ULN2803ADWR"
+      }
+    ],
+    "snippet_path": "generated/snippet0013.html",
+    "base_url": "https://www.digikey.jp/product-detail/ja/ULN2803ADWR/296-15777-1-ND/598088"
+  },
+  {
+    "expected": [
+      {
+        "name": "Accueil",
+        "url": "https://2getmass.ws"
+      },
+      {
+        "name": "Stéroïdes injectables",
+        "url": "https://2getmass.ws/steroides-injectables/"
+      },
+      {
+        "name": "Winstrol",
+        "url": "https://2getmass.ws/steroides-injectables/winstrol-steroides-injectables/"
+      },
+      {
+        "name": "Stanozolol 75 – Winstrol – LA-PHARMA – 10ml"
+      }
+    ],
+    "snippet_path": "generated/snippet0014.html",
+    "base_url": "https://2getmass.ws/steroides-injectables/winstrol-steroides-injectables/stanozolol-winstrol-la-pharma-10ml/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Hunde",
+        "url": "https://www.premiumtierfutter.de/hunde/"
+      },
+      {
+        "name": "Shampoo",
+        "url": "https://www.premiumtierfutter.de/hunde/shampoo/"
+      }
+    ],
+    "snippet_path": "generated/snippet0015.html",
+    "base_url": "https://www.premiumtierfutter.de/hunde/shampoo/etiderm-dermatologisches-shampoo"
+  },
+  {
+    "expected": [
+      {
+        "name": "Accueil",
+        "url": "https://www.lierac.fr/"
+      },
+      {
+        "name": "Visage",
+        "url": "https://www.lierac.fr/visage/"
+      },
+      {
+        "name": "GOMMAGE DOUCEUR - Crème Veloutée Exfoliante"
+      }
+    ],
+    "snippet_path": "generated/snippet0016.html",
+    "base_url": "https://www.lierac.fr/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Главная",
+        "url": "https://xcom.ua/"
+      },
+      {
+        "name": "Оргтехника",
+        "url": "https://xcom.ua/catalog/orgtehnika/"
+      },
+      {
+        "name": "USB Flash",
+        "url": "https://xcom.ua/catalog/usb_flash/"
+      },
+      {
+        "name": "VERBATIM",
+        "url": "https://xcom.ua/catalog/usb_flash/2763/verbatim/"
+      }
+    ],
+    "snippet_path": "generated/snippet0017.html",
+    "base_url": "https://xcom.ua/product/780036_FlashNakopitel_16GB_Verbatim_49069_STORE_N_GO_PIN_STRIPE_ORANGE/"
+  },
+  {
+    "expected": [
+      {
+        "name": "ALCOHOL",
+        "url": "https://eluxo.pl/en/3-alcohol"
+      },
+      {
+        "name": "LIKER",
+        "url": "https://eluxo.pl/en/17-liker"
+      },
+      {
+        "name": "Chopin & Wedel chocolate liqueur 0.5 l"
+      }
+    ],
+    "snippet_path": "generated/snippet0018.html",
+    "base_url": "https://eluxo.pl/en/liker/2512-chopinwedel-likier-czekoladowy-05l-w-tubie.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Negozio di utensili",
+        "url": "http://www.rotopino.it/"
+      },
+      {
+        "name": "Recensioni",
+        "url": "http://www.rotopino.it/opinioni/"
+      },
+      {
+        "name": "Pistola incollatrice Bosch GKP 200 CE"
+      }
+    ],
+    "snippet_path": "generated/snippet0019.html",
+    "base_url": "http://www.rotopino.it/opinioni/pistola-incollatrice,p2473/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Úvod",
+        "url": "http://www.domovni-videotelefony.cz/vpservis"
+      },
+      {
+        "name": "V-TϾK (2-drát)",
+        "url": "http://www.domovni-videotelefony.cz/vpservis/eshop/1-1-V-TCK"
+      },
+      {
+        "name": "Domovní videotelefon PM-473TMD-W"
+      }
+    ],
+    "snippet_path": "generated/snippet0020.html",
+    "base_url": "http://www.domovni-videotelefony.cz/vpservis/eshop/1-1-V-TCK/61-3-bytove-monitory/5/783-Domovni-videotelefon-PM-473TMD-W"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home - Collana Educazione pre e perinatale - Ora lo so!",
+        "url": "https://www.bonomieditore.it/"
+      },
+      {
+        "name": "Il mio bambino non mi fa la cacca nel vasino",
+        "url": "https://www.bonomieditore.it/home-collana-educazione-pre-e-perinatale-ora-lo-so/il-mio-bambino-non-mi-fa-la-cacca-nel-vasino/"
+      }
+    ],
+    "snippet_path": "generated/snippet0021.html",
+    "base_url": "https://www.bonomieditore.it/home-collana-educazione-pre-e-perinatale-ora-lo-so/il-mio-bambino-non-mi-fa-la-cacca-nel-vasino/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.learntosee.com/"
+      },
+      {
+        "name": "Academy of Art Course Kits",
+        "url": "http://www.learntosee.com/category_s/49.htm"
+      }
+    ],
+    "snippet_path": "generated/snippet0022.html",
+    "base_url": "http://www.learntosee.com/product_p/lts-104-0.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "Safety & Mission",
+        "url": "http://www.aero-access.com/catalog/Safety-and-Mission.html"
+      },
+      {
+        "name": "WSPS™ Wire Strike Protection System™",
+        "url": "http://www.aero-access.com/catalog/WSPS-Wire-Strike-Protection-System.html"
+      },
+      {
+        "name": "Bell 407, WSPS™"
+      }
+    ],
+    "snippet_path": "generated/snippet0024.html",
+    "base_url": "http://www.aero-access.com/products/Bell-407%2540c-WSPS%2540andtrade%253b.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.123underwear.com/"
+      },
+      {
+        "name": "Magic Silk",
+        "url": "http://www.123underwear.com/shop/magic-silk/"
+      },
+      {
+        "name": "Magic Silk Jock Strap"
+      }
+    ],
+    "snippet_path": "generated/snippet0027.html",
+    "base_url": "http://www.123underwear.com/prod/magic-silk/MS-4086-BLUE.html"
+  },
+  {
+    "expected": [
+      {
+        "name": null,
+        "url": "http://www.fiskars.pl/"
+      },
+      {
+        "name": "Produkty",
+        "url": "http://www.fiskars.pl/produkty"
+      },
+      {
+        "name": "Ogród",
+        "url": "http://www.fiskars.pl/produkty/ogrod"
+      },
+      {
+        "name": "Ranges",
+        "url": "http://www.fiskars.pl/produkty/ogrod/ranges"
+      },
+      {
+        "name": "My First Fiskars™",
+        "url": "http://www.fiskars.pl/produkty/ogrod/ranges/my-first-fiskars"
+      },
+      {
+        "name": "Szczotka - My First Fiskars - 1001418",
+        "url": "http://www.fiskars.pl/produkty/ogrod/ranges/my-first-fiskars/szczotka-my-first-fiskars-1001418"
+      }
+    ],
+    "snippet_path": "generated/snippet0028.html",
+    "base_url": "http://www.fiskars.pl/produkty/ogrod/ranges/my-first-fiskars/szczotka-my-first-fiskars-1001418"
+  },
+  {
+    "expected": [
+      {
+        "name": "ShopMania",
+        "url": "https://www.shopmania.co.za"
+      },
+      {
+        "name": "Computers",
+        "url": "https://www.shopmania.co.za/computers"
+      },
+      {
+        "name": "Components",
+        "url": "https://www.shopmania.co.za/components"
+      },
+      {
+        "name": "Cooling Fans",
+        "url": "https://www.shopmania.co.za/cooling-fans"
+      },
+      {
+        "name": "Raidmax Cooling Fans",
+        "url": "https://www.shopmania.co.za/cooling-fans/filter-brand-raidmax"
+      }
+    ],
+    "snippet_path": "generated/snippet0029.html",
+    "base_url": "https://www.shopmania.co.za/cooling-fans/p-raidmax-cobra-120-35947862"
+  },
+  {
+    "expected": [
+      {
+        "name": "ShopMania",
+        "url": "https://www.shopmania.co.za"
+      },
+      {
+        "name": "Computers",
+        "url": "https://www.shopmania.co.za/computers"
+      },
+      {
+        "name": "Components",
+        "url": "https://www.shopmania.co.za/components"
+      },
+      {
+        "name": "Cases and Power Supplies",
+        "url": "https://www.shopmania.co.za/computer-cases"
+      },
+      {
+        "name": "Corsair Cases and Power Supplies",
+        "url": "https://www.shopmania.co.za/computer-cases/filter-brand-corsair"
+      }
+    ],
+    "snippet_path": "generated/snippet0030.html",
+    "base_url": "https://www.shopmania.co.za/computer-cases/p-corsair-obsidian-350d-20834907"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.allterraincycles.co.uk/"
+      },
+      {
+        "name": "Wheels & Tyres",
+        "url": "https://www.allterraincycles.co.uk/wheels-and-tyres"
+      },
+      {
+        "name": "Tyres",
+        "url": "https://www.allterraincycles.co.uk/tyres-tyres"
+      },
+      {
+        "name": "Continental",
+        "url": "https://www.allterraincycles.co.uk/continental?categoryid=3344"
+      },
+      {
+        "name": "Continental Grand Prix Black Chilli Wire Tyre",
+        "url": "https://www.allterraincycles.co.uk/continental-grand-prix-black-chilli-wire-tyre"
+      }
+    ],
+    "snippet_path": "generated/snippet0032.html",
+    "base_url": "https://www.allterraincycles.co.uk/continental-grand-prix-black-chilli-wire-tyre",
+    "xfail": "the element \"Continental Grand Prix Black Chilli Wire Tyre\" without the link should be cut off"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.atelierultau.ro/blog/"
+      },
+      {
+        "name": "Despre",
+        "url": "https://www.atelierultau.ro/blog/despre/"
+      }
+    ],
+    "snippet_path": "generated/snippet0034.html",
+    "base_url": "https://www.atelierultau.ro/blog/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Hjem",
+        "url": "https://www.ticmate.no/"
+      },
+      {
+        "name": "Milano",
+        "url": "https://www.ticmate.no/city/milano/"
+      },
+      {
+        "name": "Sightseeing",
+        "url": "https://www.ticmate.no/city/milano/sightseeing/"
+      },
+      {
+        "name": "Segway-kveldstur i Milano",
+        "url": "https://www.ticmate.no/sightseeing/segway-kveldstur-i-milano/"
+      }
+    ],
+    "snippet_path": "generated/snippet0035.html",
+    "base_url": "https://www.ticmate.no/sightseeing/segway-kveldstur-i-milano/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.inyopools.com/"
+      },
+      {
+        "name": "Commercial Pool",
+        "url": "http://www.inyopools.com/category_commercial_pool.aspx"
+      },
+      {
+        "name": "Commercial Pool Pumps",
+        "url": "http://www.inyopools.com/category_commercial_pool_pump.aspx"
+      },
+      {
+        "name": "Pentair C Series Pump Without Hair and Lint Trap",
+        "url": "http://www.inyopools.com/ProductListing/pumps_pentair_c_series_pump_without_strainer.aspx"
+      },
+      {
+        "name": "10 HP 60 HZ Single Phase C- Series Pump Without Strainer 230V CH-100"
+      }
+    ],
+    "snippet_path": "generated/snippet0036.html",
+    "base_url": "http://www.inyopools.com/Products/03500018046489.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://ledbulbs.co.nz/index.php?route=common/home"
+      },
+      {
+        "name": "G4 Horizontal 9 led 1.5W",
+        "url": "http://ledbulbs.co.nz/g4-9-smd-led-bulb"
+      }
+    ],
+    "snippet_path": "generated/snippet0038.html",
+    "base_url": "http://ledbulbs.co.nz/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.graciousrose.com/"
+      },
+      {
+        "name": "Earrings",
+        "url": "https://www.graciousrose.com/earrings/"
+      },
+      {
+        "name": "Diamond Earrings",
+        "url": "https://www.graciousrose.com/earrings/diamond-earrings-2.html"
+      },
+      {
+        "name": "Diamond Martini Style Stud Earrings"
+      }
+    ],
+    "snippet_path": "generated/snippet0039.html",
+    "base_url": "https://www.graciousrose.com/earrings/diamond-martini-style-stud-earrings.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Главная",
+        "url": "http://www.gsmpress.com.ua"
+      },
+      {
+        "name": "Телефоны",
+        "url": "http://www.gsmpress.com.ua/rus/manufacturers.php"
+      },
+      {
+        "name": "LG",
+        "url": "http://www.gsmpress.com.ua/rus/phones-list-lg.html"
+      },
+      {
+        "name": "LG CU575"
+      }
+    ],
+    "snippet_path": "generated/snippet0040.html",
+    "base_url": "http://www.gsmpress.com.ua"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.thebikelist.co.uk/"
+      },
+      {
+        "name": "Mongoose",
+        "url": "http://www.thebikelist.co.uk/mongoose"
+      },
+      {
+        "name": "Boot'R",
+        "url": "http://www.thebikelist.co.uk/mongoose/boot-r-bikes"
+      },
+      {
+        "name": "Boot'r Comp 2012"
+      }
+    ],
+    "snippet_path": "generated/snippet0041.html",
+    "base_url": "http://www.thebikelist.co.uk/mongoose/boot-r-comp-2012"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.globalsugarart.com/"
+      },
+      {
+        "name": "Supplies",
+        "url": "https://www.globalsugarart.com/supplies.html"
+      },
+      {
+        "name": "Shop by Brand",
+        "url": "https://www.globalsugarart.com/supplies/shop-by-brand.html"
+      },
+      {
+        "name": "Patchwork Cutters",
+        "url": "https://www.globalsugarart.com/supplies/shop-by-brand/patchwork-cutters.html"
+      },
+      {
+        "name": "Painting Embossed Designs with Patchwork Cutters"
+      }
+    ],
+    "snippet_path": "generated/snippet0042.html",
+    "base_url": "https://www.globalsugarart.com/painting-embossed-designs-with-patchwork-cutters-video-inspiration.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Startseite",
+        "url": "http://www.haage-partner.de/shop/index.php"
+      },
+      {
+        "name": "Datenrettung",
+        "url": "http://www.haage-partner.de/shop/datenrettung/"
+      },
+      {
+        "name": "R-Studio 8 (Win)"
+      }
+    ],
+    "snippet_path": "generated/snippet0043.html",
+    "base_url": "http://www.haage-partner.de/shop/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.bol.de/shop/home/show/;jsessionid=14605b8dc2fc44b89264174574f167c9.tc6p"
+      },
+      {
+        "name": "Spielwaren",
+        "url": "https://www.bol.de/shop/spielzeug/show/;jsessionid=14605b8dc2fc44b89264174574f167c9.tc6p"
+      }
+    ],
+    "snippet_path": "generated/snippet0044.html",
+    "base_url": "https://www.bol.de/shop/spielwaren/artikeldetails/elektroalarm/andreas_burgwitz/ISBN3-440-65917-8/ID16932073.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.nutty.com/"
+      },
+      {
+        "name": "Socket Head Screws",
+        "url": "https://www.nutty.com/Socket-Head-Screws_c_197.html"
+      },
+      {
+        "name": "Hex Keys",
+        "url": "https://www.nutty.com/Hex-Keys_c_204.html"
+      },
+      {
+        "name": "1/8 Long Arm Hex Key"
+      }
+    ],
+    "snippet_path": "generated/snippet0045.html",
+    "base_url": "https://www.nutty.com/18-Long-Arm-Hex-Key-_p_12571.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Startseite",
+        "url": "https://www.rexbo.de"
+      },
+      {
+        "name": "Autoteile",
+        "url": "https://www.rexbo.de/autoteile"
+      },
+      {
+        "name": "Beleuchtung",
+        "url": "https://www.rexbo.de/autoteile/beleuchtung"
+      },
+      {
+        "name": "Hauptscheinwerfer",
+        "url": "https://www.rexbo.de/autoteile/beleuchtung/hauptscheinwerfer"
+      }
+    ],
+    "snippet_path": "generated/snippet0046.html",
+    "base_url": "https://www.rexbo.de/bosch/scheinwerfereinsatz-hauptscheinwerfer-301302102"
+  },
+  {
+    "expected": [
+      {
+        "name": "首页",
+        "url": "http://www.edel-optics.cn/"
+      },
+      {
+        "name": "太阳镜",
+        "url": "http://www.edel-optics.cn/太阳镜.html"
+      },
+      {
+        "name": "Polo",
+        "url": "http://www.edel-optics.cn/Polo-太阳镜.html"
+      },
+      {
+        "name": "PH4097 (50018G)"
+      }
+    ],
+    "snippet_path": "generated/snippet0047.html",
+    "base_url": "http://www.edel-optics.cn/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Wasserkühlung",
+        "url": "http://www.aquatuning.ch/wasserkuehlung/"
+      },
+      {
+        "name": "Pumpen",
+        "url": "http://www.aquatuning.ch/wasserkuehlung/pumpen/"
+      },
+      {
+        "name": "Eheim 1046/48",
+        "url": "http://www.aquatuning.ch/wasserkuehlung/pumpen/eheim-104648/"
+      },
+      {
+        "name": "1046 Pumpen",
+        "url": "http://www.aquatuning.ch/wasserkuehlung/pumpen/eheim-104648/1046-pumpen/"
+      }
+    ],
+    "snippet_path": "generated/snippet0048.html",
+    "base_url": "http://www.aquatuning.ch/wasserkuehlung/pumpen/eheim-104648/1046-pumpen/2834/innovatek-hpps-i-high-power-12v-pumpe"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.bongo.be/nl/"
+      },
+      {
+        "name": "Wellness",
+        "url": "http://www.bongo.be/nl/cadeau-wellness/"
+      },
+      {
+        "name": "Relaxen met Twee"
+      }
+    ],
+    "snippet_path": "generated/snippet0049.html",
+    "base_url": "http://www.bongo.be/nl/cadeaubon-relaxen-met-twee-2692/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Strona Główna",
+        "url": "https://www.ebmia.pl/index.php"
+      },
+      {
+        "name": "Pneumatyka hydraulika",
+        "url": "https://www.ebmia.pl/pneumatyka-hydraulika-c-1452.html"
+      },
+      {
+        "name": "Zawory, Elektrozawory, Wyspy zaworowe, Akcesoria",
+        "url": "https://www.ebmia.pl/pneumatyka-hydraulika-zawory-elektrozawory-wyspy-zaworowe-akcesoria-c-1452_1890.html"
+      },
+      {
+        "name": "Zawory mechaniczne",
+        "url": "https://www.ebmia.pl/zawory-elektrozawory-wyspy-zaworowe-akcesoria-mechaniczne-c-1452_1890_1939.html"
+      },
+      {
+        "name": "FT 5/2, 5/3 (1/4",
+        "url": "https://www.ebmia.pl/zawory-mechaniczne-c-1452_1890_1939_1995.html"
+      },
+      {
+        "name": "Zawór Nożny 1/4'' 5/2 ze Sprężyną FT410-S",
+        "url": "https://www.ebmia.pl/zawor-nozny-sprezyna-ft410s-p-45819.html"
+      }
+    ],
+    "snippet_path": "generated/snippet0050.html",
+    "base_url": "https://www.ebmia.pl/zawor-nozny-sprezyna-ft410s-p-45819.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Inicio",
+        "url": "https://www.brildor.com/"
+      },
+      {
+        "name": "Bordado",
+        "url": "https://www.brildor.com/bordado.html"
+      },
+      {
+        "name": "Consumibles",
+        "url": "https://www.brildor.com/bordado/consumibles-para-bordado.html"
+      },
+      {
+        "name": "Espuma 3D"
+      }
+    ],
+    "snippet_path": "generated/snippet0051.html",
+    "base_url": "https://www.brildor.com/bordado/consumibles-para-bordado/espuma-3d.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Vlasne",
+        "url": "https://vlasne.ua"
+      },
+      {
+        "name": "Южный",
+        "url": "https://vlasne.ua/city/yuzhny/"
+      },
+      {
+        "name": "1-й",
+        "url": "https://vlasne.ua/city/yuzhny/sub-district/1st/"
+      },
+      {
+        "name": "1-комнатная",
+        "url": "https://vlasne.ua/city/yuzhny/filter/1room/"
+      },
+      {
+        "name": "1 комнатная квартира посуточно"
+      }
+    ],
+    "snippet_path": "generated/snippet0052.html",
+    "base_url": "https://vlasne.ua/city/yuzhny/realt/42459/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Prodotti",
+        "url": "https://www.sanmartincalzaturificio.com/18-shop-online"
+      },
+      {
+        "name": "Anfibi Militari",
+        "url": "https://www.sanmartincalzaturificio.com/16-anfibi-militari"
+      },
+      {
+        "name": "Anfibi Scarpe Militari Operative Reparto Speciale API Carabinieri"
+      }
+    ],
+    "snippet_path": "generated/snippet0053.html",
+    "base_url": "https://www.sanmartincalzaturificio.com/anfibi-militari/49-anfibi-scarpe-militari-operative-reparto-speciale-api-carabinieri.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "StoreFront",
+        "url": "http://store.piecemakers.com/storefront.aspx"
+      },
+      {
+        "name": "Beads, Sequins and Embellishments",
+        "url": "http://store.piecemakers.com/beads-sequins-and-embellishments-c2.aspx"
+      },
+      {
+        "name": "Bead Hanks",
+        "url": "http://store.piecemakers.com/bead-hanks-c3.aspx"
+      },
+      {
+        "name": "Seed Beads - black - 11/0"
+      }
+    ],
+    "snippet_path": "generated/snippet0054.html",
+    "base_url": "http://store.piecemakers.com/seed-beads---black---110-p913.aspx"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.edel-optics.com.cy/"
+      },
+      {
+        "name": "Sunglasses",
+        "url": "http://www.edel-optics.com.cy/Sunglasses.html"
+      },
+      {
+        "name": "Burberry",
+        "url": "http://www.edel-optics.com.cy/Burberry-Sunglasses.html"
+      },
+      {
+        "name": "BE4194 (300187)"
+      }
+    ],
+    "snippet_path": "generated/snippet0055.html",
+    "base_url": "http://www.edel-optics.com.cy/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.fairandwhite.com/"
+      },
+      {
+        "name": "Original Lightening Serum 30 ml"
+      }
+    ],
+    "snippet_path": "generated/snippet0056.html",
+    "base_url": "https://www.fairandwhite.com/lightening-serum-30ml.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.ehwachs.com/Wachs-Subsea/"
+      },
+      {
+        "name": "Machines",
+        "url": "https://www.ehwachs.com/Wachs-Subsea/productcategory/"
+      },
+      {
+        "name": "Subsea HPU & Controls",
+        "url": "https://www.ehwachs.com/Wachs-Subsea/productcategory/Subsea-HPU-Controls-55.html"
+      },
+      {
+        "name": "Subsea Hose Reels",
+        "url": "https://www.ehwachs.com/Wachs-Subsea/productcategory/Subsea-HPU-Controls-55/Subsea-Hose-Reels-39.html"
+      }
+    ],
+    "snippet_path": "generated/snippet0057.html",
+    "base_url": "https://www.ehwachs.com/Wachs-Subsea/productcategory/306s-Offshore-HPU-Controls-55/313s-Subsea-Hose-Reels-39/Subsea-Hose-Reel-Single-400.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.bulletproof.com/"
+      },
+      {
+        "name": "2016 Bulletproof Conference Videos"
+      }
+    ],
+    "snippet_path": "generated/snippet0058.html",
+    "base_url": "https://www.bulletproof.com/2016-bp-conference-videos"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.factoryoemparts.com/"
+      },
+      {
+        "name": "Topkick/Kodiak",
+        "url": "http://www.factoryoemparts.com/topkick-kodiak/"
+      }
+    ],
+    "snippet_path": "generated/snippet0059.html",
+    "base_url": "http://www.factoryoemparts.com/03-09-gmc-topkick-chevy-kodiak-differential-lock-switch-94667400-94667400"
+  },
+  {
+    "expected": [
+      {
+        "name": "Return to Home",
+        "url": "http://www.farmacosmetic.es/"
+      },
+      {
+        "name": "Medicamentos",
+        "url": "http://www.farmacosmetic.es/en/177-medicamentos"
+      },
+      {
+        "name": "MICRALAX 12 CANULAS 5 ML"
+      }
+    ],
+    "snippet_path": "generated/snippet0060.html",
+    "base_url": "http://www.farmacosmetic.es/en/medicamentos/459-micralax-12-canulas-5-ml.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://landser.com"
+      },
+      {
+        "name": "Awards",
+        "url": "https://landser.com/awards/"
+      },
+      {
+        "name": "Kriegsmarine",
+        "url": "https://landser.com/kriegsmarine/"
+      },
+      {
+        "name": "Kreigsmarine High Sea Fleet Battle"
+      }
+    ],
+    "snippet_path": "generated/snippet0061.html",
+    "base_url": "https://landser.com/kreigsmarine-high-sea-fleet-battle/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.zeytuna.com"
+      },
+      {
+        "name": "ICE CREAM, FROZEN YOGURT & SORBETS",
+        "url": "http://www.zeytuna.com/categories/ICE-CREAM%2C-FROZEN-YOGURT-%26-SORBETS/"
+      },
+      {
+        "name": "Ice Cream",
+        "url": "http://www.zeytuna.com/categories/ICE-CREAM%2C-FROZEN-YOGURT-%26-SORBETS/Ice-Cream/"
+      },
+      {
+        "name": "Häagen-Dazs Pints-Ice Cream"
+      }
+    ],
+    "snippet_path": "generated/snippet0062.html",
+    "base_url": "http://www.zeytuna.com/products/H%C3%A4agen%252dDazs-Pints%252dIce-Cream.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.duracelldirect.it/"
+      },
+      {
+        "name": "Videocamera Produttori",
+        "url": "http://www.duracelldirect.it/videocamera-batteria-alimentatore-caricabatterie.html"
+      },
+      {
+        "name": "Panasonic",
+        "url": "http://www.duracelldirect.it/videocamera/panasonic-batteria-alimentatore-caricabatterie.html"
+      },
+      {
+        "name": "NV",
+        "url": "http://www.duracelldirect.it/videocamera/panasonic/nv/accessori.html"
+      },
+      {
+        "name": "S9",
+        "url": "http://www.duracelldirect.it/videocamera/panasonic/nv/s9/accessori.html"
+      },
+      {
+        "name": "NV-S950PN",
+        "url": "http://www.duracelldirect.it/videocamera/panasonic/nv-s950pn-batteria-alimentatore-caricabatterie.html"
+      },
+      {
+        "name": "32Q7H2"
+      }
+    ],
+    "snippet_path": "generated/snippet0063.html",
+    "base_url": "http://www.duracelldirect.it/videocamera/panasonic/nv-s950pn-caricatore-piu-uscite--32q7h2.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Roberto Cavalli",
+        "url": "http://www.edel-optics.be/Lunettes-de-soleil-Roberto-Cavalli.html"
+      }
+    ],
+    "snippet_path": "generated/snippet0064.html",
+    "base_url": "http://www.edel-optics.be/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Spa and Bath Gift Baskets",
+        "url": "http://www.pro-gift-baskets.com/spagiftbaskets.aspx"
+      },
+      {
+        "name": "Vanilla Orchid Spa Gift Basket"
+      }
+    ],
+    "snippet_path": "generated/snippet0065.html",
+    "base_url": "http://www.pro-gift-baskets.com/gift.aspx?id=2661"
+  },
+  {
+    "expected": [
+      {
+        "name": "Kategorien",
+        "url": "https://deggelbam.de/epages/b0338690-c272-456f-8132-7412a3c71f87.sf/de_DE/?ObjectPath=/Shops/b0338690-c272-456f-8132-7412a3c71f87/Categories"
+      },
+      {
+        "name": "Deggelbam Shop",
+        "url": "https://deggelbam.de/epages/b0338690-c272-456f-8132-7412a3c71f87.sf/de_DE/?ObjectPath=/Shops/b0338690-c272-456f-8132-7412a3c71f87/Categories/Category1"
+      },
+      {
+        "name": "Deggelbam \"L\" naturbelassen"
+      }
+    ],
+    "snippet_path": "generated/snippet0066.html",
+    "base_url": "https://deggelbam.de/epages/b0338690-c272-456f-8132-7412a3c71f87.sf/de_DE/?ObjectPath=/Shops/b0338690-c272-456f-8132-7412a3c71f87/Products/1000"
+  },
+  {
+    "expected": [
+      {
+        "name": "Главная",
+        "url": "https://fighterland.ru/"
+      },
+      {
+        "name": "Продукция",
+        "url": "https://fighterland.ru/shop/"
+      },
+      {
+        "name": "Футболка «Вежливые люди»"
+      }
+    ],
+    "snippet_path": "generated/snippet0068.html",
+    "base_url": "https://fighterland.ru/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.sturdybuiltonline.com/"
+      },
+      {
+        "name": "Categories",
+        "url": "http://www.sturdybuiltonline.com/Categories_c_209.html"
+      },
+      {
+        "name": "Boat Trailer Rollers",
+        "url": "http://www.sturdybuiltonline.com/Boat-Trailer-Rollers_c_77.html"
+      }
+    ],
+    "snippet_path": "generated/snippet0069.html",
+    "base_url": "http://www.sturdybuiltonline.com/12-inch-Black-Rubber-Straight-Roller-58-inner-diameter_p_257.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Inizio",
+        "url": "https://www.eurekakids.it"
+      },
+      {
+        "name": "Infanzia",
+        "url": "https://www.eurekakids.it/infanzia"
+      },
+      {
+        "name": "Carrozzine",
+        "url": "https://www.eurekakids.it/infanzia/carrozzine"
+      },
+      {
+        "name": "Accessori passeggini",
+        "url": "https://www.eurekakids.it/infanzia/accessori-passeggini"
+      },
+      {
+        "name": "Luvion",
+        "url": "https://www.eurekakids.it/infanzia/luvion"
+      },
+      {
+        "name": "Moschettone stroller hook 20"
+      }
+    ],
+    "snippet_path": "generated/snippet0070.html",
+    "base_url": "https://www.eurekakids.it/infanzia/luvion/moschettone-stroller-hook-20/207LU0094"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.amway.ch/en/"
+      },
+      {
+        "name": "Home",
+        "url": "https://www.amway.ch/en/home"
+      },
+      {
+        "name": "Surface Care",
+        "url": "https://www.amway.ch/en/home/surface-care"
+      },
+      {
+        "name": "Bathroom Cleaner L.O.C.™"
+      }
+    ],
+    "snippet_path": "generated/snippet0071.html",
+    "base_url": "https://www.amway.ch/en/product/117078,l-o-c-bathroom-cleaner"
+  },
+  {
+    "expected": [
+      {
+        "name": "ShopMania",
+        "url": "http://www.shopmania.in"
+      },
+      {
+        "name": "Baby & Kids",
+        "url": "http://www.shopmania.in/baby-kids"
+      },
+      {
+        "name": "Toys",
+        "url": "http://www.shopmania.in/toys"
+      },
+      {
+        "name": "Lego Toys",
+        "url": "http://www.shopmania.in/toys/filter-brand-lego"
+      }
+    ],
+    "snippet_path": "generated/snippet0072.html",
+    "base_url": "http://www.shopmania.in/toys/p-lego-70728-battle-for-ninjago-city-81990869"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.orellfuessli.ch/shop/home/show/;jsessionid=c200c7c2d8ee40b3a8c65e792122f202.tc4pc"
+      },
+      {
+        "name": "Musik",
+        "url": "https://www.orellfuessli.ch/shop/musik/show/;jsessionid=c200c7c2d8ee40b3a8c65e792122f202.tc4pc"
+      }
+    ],
+    "snippet_path": "generated/snippet0073.html",
+    "base_url": "https://www.orellfuessli.ch/shop/dance_electronic/rubrikartikel/berlin_calling_the_soundtrack_by_paul_kalkbrenner/ost/EAN0880319333620/ID16196872.html?ProvID=10923186"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.mmarmedical.com/"
+      },
+      {
+        "name": "Pediatric Products",
+        "url": "http://www.mmarmedical.com/pediatric-orthotics-s/55.htm"
+      },
+      {
+        "name": "Knee",
+        "url": "http://www.mmarmedical.com/Pediatric-Knee-Braces-s/120.htm"
+      }
+    ],
+    "snippet_path": "generated/snippet0074.html",
+    "base_url": "http://www.mmarmedical.com/New-Options-Universal-Wrap-Around-Knee-p/pk194.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "Forside",
+        "url": "http://www.magasin.dk"
+      },
+      {
+        "name": "Skønhed",
+        "url": "http://www.magasin.dk/skoenhed"
+      },
+      {
+        "name": "Kropspleje",
+        "url": "http://www.magasin.dk/skoenhed/kropspleje"
+      },
+      {
+        "name": "Fugtpleje",
+        "url": "http://www.magasin.dk/skoenhed/kropspleje/fugtpleje"
+      },
+      {
+        "name": "Lotion & creme",
+        "url": "http://www.magasin.dk/skoenhed/kropspleje/fugtpleje/lotion-og-creme"
+      },
+      {
+        "name": "Body Lotion 200 ml."
+      }
+    ],
+    "snippet_path": "generated/snippet0076.html",
+    "base_url": "http://www.magasin.dk/body-lotion-200-ml./VA03565831-00000001_061.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.qehomelinens.com/default.aspx"
+      },
+      {
+        "name": "Bedding Collections",
+        "url": "HTTP://www.qehomelinens.com/Bedding-Collections/Department.aspx?DeptID=676"
+      },
+      {
+        "name": "Home Republic",
+        "url": "HTTP://www.qehomelinens.com/Bedding-Collections/Home-Republic/Department.aspx?DeptID=32"
+      },
+      {
+        "name": "Home Republic Opaline Collection",
+        "url": "HTTP://www.qehomelinens.com/Bedding-Collections/Home-Republic/Home-Republic-Opaline-Collection/Department.aspx?DeptID=645"
+      }
+    ],
+    "snippet_path": "generated/snippet0077.html",
+    "base_url": "https://www.qehomelinens.com/Home-Republic/Home-Republic-Opaline-Collection/Department.aspx?DeptID=645"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.alarmsystemstore.com"
+      },
+      {
+        "name": "Products",
+        "url": "https://www.alarmsystemstore.com/collections/all"
+      },
+      {
+        "name": "Honeywell FG1625 Glassbreak Detector"
+      }
+    ],
+    "snippet_path": "generated/snippet0078.html",
+    "base_url": "https://www.alarmsystemstore.com/products/honeywell-fg1625-glassbreak-detector"
+  },
+  {
+    "expected": [
+      {
+        "name": "Kategorie",
+        "url": "http://www.kernpowershop.de/epages/es118701.sf/de_DE/?ObjectPath=/Shops/es118701_Kernpower_Online-Shop/Categories"
+      },
+      {
+        "name": "Original Powerball®",
+        "url": "http://www.kernpowershop.de/epages/es118701.sf/de_DE/?ObjectPath=/Shops/es118701_Kernpower_Online-Shop/Categories/%22Original%20Powerball%C2%AE%22"
+      },
+      {
+        "name": "Handschlaufe - Wriststrap"
+      }
+    ],
+    "snippet_path": "generated/snippet0079.html",
+    "base_url": "http://www.kernpowershop.de/epages/es118701.sf/de_DE/?ObjectPath=/Shops/es118701_Kernpower_Online-Shop/Products/023"
+  },
+  {
+    "expected": [
+      {
+        "name": "Hem",
+        "url": "https://www.ticmate.se/"
+      },
+      {
+        "name": "Orlando",
+        "url": "https://www.ticmate.se/stad/orlando/"
+      },
+      {
+        "name": "Transfer & resekort",
+        "url": "https://www.ticmate.se/stad/orlando/transportmedel/"
+      },
+      {
+        "name": "Orlando flygplatstransfer",
+        "url": "https://www.ticmate.se/transportmedel/orlando-flygplatstransfer/"
+      }
+    ],
+    "snippet_path": "generated/snippet0081.html",
+    "base_url": "https://www.ticmate.se/transportmedel/orlando-airport-transfer/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.365tickets.co.uk/"
+      },
+      {
+        "name": "World Yacht Dining Cruises"
+      }
+    ],
+    "snippet_path": "generated/snippet0082.html",
+    "base_url": "https://www.365tickets.co.uk/world-yacht-dining-cruises/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Startseite",
+        "url": "http://www.floristik21.de"
+      },
+      {
+        "name": "Weihnachten 2017",
+        "url": "http://www.floristik21.de/Weihnachten"
+      },
+      {
+        "name": "Weihnachtsdeko",
+        "url": "http://www.floristik21.de/weihnachten/weihnachtsdeko"
+      },
+      {
+        "name": "Flower Hair Lametta Gold 200g Engelshaar"
+      }
+    ],
+    "snippet_path": "generated/snippet0083.html",
+    "base_url": "http://www.floristik21.de/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Gopher",
+        "url": "https://www.gophersport.com/"
+      },
+      {
+        "name": "Sports",
+        "url": "https://www.gophersport.com/sports?cl=1"
+      },
+      {
+        "name": "Racquetball",
+        "url": "https://www.gophersport.com/sports/racquetball"
+      },
+      {
+        "name": "Penn® Racquetball Variety Can"
+      }
+    ],
+    "snippet_path": "generated/snippet0084.html",
+    "base_url": "https://www.gophersport.com/sports/racquetball/penn-racquetball-variety-can"
+  },
+  {
+    "expected": [
+      {
+        "name": "All Products",
+        "url": "http://www.ac-outdoors.co.uk/PBSCCatalog.asp?ActionID=1052864&PBCATID=-1"
+      },
+      {
+        "name": "Outdoor Clothing",
+        "url": "http://www.ac-outdoors.co.uk/outdoor-clothing-c102x2883549"
+      },
+      {
+        "name": "Childrens Clothing and Accessories",
+        "url": "http://www.ac-outdoors.co.uk/childrens-clothing-and-accessories-c102x2883584"
+      }
+    ],
+    "snippet_path": "generated/snippet0085.html",
+    "base_url": "http://www.ac-outdoors.co.uk/childrens-clothing-and-accessories-c102x2883584"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.tyres-pneus-online.co.uk"
+      },
+      {
+        "name": "Car Tyre",
+        "url": "https://www.tyres-pneus-online.co.uk/car-tyre.html"
+      },
+      {
+        "name": "Dunlop",
+        "url": "https://www.tyres-pneus-online.co.uk/car-tyres/dunlop/"
+      },
+      {
+        "name": "Sp Sport FastResponse",
+        "url": "https://www.tyres-pneus-online.co.uk/car-tyres/dunlop/sp-sport-fastresponse/"
+      }
+    ],
+    "snippet_path": "generated/snippet0086.html",
+    "base_url": "https://www.tyres-pneus-online.co.uk/car-tyres/dunlop/sp-sport-fastresponse/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.nicotinegiant.com/"
+      },
+      {
+        "name": "Retail",
+        "url": "https://www.nicotinegiant.com/retail-s/344.htm"
+      },
+      {
+        "name": "Concentrated Flavorings",
+        "url": "https://www.nicotinegiant.com/Liquid-Flavoring-s/88.htm"
+      },
+      {
+        "name": "The Flavor Apprentice (246)",
+        "url": "https://www.nicotinegiant.com/Liquid-Flavoring-s/119.htm"
+      },
+      {
+        "name": "Fruit & Vegetable Flavors",
+        "url": "https://www.nicotinegiant.com/Fruit-Vegetable-Flavors-s/92.htm"
+      }
+    ],
+    "snippet_path": "generated/snippet0087.html",
+    "base_url": "https://www.nicotinegiant.com/Lychee-Flavor-p/g233.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "Startseite",
+        "url": null
+      },
+      {
+        "name": "Haushaltsgeräte",
+        "url": "http://www.twenga.de/haushaltsgeraete.html"
+      },
+      {
+        "name": "Kaffeezubereitung",
+        "url": "http://www.twenga.de/kaffeezubereitung.html"
+      },
+      {
+        "name": "Kaffeepadmaschine",
+        "url": "http://www.twenga.de/kaffeepadmaschine.html"
+      }
+    ],
+    "snippet_path": "generated/snippet0088.html",
+    "base_url": "http://www.twenga.de"
+  },
+  {
+    "expected": [
+      {
+        "name": "назад към Началната страница",
+        "url": "http://shop24.bg/"
+      },
+      {
+        "name": "Млечни продукти и яйца",
+        "url": "https://shop24.bg/8-млечни-продукти-и-яйца"
+      },
+      {
+        "name": "Сметана и извара",
+        "url": "https://shop24.bg/26-smetana-izvara"
+      },
+      {
+        "name": "Течна сметана President 500ml"
+      }
+    ],
+    "snippet_path": "generated/snippet0089.html",
+    "base_url": "https://shop24.bg/smetana-izvara/12320-techna-smetana-president-500ml-3228020180442.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Inicio",
+        "url": "https://www.aquastanding.com/"
+      },
+      {
+        "name": "Mundo Baño",
+        "url": "https://www.aquastanding.com/Seccion~x~Mundo-bano~IDSeccion~642.html"
+      },
+      {
+        "name": "Sanitarios",
+        "url": "https://www.aquastanding.com/Seccion~x~Sanitarios~IDSeccion~5.html"
+      },
+      {
+        "name": "Platos de ducha",
+        "url": "https://www.aquastanding.com/Seccion~x~Platos-de-ducha~IDSeccion~181.html"
+      },
+      {
+        "name": "Porcelana",
+        "url": "https://www.aquastanding.com/Seccion~x~Porcelana~IDSeccion~182.html"
+      },
+      {
+        "name": "Platos de ducha extraplano serie Malta de Roca.",
+        "url": "https://www.aquastanding.com/Articulo~x~Platos-de-ducha-extraplano-serie-malta-de-roca-~IDArticulo~1798.html"
+      }
+    ],
+    "snippet_path": "generated/snippet0090.html",
+    "base_url": "https://www.aquastanding.com/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Tchibo",
+        "url": "http://www.tchibo.sk/?cs=1&vt=e293dcd9e964ee7279cd59177e5519a54c370f90"
+      },
+      {
+        "name": "Dámy",
+        "url": "http://www.tchibo.sk/damy-c400048961.html?cs=1&vt=e293dcd9e964ee7279cd59177e5519a54c370f90"
+      },
+      {
+        "name": "Športová móda",
+        "url": "http://www.tchibo.sk/sport-a-outdoor-c400049027.html?cs=1&vt=e293dcd9e964ee7279cd59177e5519a54c370f90"
+      }
+    ],
+    "snippet_path": "generated/snippet0091.html",
+    "base_url": "http://www.tchibo.sk/mikroflisovy-rolak-p400059217.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Главная",
+        "url": "http://hobbystar.ru/"
+      },
+      {
+        "name": "Коллекционные фигурки,куклы,статуэтки",
+        "url": "http://hobbystar.ru/kollekcionnye-figurkikuklystatuetki-1412c"
+      },
+      {
+        "name": "Фигурки персонажей кинофильмов и сериалов"
+      }
+    ],
+    "snippet_path": "generated/snippet0092.html",
+    "base_url": "http://hobbystar.ru/"
+  },
+  {
+    "expected": [
+      {
+        "name": "品牌",
+        "url": "https://www.fragrantica.asia/designer/"
+      },
+      {
+        "name": "C",
+        "url": "https://www.fragrantica.asia/designers-3/#C"
+      },
+      {
+        "name": "Christian Dior",
+        "url": "https://www.fragrantica.asia/designer/Christian-Dior.html"
+      }
+    ],
+    "snippet_path": "generated/snippet0093.html",
+    "base_url": "https://www.fragrantica.asia/perfume/Christian-Dior/Miss-Dior-Eau-de-Toilette-Originale-23282.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://kagoo.co.uk/"
+      },
+      {
+        "name": "PC Monitors",
+        "url": "https://kagoo.co.uk/pc-monitors"
+      },
+      {
+        "name": "LG 20M37ABAEU"
+      }
+    ],
+    "snippet_path": "generated/snippet0094.html",
+    "base_url": "https://kagoo.co.uk/pc-monitors/lg-20m37a-b"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.kitchen-universe.com/"
+      },
+      {
+        "name": "Shop by Brand",
+        "url": "http://www.kitchen-universe.com/category-s/1548.htm"
+      }
+    ],
+    "snippet_path": "generated/snippet0095.html",
+    "base_url": "http://www.kitchen-universe.com/Araven-Squeeze-Sauce-Dispenser-17-fl-oz-p/arv001377.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.applianceart.com/"
+      },
+      {
+        "name": "Inspirational Appliance Covers",
+        "url": "https://www.applianceart.com/category_s/8.htm"
+      }
+    ],
+    "snippet_path": "generated/snippet0096.html",
+    "base_url": "http://www.applianceart.com/Proverbs_3_Dishwasher_Cover_p/11528-11531.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.prismarredo.it/index.html"
+      },
+      {
+        "name": "Sedie per ufficio",
+        "url": "http://www.prismarredo.it/art2/0/1259/Sedie-per-ufficio.html"
+      },
+      {
+        "name": "Sedie con tavoletta ribaltabile",
+        "url": "http://www.prismarredo.it/art2/0/10201/Sedie-con-tavoletta-ribaltabile.html"
+      }
+    ],
+    "snippet_path": "generated/snippet0097.html",
+    "base_url": "http://www.prismarredo.it/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.bol.de/shop/home/show/;jsessionid=76050ce4d800424f8e6c460f64cbd9d5.tc2p"
+      },
+      {
+        "name": "Spielwaren",
+        "url": "https://www.bol.de/shop/spielzeug/show/;jsessionid=76050ce4d800424f8e6c460f64cbd9d5.tc2p"
+      }
+    ],
+    "snippet_path": "generated/snippet0098.html",
+    "base_url": "https://www.bol.de/shop/kinderwelt-roller-skates/rubrikartikel/lena_61168_fahrrad_gepaecktraeger_sitz_fuer_puppen/EAN4006942611683/ID19246011.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Úvod",
+        "url": "http://www.domovni-videotelefony.cz/vpservis"
+      },
+      {
+        "name": "V-TϾK (2-drát)",
+        "url": "http://www.domovni-videotelefony.cz/vpservis/eshop/1-1-V-TCK"
+      },
+      {
+        "name": "Adaptér PA-QSW k připojeni 3x CCTV + dveřní stanice"
+      }
+    ],
+    "snippet_path": "generated/snippet0099.html",
+    "base_url": "http://www.domovni-videotelefony.cz/vpservis/eshop/1-1-V-TCK/63-3-prislusenstvi/5/750-Adapter-PA-QSW-k-pripojeni-3x-CCTV-dverni-stanice"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.machineryzone.com/"
+      },
+      {
+        "name": "Construction Equipment",
+        "url": "http://www.machineryzone.com/used/1/construction-equipments.html"
+      },
+      {
+        "name": "Excavators"
+      }
+    ],
+    "snippet_path": "generated/snippet0100.html",
+    "base_url": "http://www.machineryzone.com/used/1/excavators.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://kawachigroup.com/"
+      },
+      {
+        "name": "Magic Mop Floor Cleaning Easy Magic 360 Degrees Spin Mop - K278"
+      }
+    ],
+    "snippet_path": "generated/snippet0102.html",
+    "base_url": "https://kawachigroup.com/products/magic-mop-floor-cleaning-easy-magic-360-degrees-spin-mop"
+  },
+  {
+    "expected": [
+      {
+        "name": "Playboy",
+        "url": "http://www.playboymagazinestore.com/playboy/index.php?v=playboy"
+      },
+      {
+        "name": "Magazines",
+        "url": "http://www.playboymagazinestore.com/magazines/index.php?v=playboy_magazines"
+      },
+      {
+        "name": "Playboy Magazine July 1987 Sandy Greenberg"
+      }
+    ],
+    "snippet_path": "generated/snippet0103.html",
+    "base_url": "http://www.playboymagazinestore.com/playboy-magazine-july-1987-sandy-greenberg/detail.php?p=440085"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.gear4music.ie/"
+      },
+      {
+        "name": "Drums & Percussion",
+        "url": "https://www.gear4music.ie/drum-kits.html"
+      },
+      {
+        "name": "Drum Hardware",
+        "url": "https://www.gear4music.ie/Drums/Drum_Hardware.html"
+      },
+      {
+        "name": "Drum Stools/Thrones",
+        "url": "https://www.gear4music.ie/Drum/Stool.html"
+      },
+      {
+        "name": "DW Drums",
+        "url": "https://www.gear4music.ie/Stools/DW_Drums"
+      }
+    ],
+    "snippet_path": "generated/snippet0104.html",
+    "base_url": "https://www.gear4music.ie/Drums-and-Percussion/DW-9000-Series-Low-Round-Top-Throne/1B6X",
+    "xfail": "Link 'Back' should not be included in breadcrumbs."
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.mikesmontes.com/"
+      },
+      {
+        "name": "Chevrolet Monte Carlo SS",
+        "url": "http://www.mikesmontes.com/Chevrolet-Monte-Carlo-SS_c_7.html"
+      },
+      {
+        "name": "Monte Carlo SS Pin - 1987"
+      }
+    ],
+    "snippet_path": "generated/snippet0105.html",
+    "base_url": "http://www.mikesmontes.com/Monte-Carlo-SS-Pin--1987_p_481.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "ShopMania",
+        "url": "https://www.shopmania.co.za"
+      },
+      {
+        "name": "Electronics",
+        "url": "https://www.shopmania.co.za/electronics"
+      },
+      {
+        "name": "Cameras",
+        "url": "https://www.shopmania.co.za/cameras"
+      },
+      {
+        "name": "Digital Cameras",
+        "url": "https://www.shopmania.co.za/digital-cameras"
+      }
+    ],
+    "snippet_path": "generated/snippet0106.html",
+    "base_url": "https://www.shopmania.co.za/digital-cameras/p-ezviz-s5plus-touch-12mp-4k-30fps-black-37013525"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.juno.co.uk/"
+      },
+      {
+        "name": "DJ Equipment",
+        "url": "https://www.juno.co.uk/dj-equipment/"
+      },
+      {
+        "name": "MIDI controllers",
+        "url": "https://www.juno.co.uk/dj-equipment/midi-controllers"
+      },
+      {
+        "name": "Native Instruments",
+        "url": "https://www.juno.co.uk/labels/Native+Instruments/"
+      },
+      {
+        "name": "Native Instruments Maschine MkII Groove Production Studio"
+      }
+    ],
+    "snippet_path": "generated/snippet0107.html",
+    "base_url": "https://www.juno.co.uk/products/native-instruments-maschine-mk2-groove-production-studio-black/467026-01/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Rubriken",
+        "url": "http://shop.asku-books.com/epages/es121063.sf/de_DE/?ObjectPath=/Shops/es121063_ASKU-Shop/Categories"
+      },
+      {
+        "name": "ASKU-BOOKS",
+        "url": "http://shop.asku-books.com/epages/es121063.sf/de_DE/?ObjectPath=/Shops/es121063_ASKU-Shop/Categories/ASKUBOOKS"
+      },
+      {
+        "name": "ASKU-PRESSE",
+        "url": "http://shop.asku-books.com/epages/es121063.sf/de_DE/?ObjectPath=/Shops/es121063_ASKU-Shop/Categories/ASKUBOOKS/ASKU-PRESSE"
+      },
+      {
+        "name": "Autoren",
+        "url": "http://shop.asku-books.com/epages/es121063.sf/de_DE/?ObjectPath=/Shops/es121063_ASKU-Shop/Categories/ASKUBOOKS/ASKU-PRESSE/Autoren"
+      },
+      {
+        "name": "Uwe Dick",
+        "url": "http://shop.asku-books.com/epages/es121063.sf/de_DE/?ObjectPath=/Shops/es121063_ASKU-Shop/Categories/ASKUBOOKS/ASKU-PRESSE/Autoren/%22Uwe%20Dick%22"
+      },
+      {
+        "name": "Uwe Dick: … nistet im Zufall und brütet im Schweigen"
+      }
+    ],
+    "snippet_path": "generated/snippet0108.html",
+    "base_url": "http://shop.asku-books.com/epages/es121063.sf/de_DE/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.celticring.com/"
+      },
+      {
+        "name": "Celtic Wedding Rings",
+        "url": "http://www.celticring.com/Celtic-Wedding-Rings-s/1.htm"
+      },
+      {
+        "name": "Celtic Engagement Rings",
+        "url": "http://www.celticring.com/Celtic-Engagement-Rings-s/21.htm"
+      }
+    ],
+    "snippet_path": "generated/snippet0109.html",
+    "base_url": "http://www.celticring.com/Celtic-Engagement-Rings-LG-ENG17-p/engagement-rings-lg-eng17.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "McQ Alexander McQueen 309162",
+        "url": "https://www.spartoo.cn/model-12414429-McQ-Alexander-McQueen-309162-men.php#rst"
+      }
+    ],
+    "snippet_path": "generated/snippet0110.html",
+    "base_url": "https://www.spartoo.cn/McQ-Alexander-McQueen-309162-x286136.php"
+  },
+  {
+    "expected": [
+      {
+        "name": "Главная",
+        "url": "http://www.topmag.su/"
+      },
+      {
+        "name": "ДЛЯ ОФИСНЫХ КРЕСЕЛ",
+        "url": "http://www.topmag.su/category/zapchasti-dlya-ofisnykh-kresel/"
+      },
+      {
+        "name": "Механизм наклона (СРТ) для кресел оператора",
+        "url": null
+      }
+    ],
+    "snippet_path": "generated/snippet0111.html",
+    "base_url": "http://www.topmag.su/mekhanizm-naklona-srt-dlya-kresel-operatora/?__furl_path=product/0403201511/&frontend=1"
+  },
+  {
+    "expected": [
+      {
+        "name": "Strona główna",
+        "url": "http://www.sklep-rolniczy.pl/Strona-g-wna(1,,).aspx"
+      },
+      {
+        "name": "Produkty",
+        "url": "http://www.sklep-rolniczy.pl/Produkty(3,,).aspx"
+      },
+      {
+        "name": "Części do ciągników",
+        "url": "http://www.sklep-rolniczy.pl/Czesci-do-ciagnikow(3,11588,).aspx"
+      },
+      {
+        "name": "RENAULT",
+        "url": "http://www.sklep-rolniczy.pl/Czesci-do-ciagnikow_RENAULT(3,11652,).aspx"
+      },
+      {
+        "name": "UKŁAD ELEKTRYCZNY",
+        "url": "http://www.sklep-rolniczy.pl/Czesci-do-ciagnikow_RENAULT_UKLAD-ELEKTRYCZNY(3,15574,).aspx"
+      },
+      {
+        "name": "PRZEŁĄCZNIKI",
+        "url": "http://www.sklep-rolniczy.pl/Czesci-do-ciagnikow_RENAULT_UKLAD-ELEKTRYCZNY_PRZELACZNIKI(3,15608,).aspx"
+      },
+      {
+        "name": "Włącznik sterowniczy przedni napęd - most Fendt/ Renault G117901021030 0.007.5945.0/20"
+      }
+    ],
+    "snippet_path": "generated/snippet0112.html",
+    "base_url": "http://www.sklep-rolniczy.pl/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Układy elektryczne i instalacyjne",
+        "url": "https://e-katalog.intercars.com.pl/oferta/0,0,uklady-elektryczne-i-instalacyjne,nscr/100001,102422/"
+      },
+      {
+        "name": "Układ elektryczny silnika",
+        "url": "https://e-katalog.intercars.com.pl/oferta/0,0,uklad-elektryczny-silnika,nscr/100001,102422,102423/"
+      },
+      {
+        "name": "Układ zapłonowy/żarowy",
+        "url": "https://e-katalog.intercars.com.pl/oferta/0,0,uklad-zaplonowy|zarowy,nscr/100001,102422,102423,102448/"
+      },
+      {
+        "name": "Sterownik świec żarowych",
+        "url": "https://e-katalog.intercars.com.pl/oferta/1,0,sterownik-swiec-zarowych,nscr/100001,102422,102423,102448,576894/"
+      }
+    ],
+    "snippet_path": "generated/snippet0113.html",
+    "base_url": "https://e-katalog.intercars.com.pl/produkty/3021163032131-0_281_003_018-sterownik-swiec-zarowych.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.creditcardsco.com/"
+      },
+      {
+        "name": "Credit Cards",
+        "url": "http://www.creditcardsco.com/credit-cards.html"
+      },
+      {
+        "name": "mPower Visa Prepaid Card Review & Application"
+      },
+      {
+        "name": "Info"
+      }
+    ],
+    "snippet_path": "generated/snippet0114.html",
+    "base_url": "http://www.creditcardsco.com/mpower-prepaid-visa-card.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.strutchannelfittings.com/"
+      },
+      {
+        "name": "316L Stainless Steel ***************************",
+        "url": "http://www.strutchannelfittings.com/316L-Stainless-Steel-_c_49.html"
+      },
+      {
+        "name": "FLOOR MOUNTING PLATES",
+        "url": "http://www.strutchannelfittings.com/FLOOR-MOUNTING-PLATES_c_83.html"
+      },
+      {
+        "name": "THK-309-S316-10:  POST BASE, 316 STAINLESS STEEL - 4 ANCHOR HOLES, 4 - HOLES TO CHANNEL (BOX OF 10)"
+      }
+    ],
+    "snippet_path": "generated/snippet0115.html",
+    "base_url": "http://www.strutchannelfittings.com/THK-309-S316-10-POST-BASE-316-STAINLESS-STEEL--4-ANCHOR-HOLES-4--HOLES-TO-CHANNEL-BOX-OF-10_p_549.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Categories",
+        "url": "http://www.agspak-buecher.de/epages/15458842.sf/de_DE/?ObjectPath=/Shops/15458842/Categories"
+      },
+      {
+        "name": "Menschen mit Behinderung",
+        "url": "http://www.agspak-buecher.de/epages/15458842.sf/de_DE/?ObjectPath=/Shops/15458842/Categories/%22Menschen%20mit%20Behinderung%22"
+      },
+      {
+        "name": "Christian Mürner / Udo Sierck Krüppelzeitung"
+      }
+    ],
+    "snippet_path": "generated/snippet0117.html",
+    "base_url": "http://www.agspak-buecher.de/epages/15458842.sf/de_DE/?ObjectPath=/Shops/15458842/Products/%22M+216%22"
+  },
+  {
+    "expected": [
+      {
+        "name": "Cushion Source®",
+        "url": "http://www.cushionsource.com/"
+      },
+      {
+        "name": "Custom Cushions",
+        "url": "http://www.cushionsource.com/buy-cushions.php"
+      },
+      {
+        "name": "Quick-Ship Value Cushions",
+        "url": "http://www.cushionsource.com/catalog/quick-ship-value-cushions"
+      },
+      {
+        "name": "Chair Cushions",
+        "url": "http://www.cushionsource.com/catalog/value-chair-cushions"
+      },
+      {
+        "name": "21\" x 21\" Tufted Rounded Back Chair Cushion"
+      }
+    ],
+    "snippet_path": "generated/snippet0118.html",
+    "base_url": "http://www.cushionsource.com/product/tufted-u-chair-cushion"
+  },
+  {
+    "expected": [
+      {
+        "name": "ShopMania",
+        "url": "https://www.shopmania.co.za"
+      },
+      {
+        "name": "Computers",
+        "url": "https://www.shopmania.co.za/computers"
+      },
+      {
+        "name": "Computer Systems",
+        "url": "https://www.shopmania.co.za/computer-systems"
+      },
+      {
+        "name": "Tablets",
+        "url": "https://www.shopmania.co.za/tablets"
+      },
+      {
+        "name": "Samsung Tablets",
+        "url": "https://www.shopmania.co.za/tablets/filter-brand-samsung"
+      }
+    ],
+    "snippet_path": "generated/snippet0120.html",
+    "base_url": "https://www.shopmania.co.za/tablets/p-samsung-galaxy-tab-e-9-6-3g-t561-23962257"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.modern-canvas-art.com/"
+      },
+      {
+        "name": "Famous Artists",
+        "url": "http://www.modern-canvas-art.com/famous-artists-72-c.asp"
+      },
+      {
+        "name": "Sir John Everett Millais Paintings",
+        "url": "http://www.modern-canvas-art.com/sir-john-everett-millais-paintings-153-c.asp"
+      }
+    ],
+    "snippet_path": "generated/snippet0122.html",
+    "base_url": "http://www.modern-canvas-art.com/second-sermon-5366-p.asp"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.tukicovers.com"
+      },
+      {
+        "name": "Accessories",
+        "url": "http://www.tukicovers.com/accessories"
+      },
+      {
+        "name": "Microphone Bag - Small (9.5\" x 6\")"
+      }
+    ],
+    "snippet_path": "generated/snippet0124.html",
+    "base_url": "http://www.tukicovers.com/accessories/microphone-bag-small-9-5-x-6/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.egars.com/"
+      },
+      {
+        "name": "Cigars by Brand",
+        "url": "http://www.egars.com/Cigars-by-Brand-s/21.htm"
+      },
+      {
+        "name": "Liga Privada T52",
+        "url": "http://www.egars.com/Liga-Privada-T52-s/1213.htm"
+      }
+    ],
+    "snippet_path": "generated/snippet0125.html",
+    "base_url": "http://www.egars.com/product-p/ligat52samp.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "Startseite",
+        "url": "https://bazies-hunde-naehstube.de/"
+      },
+      {
+        "name": "Halsband",
+        "url": "https://bazies-hunde-naehstube.de/Halsband--Hundehalsband--Hundehalsbaender/"
+      },
+      {
+        "name": "Breite bis 30 mm",
+        "url": "https://bazies-hunde-naehstube.de/Halsband--Hundehalsband--Hundehalsbaender/Breite-bis-30-mm/"
+      },
+      {
+        "name": "fertige Halsbänder",
+        "url": "https://bazies-hunde-naehstube.de/Halsband--Hundehalsband--Hundehalsbaender/Breite-bis-30-mm/fertige-Halsbaender-39/"
+      },
+      {
+        "name": "Halsband \"Diamant braun\""
+      }
+    ],
+    "snippet_path": "generated/snippet0127.html",
+    "base_url": "https://bazies-hunde-naehstube.de/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.rangerjoes.com/Default.aspx"
+      },
+      {
+        "name": "Uniform Accessories and Insignia",
+        "url": "https://www.rangerjoes.com/Uniform-Accessories-and-Insignia-C96.aspx"
+      },
+      {
+        "name": "Patches",
+        "url": "https://www.rangerjoes.com/Patches-C202.aspx"
+      }
+    ],
+    "snippet_path": "generated/snippet0128.html",
+    "base_url": "https://www.rangerjoes.com/Bloodtype-Tag-O-Pos-P3740.aspx",
+    "xfail": "Breadcrumb separators are different"
+  },
+  {
+    "expected": [
+      {
+        "name": "Главная",
+        "url": "http://jazzquad.ru/"
+      },
+      {
+        "name": "обзоры",
+        "url": "http://jazzquad.ru/index.pl?act=SECTION&section=obzory"
+      },
+      {
+        "name": "издано в 2015г.",
+        "url": "http://jazzquad.ru/index.pl?act=SUBJ&subj=izdano+v+2015g.&section=obzory"
+      }
+    ],
+    "snippet_path": "generated/snippet0129.html",
+    "base_url": "http://jazzquad.ru/index.pl?act=PRODUCT&id=4142"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.coversuperstore.com/"
+      },
+      {
+        "name": "SPECIALTY COVERS",
+        "url": "http://www.coversuperstore.com/specialty-covers.html"
+      },
+      {
+        "name": "Home, Tool & Garden Equipment Covers",
+        "url": "http://www.coversuperstore.com/Home-Tool-Garden-Equipment-Covers"
+      },
+      {
+        "name": "Pressure Washer Cover #79507"
+      }
+    ],
+    "snippet_path": "generated/snippet0130.html",
+    "base_url": "http://www.coversuperstore.com/pressure-washer-cover"
+  },
+  {
+    "expected": [
+      {
+        "name": "Недвижимость в Турции",
+        "url": "https://www.antalyahomes.ru/"
+      },
+      {
+        "name": "Недвижимость в Турции",
+        "url": "https://www.antalyahomes.ru/nedvizhimosti-turtsiya"
+      },
+      {
+        "name": "Недвижимость в Анталии",
+        "url": "https://www.antalyahomes.ru/nedvizhimost-antalya"
+      },
+      {
+        "name": "Комплекс Каньен Сьют...",
+        "url": null
+      }
+    ],
+    "snippet_path": "generated/snippet0131.html",
+    "base_url": "https://www.antalyahomes.ru/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Hjem",
+        "url": "http://www.allposters.dk"
+      },
+      {
+        "name": "Kunst",
+        "url": "http://www.allposters.dk/-st/Kunst-plakater_c41632_.htm"
+      },
+      {
+        "name": "Kunstnere",
+        "url": "http://www.allposters.dk/-st/Kunstnere-plakater_c41296_.htm"
+      },
+      {
+        "name": "Populære kunstnere",
+        "url": "http://www.allposters.dk/-st/Populaere-kunstnere-plakater_c94487_.htm"
+      },
+      {
+        "name": "Gockel, Alfred",
+        "url": "http://www.allposters.dk/-st/Alfred-Gockel-plakater_c24701_.htm"
+      },
+      {
+        "name": "Landskaber (Gockel)"
+      }
+    ],
+    "snippet_path": "generated/snippet0132.html",
+    "base_url": "http://www.allposters.dk/-st/Landskaber-Gockel-plakater_c96194_.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "Homepage",
+        "url": "http://www.ebay.it"
+      },
+      {
+        "name": "Negozi eBay",
+        "url": "http://stores.ebay.it/"
+      },
+      {
+        "name": "Farmacia Protani",
+        "url": "http://stores.ebay.it/Farmacia-Protani"
+      },
+      {
+        "name": "Prodotti per la Barba"
+      }
+    ],
+    "snippet_path": "generated/snippet0133.html",
+    "base_url": "http://stores.ebay.it/Farmacia-Protani/Prodotti-per-la-Barba-/_i.html?_fsub=20384349&_sid=720595604&_trksid=p4634.c0.m322"
+  },
+  {
+    "expected": [
+      {
+        "name": "Startseite",
+        "url": "https://www.garnelen-tom.de/zwerggarnelen-shop"
+      },
+      {
+        "name": "Licht",
+        "url": "https://www.garnelen-tom.de/zwerggarnelen-shop/Licht"
+      },
+      {
+        "name": "Aufsatz-Lampen",
+        "url": "https://www.garnelen-tom.de/zwerggarnelen-shop/Aufsatz-Lampen"
+      },
+      {
+        "name": "Aquael Leddy 390 Aufsatzleuchte für 40 - 44 cm lange Aquarien",
+        "url": "https://www.garnelen-tom.de/zwerggarnelen-shop/Aquael-Leddy-390-Aufsatzleuchte-fuer-40-44-cm-lange-Aquarien"
+      }
+    ],
+    "snippet_path": "generated/snippet0134.html",
+    "base_url": "https://www.garnelen-tom.de/zwerggarnelen-shop/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Главная",
+        "url": "https://tonymolystore.ru/index.php?route=common/home"
+      },
+      {
+        "name": "Бренд",
+        "url": "https://tonymolystore.ru/index.php?route=product/manufacturer"
+      },
+      {
+        "name": "TonyMoly",
+        "url": "https://tonymolystore.ru/index.php?route=product/manufacturer/info&manufacturer_id=11"
+      },
+      {
+        "name": "Delight Petit Blusher 02"
+      }
+    ],
+    "snippet_path": "generated/snippet0135.html",
+    "base_url": "https://tonymolystore.ru/"
+  },
+  {
+    "expected": [
+      {
+        "name": "ShopMania",
+        "url": "https://www.shopmania.co.za"
+      },
+      {
+        "name": "Computers",
+        "url": "https://www.shopmania.co.za/computers"
+      },
+      {
+        "name": "Components",
+        "url": "https://www.shopmania.co.za/components"
+      },
+      {
+        "name": "Graphic Cards",
+        "url": "https://www.shopmania.co.za/graphic-cards"
+      },
+      {
+        "name": "Gigabyte Graphic Cards",
+        "url": "https://www.shopmania.co.za/graphic-cards/filter-brand-gigabyte"
+      }
+    ],
+    "snippet_path": "generated/snippet0136.html",
+    "base_url": "https://www.shopmania.co.za/graphic-cards/p-gigabyte-gv-n1070wf2oc-8gd-33406931"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.usstatequarters.com/"
+      },
+      {
+        "name": "Coin Collecting Folders",
+        "url": "http://www.usstatequarters.com/Coin-Collecting-Folders-For-Holiday-Gifts-s/444.htm"
+      }
+    ],
+    "snippet_path": "generated/snippet0137.html",
+    "base_url": "http://www.usstatequarters.com/Whitman-Coin-Folders-National-Park-Quarters-p/whitman82875.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "Kategorien",
+        "url": "http://www.hadi-rc.de/epages/es125123.sf/de_DE/?ObjectPath=/Shops/es125123_FAIR/Categories"
+      },
+      {
+        "name": "Multi-Copter und Zub.",
+        "url": "http://www.hadi-rc.de/epages/es125123.sf/de_DE/?ObjectPath=/Shops/es125123_FAIR/Categories/MultiCopter_und_Zub"
+      },
+      {
+        "name": "MWC-Light RGB Controller"
+      }
+    ],
+    "snippet_path": "generated/snippet0138.html",
+    "base_url": "http://www.hadi-rc.de/epages/es125123.sf/de_DE/"
+  },
+  {
+    "expected": [
+      {
+        "name": "ShopMania",
+        "url": "https://www.shopmania.co.za"
+      },
+      {
+        "name": "Computers",
+        "url": "https://www.shopmania.co.za/computers"
+      },
+      {
+        "name": "Components",
+        "url": "https://www.shopmania.co.za/components"
+      },
+      {
+        "name": "Card Readers",
+        "url": "https://www.shopmania.co.za/card-readers"
+      }
+    ],
+    "snippet_path": "generated/snippet0139.html",
+    "base_url": "https://www.shopmania.co.za/card-readers/p-e3-flasher-limited-edition-36673745"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.recrac.com/"
+      },
+      {
+        "name": "Products",
+        "url": "http://www.recrac.com/Truck_Bike_Rack_Truck_Bed_Racks_s/62.htm"
+      },
+      {
+        "name": "Accessories",
+        "url": "http://www.recrac.com/Accessories_s/50.htm"
+      }
+    ],
+    "snippet_path": "generated/snippet0140.html",
+    "base_url": "http://www.recrac.com/Pet_Restraint_System_p/pets2.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "Categorías",
+        "url": "http://www.elhilomagico.com/epages/elhilomagico_com.sf/es_ES/?ObjectPath=/Shops/elhilomagico_com/Categories"
+      },
+      {
+        "name": "Merceria",
+        "url": "http://www.elhilomagico.com/epages/elhilomagico_com.sf/es_ES/?ObjectPath=/Shops/elhilomagico_com/Categories/Merceria"
+      },
+      {
+        "name": "Bordado Ruso",
+        "url": "http://www.elhilomagico.com/epages/elhilomagico_com.sf/es_ES/?ObjectPath=/Shops/elhilomagico_com/Categories/Merceria/Bordado_Ruso"
+      },
+      {
+        "name": "Aguja bordado ruso o chino"
+      }
+    ],
+    "snippet_path": "generated/snippet0142.html",
+    "base_url": "http://www.elhilomagico.com/epages/elhilomagico_com.sf/es_ES/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Product Index",
+        "url": "https://www.digikey.pt/products/en"
+      },
+      {
+        "name": "Development Boards, Kits, Programmers",
+        "url": "https://www.digikey.pt/products/en/development-boards-kits-programmers/33"
+      },
+      {
+        "name": "Evaluation and Demonstration Boards and Kits",
+        "url": "https://www.digikey.pt/products/en/development-boards-kits-programmers/evaluation-and-demonstration-boards-and-kits/787"
+      }
+    ],
+    "snippet_path": "generated/snippet0143.html",
+    "base_url": "https://www.digikey.pt/products/en?Cat=2622039&k=filter+eval+board+mcu"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.shambhaviimpex.com"
+      },
+      {
+        "name": "Product Range",
+        "url": "http://www.shambhaviimpex.com/product-range.html"
+      },
+      {
+        "name": "Civil Engineering Equipment",
+        "url": "http://www.shambhaviimpex.com/civil-engineering-equipment.html"
+      },
+      {
+        "name": "Soil Testing Equipment",
+        "url": "http://www.shambhaviimpex.com/soil-testing-equipment.html"
+      },
+      {
+        "name": "Split Spoon Sampler"
+      }
+    ],
+    "snippet_path": "generated/snippet0144.html",
+    "base_url": "http://www.shambhaviimpex.com/split-spoon-sampler.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.proporta.co.uk/"
+      },
+      {
+        "name": "iPod nano 7G headphones - blue"
+      }
+    ],
+    "snippet_path": "generated/snippet0145.html",
+    "base_url": "https://www.proporta.co.uk/proporta-coloured-stereo-headphones-ipod-nano-7g-blue"
+  },
+  {
+    "expected": [
+      {
+        "name": "PfannenProfis",
+        "url": "http://www.pfannenprofis.de/epages/62876489.sf/de_DE/?ObjectPath=/Shops/62876489/Categories"
+      },
+      {
+        "name": "BRÄTER",
+        "url": "http://www.pfannenprofis.de/epages/62876489.sf/de_DE/?ObjectPath=/Shops/62876489/Categories/Braeter"
+      },
+      {
+        "name": "BEKA Aromabräter mit Glasdeckel + Aromaknopf Alu Guss Vierkant-Bräter"
+      }
+    ],
+    "snippet_path": "generated/snippet0146.html",
+    "base_url": "http://www.pfannenprofis.de/epages/62876489.sf/de_DE/?ObjectPath=/Shops/62876489/Products/BEKA-16304014"
+  },
+  {
+    "expected": [
+      {
+        "name": "Главная",
+        "url": "http://www.topmag.su/"
+      },
+      {
+        "name": "ДЛЯ ОФИСНЫХ КРЕСЕЛ",
+        "url": "http://www.topmag.su/category/zapchasti-dlya-ofisnykh-kresel/"
+      },
+      {
+        "name": "Крестовина для кресла оператора (пластик, под ролик D=11 мм)",
+        "url": null
+      }
+    ],
+    "snippet_path": "generated/snippet0147.html",
+    "base_url": "http://www.topmag.su/krestovina-dlya-kresla-operatora-plastik-pod-rolik-d11-mm/?__furl_path=product/0403201507/&frontend=1"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.magcraft.com/"
+      },
+      {
+        "name": "MAGCRAFT® Magnets",
+        "url": "https://www.magcraft.com/magcraft-magnets"
+      },
+      {
+        "name": "Disc Magnets",
+        "url": "https://www.magcraft.com/disc-magnets"
+      }
+    ],
+    "snippet_path": "generated/snippet0148.html",
+    "base_url": "https://www.magcraft.com/magcraft-nsn0566"
+  },
+  {
+    "expected": [
+      {
+        "name": "EVAPORATOR",
+        "url": "http://www.acmobilindonesia.com/COOLING-COIL-Evaporator/?o=default"
+      },
+      {
+        "name": "TOYOTA",
+        "url": "http://www.acmobilindonesia.com/COOLING-COIL-Evaporator/TOYOTA-81/?o=default"
+      }
+    ],
+    "snippet_path": "generated/snippet0149.html",
+    "base_url": "http://www.acmobilindonesia.com/COROLLA-KE-70-COROLLA-DX.html?o=default"
+  },
+  {
+    "expected": [
+      {
+        "name": "Главная",
+        "url": "http://nforest.ru/"
+      },
+      {
+        "name": "Проекты",
+        "url": "http://nforest.ru/projects/"
+      },
+      {
+        "name": "от 120 до 200",
+        "url": "http://nforest.ru/projects/ot_120_do_200_m2/"
+      },
+      {
+        "name": "Венский - 249м2"
+      }
+    ],
+    "snippet_path": "generated/snippet0150.html",
+    "base_url": "http://nforest.ru/",
+    "xfail": "There is no whitespace between separator and item name and this messes extraction"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.pyramydair.com/"
+      },
+      {
+        "name": "Ammo",
+        "url": "https://www.pyramydair.com/pellets"
+      },
+      {
+        "name": "Airgun pellets",
+        "url": "https://www.pyramydair.com/airgun-pellets"
+      }
+    ],
+    "snippet_path": "generated/snippet0151.html",
+    "base_url": "https://www.pyramydair.com/s/p/Crosman_Premier_22_Cal_14_3_Grains_Domed_500ct/769"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.corvettepacifica.com/"
+      }
+    ],
+    "snippet_path": "generated/snippet0152.html",
+    "base_url": "http://www.corvettepacifica.com/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Каталог",
+        "url": "http://engvent.ru/catalog/"
+      },
+      {
+        "name": "Вентиляторы и приточные установки",
+        "url": "http://engvent.ru/catalog/category/18175/"
+      },
+      {
+        "name": "Вентиляторы",
+        "url": "http://engvent.ru/catalog/category/18264/"
+      },
+      {
+        "name": "Вентиляторы Systemair",
+        "url": "http://engvent.ru/catalog/category/14435/"
+      },
+      {
+        "name": "Вентиляторы Systemair другие",
+        "url": "http://engvent.ru/catalog/category/14793/"
+      },
+      {
+        "name": "Вентиляторы Systemair KBR-EC, KBT-EC, KBR, KBT кухонные",
+        "url": "http://engvent.ru/catalog/category/15325/"
+      },
+      {
+        "name": "Вентиляторы Systemair KBR кухонные",
+        "url": "http://engvent.ru/catalog/category/16413/"
+      }
+    ],
+    "snippet_path": "generated/snippet0153.html",
+    "base_url": "http://engvent.ru/catalog/details/17735/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.ventmyhouse.com"
+      },
+      {
+        "name": "Round Soffit Vents",
+        "url": "http://www.ventmyhouse.com/categories/Round-Soffit-Vents/"
+      },
+      {
+        "name": "Aluminum",
+        "url": "http://www.ventmyhouse.com/categories/Round-Soffit-Vents/Aluminum/"
+      },
+      {
+        "name": "Mill Finish",
+        "url": "http://www.ventmyhouse.com/categories/Round-Soffit-Vents/Aluminum/Mill-Finish/"
+      },
+      {
+        "name": "6\" Round Open Screen Aluminum Louver with 1/4\" Galvanized Steel Screen (Priced Per Bag of 2). Item# 6\" RS-104"
+      }
+    ],
+    "snippet_path": "generated/snippet0154.html",
+    "base_url": "http://www.ventmyhouse.com/6-round-open-screen-aluminum-louver-with-1-4-galvanized-steel-screen-priced-per-bag-of-2-item-6-rs-104/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.sportscardsetcpgh.com/"
+      },
+      {
+        "name": "Supplies",
+        "url": "http://www.sportscardsetcpgh.com/category_s/93.htm"
+      },
+      {
+        "name": "Ultra Pro - Binder Pages",
+        "url": "http://www.sportscardsetcpgh.com/category_s/108.htm"
+      }
+    ],
+    "snippet_path": "generated/snippet0156.html",
+    "base_url": "http://www.sportscardsetcpgh.com/Ultra_Pro_4_Pocket_Page_p/sup4pktpg.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "Inicio",
+        "url": "http://cundinamarca.evisos.com.co/"
+      },
+      {
+        "name": "Compra Venta",
+        "url": "http://cundinamarca.evisos.com.co/compra-venta-c-1"
+      },
+      {
+        "name": "Animales / Mascotas",
+        "url": "http://cundinamarca.evisos.com.co/animales-mascotas-sc-111"
+      }
+    ],
+    "snippet_path": "generated/snippet0157.html",
+    "base_url": "http://cundinamarca.evisos.com.co/vendo-gallinas-criollas-campesinaspataspavos-criollos-id-47445"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.studentagencies.net/"
+      },
+      {
+        "name": "Video Production",
+        "url": "http://vpaprinceton.com/"
+      }
+    ],
+    "snippet_path": "generated/snippet0158.html",
+    "base_url": "http://www.studentagencies.net/ProductDetails.asp?ProductCode=VPAdvd"
+  },
+  {
+    "expected": [
+      {
+        "name": "PlayStation 4",
+        "url": "http://www.gamebits.dk/shop/playstation-4-861s1.html"
+      },
+      {
+        "name": "Standere",
+        "url": "http://www.gamebits.dk/shop/standere-947c1.html"
+      }
+    ],
+    "snippet_path": "generated/snippet0159.html",
+    "base_url": "http://www.gamebits.dk/shop/vertikal-playstation-17097p.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Books | Seminars | Webinars",
+        "url": "http://www.i-b-t.net/store/c1/Featured_Products.html"
+      },
+      {
+        "name": "Webinars",
+        "url": "http://www.i-b-t.net/store/c4/Webinars.html"
+      },
+      {
+        "name": "Tariff Classification: Using the Harmonized Tariff Schedule Webinar"
+      }
+    ],
+    "snippet_path": "generated/snippet0161.html",
+    "base_url": "http://www.i-b-t.net/store/p32/Tariff_Classification%3A_Using_the_Harmonized_Tariff_Schedule_Webinar.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.amway.se/en/"
+      },
+      {
+        "name": "Vitamin C Plus Extended Release Family Size NUTRIWAY™"
+      }
+    ],
+    "snippet_path": "generated/snippet0162.html",
+    "base_url": "https://www.amway.se/en/product/109743,nutrilite-vitamin-c-plus-extended-release-family-size"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.geschenkefuerfreunde.de/"
+      },
+      {
+        "name": "Advent",
+        "url": "https://www.geschenkefuerfreunde.de/adventskalender-special.html"
+      },
+      {
+        "name": "Adventskalender-Sets",
+        "url": "https://www.geschenkefuerfreunde.de/adventskalender-special/adventskalender-sets.html"
+      },
+      {
+        "name": "Adventskalender-Tüten GRÜN WEISS"
+      }
+    ],
+    "snippet_path": "generated/snippet0163.html",
+    "base_url": "https://www.geschenkefuerfreunde.de/adventskalender-grun-weiss.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "ATELIERULTAU.RO",
+        "url": "https://www.atelierultau.ro/"
+      },
+      {
+        "name": "Scule electrice",
+        "url": "https://www.atelierultau.ro/scule-electrice-c-142.html"
+      },
+      {
+        "name": "Rindele",
+        "url": "https://www.atelierultau.ro/scule-electrice-rindele-c-142_114.html"
+      },
+      {
+        "name": "Masini de rindeluit si degrosat",
+        "url": "https://www.atelierultau.ro/rindele-masini-de-rindeluit-si-degrosat-c-142_114_113.html"
+      },
+      {
+        "name": "FAR TOOLS - PTH254 - Masina de rindeluit si degrosat, 1500 W, 254 mm, cutite reascutibile",
+        "url": "https://www.atelierultau.ro/far-tools-pth254-masina-de-rindeluit-si-degrosat-1500-254-mm-cutite-reascutibile-p-11135.html"
+      }
+    ],
+    "snippet_path": "generated/snippet0164.html",
+    "base_url": "https://www.atelierultau.ro/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Return to Home",
+        "url": "http://uyuni.es/"
+      },
+      {
+        "name": "BG64"
+      }
+    ],
+    "snippet_path": "generated/snippet0165.html",
+    "base_url": "https://uyuni.es/en/descatalogados/1758-bg64.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.arranalexander.co.uk/"
+      },
+      {
+        "name": "Ladybird Books 1990 - 1999",
+        "url": "https://www.arranalexander.co.uk/ladybird-books-1990---1999-8-c.asp"
+      },
+      {
+        "name": "Storytime Books",
+        "url": "https://www.arranalexander.co.uk/storytime-books-381-c.asp"
+      }
+    ],
+    "snippet_path": "generated/snippet0167.html",
+    "base_url": "https://www.arranalexander.co.uk/monster-stories-for-under-fives-ladybird-book-storytime-series-gloss-hardback-1994-940-p.asp"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.coffeeforless.com/"
+      },
+      {
+        "name": "Melitta One:One Buzzworthy Coffee Pods 18ct"
+      }
+    ],
+    "snippet_path": "generated/snippet0168.html",
+    "base_url": "https://www.coffeeforless.com/melitta-one-one-buzzworthy-coffee-pods-18ct.html?bvrrp=6077/reviews/product/7/2040.htm&bvrrp=6077/reviews/product/3/2040.htm%3Fbvrrp=6077/reviews/product/7/2040.htm&bvrrp=6077/reviews/product/3/2040.htm&bvrrp=6077/reviews/product/4/2040.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "Books",
+        "url": "http://www.pinknarc.com/store/c1/Featured_Products.html"
+      },
+      {
+        "name": "Anthologies",
+        "url": "http://www.pinknarc.com/store/c5/Anthologies.html"
+      },
+      {
+        "name": "Queer Fish: Volume Two"
+      }
+    ],
+    "snippet_path": "generated/snippet0169.html",
+    "base_url": "http://www.pinknarc.com/store/p14/Queer_Fish%3A_Volume_Two.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Startseite",
+        "url": "http://www.floristik24.de"
+      },
+      {
+        "name": "Blecheimer Zinkgefäße",
+        "url": "http://www.floristik24.de/Blecheimer-Zinkgefaesse"
+      },
+      {
+        "name": "Eimer Ø14cm H12cm 6St. verschiedene Farben"
+      }
+    ],
+    "snippet_path": "generated/snippet0170.html",
+    "base_url": "http://www.floristik24.de/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Start",
+        "url": "https://mat-dom.pl/"
+      },
+      {
+        "name": "KOH33 600x1800"
+      }
+    ],
+    "snippet_path": "generated/snippet0171.html",
+    "base_url": "https://mat-dom.pl/koh33-600x1800/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.lagunaponds.com/en_ca/"
+      },
+      {
+        "name": "Décor & Ornamental Accessories",
+        "url": "http://www.lagunaponds.com/en_ca/decor-ornamental-accessories"
+      },
+      {
+        "name": "Self-Contained Water Features",
+        "url": "http://www.lagunaponds.com/en_ca/decor-ornamental-accessories/self-contained-water-features"
+      },
+      {
+        "name": "Laguna Deck Pond - Urban"
+      }
+    ],
+    "snippet_path": "generated/snippet0172.html",
+    "base_url": "http://www.lagunaponds.com/en_ca/laguna-deck-pond-urban-pt1119/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Úvod",
+        "url": "http://www.detske-oblecenie.eu/detske-oblecenie"
+      },
+      {
+        "name": "VŠETKO KU KRSTU",
+        "url": "http://www.detske-oblecenie.eu/detske-oblecenie/eshop/34-1-VSETKO-KU-KRSTU"
+      },
+      {
+        "name": "Zavinovačky",
+        "url": "http://www.detske-oblecenie.eu/detske-oblecenie/eshop/34-1-VSETKO-KU-KRSTU/142-2-Zavinovacky"
+      }
+    ],
+    "snippet_path": "generated/snippet0173.html",
+    "base_url": "http://www.detske-oblecenie.eu/detske-oblecenie/eshop/34-1-VSETKO-KU-KRSTU/142-2-Zavinovacky"
+  },
+  {
+    "expected": [
+      {
+        "name": "New NLHS Store",
+        "url": "http://www.nlhs.com/store/c1/Featured_Products.html"
+      },
+      {
+        "name": "Books",
+        "url": "http://www.nlhs.com/store/c14/Books.html"
+      },
+      {
+        "name": "Fleet Angels of Lakehurst"
+      }
+    ],
+    "snippet_path": "generated/snippet0174.html",
+    "base_url": "http://www.nlhs.com/store/p54/Fleet_Angels_of_Lakehurst_.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.shambhaviimpex.com"
+      },
+      {
+        "name": "Product Range",
+        "url": "http://www.shambhaviimpex.com/product-range.html"
+      },
+      {
+        "name": "Educational Lab Equipment",
+        "url": "http://www.shambhaviimpex.com/educational-laboratory-equipment.html"
+      },
+      {
+        "name": "Laboratory Glassware & Plasticware",
+        "url": "http://www.shambhaviimpex.com/laboratory-glassware.html"
+      },
+      {
+        "name": "Chromatography Apparatus"
+      }
+    ],
+    "snippet_path": "generated/snippet0175.html",
+    "base_url": "http://www.shambhaviimpex.com/chromatography-apparatus.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.rexbo.eu"
+      },
+      {
+        "name": "BMW 3 Compact (E46) 316 ti",
+        "url": "https://www.rexbo.eu/bmw/3-compact-e46-01/316-ti-11990"
+      },
+      {
+        "name": "Ignition System",
+        "url": "https://www.rexbo.eu/bmw/3-compact-e46-01/316-ti-11990/ignition-system-100008"
+      },
+      {
+        "name": "Pulse Generator",
+        "url": "https://www.rexbo.eu/bmw/3-compact-e46-01/316-ti-11990/pulse-generator-100249"
+      }
+    ],
+    "snippet_path": "generated/snippet0177.html",
+    "base_url": "https://www.rexbo.eu/febi/sensor-crankshaft-pulse-29483?c=100249&at=11990"
+  },
+  {
+    "expected": [
+      {
+        "name": "Strona główna",
+        "url": "https://butik-kesi.pl/"
+      },
+      {
+        "name": "Odzież damska",
+        "url": "https://butik-kesi.pl/pol_m_Odziez-damska-100.html"
+      },
+      {
+        "name": "Bluzki damskie",
+        "url": "https://butik-kesi.pl/pol_m_Odziez-damska_Bluzki-damskie-160.html"
+      },
+      {
+        "name": "Bluzka w motyle czarna"
+      }
+    ],
+    "snippet_path": "generated/snippet0178.html",
+    "base_url": "https://butik-kesi.pl/product-pol-2056-Bluzka-w-motyle-czarna.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Αρχική σελίδα",
+        "url": "http://www.mediamarkt.gr/"
+      },
+      {
+        "name": "Gaming",
+        "url": "http://www.mediamarkt.gr/el/category/_gaming-632040.html"
+      },
+      {
+        "name": "Games",
+        "url": "http://www.mediamarkt.gr/el/category/_games-632041.html"
+      },
+      {
+        "name": "PS4 Games",
+        "url": "http://www.mediamarkt.gr/el/category/_ps4-games-632046.html"
+      },
+      {
+        "name": "Carmageddon: Max Damage PS4"
+      }
+    ],
+    "snippet_path": "generated/snippet0179.html",
+    "base_url": "http://www.mediamarkt.gr/el/product/_carmageddon-max-damage-ps4-1181823.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Accueil",
+        "url": "https://www.lierac.fr/"
+      },
+      {
+        "name": "Visage",
+        "url": "https://www.lierac.fr/visage/"
+      },
+      {
+        "name": "GOMMAGE DOUCEUR - Crème Veloutée Exfoliante"
+      }
+    ],
+    "snippet_path": "generated/snippet0180.html",
+    "base_url": "https://www.lierac.fr/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Startseite",
+        "url": "https://www.paracelsus-versand.de/"
+      },
+      {
+        "name": "Naturheilkunde & Zubehör",
+        "url": "https://www.paracelsus-versand.de/naturheilkunde-zubehoer"
+      },
+      {
+        "name": "Nahrungsergänzung",
+        "url": "https://www.paracelsus-versand.de/naturheilkunde-zubehoer/nahrungsergaenzung"
+      },
+      {
+        "name": "Bachblüten",
+        "url": "https://www.paracelsus-versand.de/naturheilkunde-zubehoer/nahrungsergaenzung/bachblueten"
+      },
+      {
+        "name": "MirianaFlowers",
+        "url": "https://www.paracelsus-versand.de/naturheilkunde-zubehoer/nahrungsergaenzung/bachblueten/mirianaflowers"
+      },
+      {
+        "name": "Alkoholfreie Einzel Kügelchen 10g",
+        "url": "https://www.paracelsus-versand.de/naturheilkunde-zubehoer/nahrungsergaenzung/bachblueten/mirianaflowers/alkoholfreie-einzel-kuegelchen-10g"
+      }
+    ],
+    "snippet_path": "generated/snippet0182.html",
+    "base_url": "https://www.paracelsus-versand.de/8-chicory-10g-kuegelchen-mirianaflowers-1483.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Hem",
+        "url": "https://www.snusbolaget.se/"
+      },
+      {
+        "name": "Varumärken",
+        "url": "https://www.snusbolaget.se/varumarken/"
+      },
+      {
+        "name": "Miranda Cigars",
+        "url": "https://www.snusbolaget.se/miranda-cigars/"
+      },
+      {
+        "name": "Miranda Maximiliano 1 styck",
+        "url": "https://www.snusbolaget.se/miranda-cigars/miranda-maximiliano"
+      }
+    ],
+    "snippet_path": "generated/snippet0183.html",
+    "base_url": "https://www.snusbolaget.se/miranda-cigars/miranda-maximiliano"
+  },
+  {
+    "expected": [
+      {
+        "name": "KaTom Restaurant Supply",
+        "url": "https://www.katom.com"
+      },
+      {
+        "name": "Janitorial Supplies",
+        "url": "https://www.katom.com/cat/janitorial.html"
+      },
+      {
+        "name": "Commercial Trash Cans",
+        "url": "https://www.katom.com/cat/trash-cans-accessories.html"
+      },
+      {
+        "name": "Trash Can Lids",
+        "url": "https://www.katom.com/cat/trash-can-lid.html"
+      },
+      {
+        "name": "Round Flat Top Trash Can Lid - Plastic, Red"
+      }
+    ],
+    "snippet_path": "generated/snippet0184.html",
+    "base_url": "https://www.katom.com/007-FG265400RED.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Halloween Costumes",
+        "url": "https://www.wondercostumes.com/"
+      },
+      {
+        "name": "Popular",
+        "url": "https://www.wondercostumes.com/general_main-ctgmen.html"
+      },
+      {
+        "name": "Dancewear Costumes"
+      }
+    ],
+    "snippet_path": "generated/snippet0185.html",
+    "base_url": "https://www.wondercostumes.com/dance-costumes-qsdance.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "HOME",
+        "url": "https://www.massageking.com"
+      },
+      {
+        "name": "Massage Tables",
+        "url": "https://www.massageking.com/categories/Massage-Tables/13/1"
+      },
+      {
+        "name": "Bean Products Yoga Duffel Bag",
+        "url": "https://www.massageking.com/products/Yoga-Duffel-Bag/Bean-Products-Yoga-Duffel-Bag/2096/1/1"
+      }
+    ],
+    "snippet_path": "generated/snippet0186.html",
+    "base_url": "https://www.massageking.com/products/Yoga-Duffel-Bag/Bean-Products-Yoga-Duffel-Bag/2096/1/1"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.freshsoundrecords.com/"
+      },
+      {
+        "name": "Carl Perkins",
+        "url": "https://www.freshsoundrecords.com/10393-carl-perkins-albums"
+      },
+      {
+        "name": "Carl Perkins Memorial"
+      }
+    ],
+    "snippet_path": "generated/snippet0187.html",
+    "base_url": "https://www.freshsoundrecords.com/carl-perkins-albums/1486-carl-perkins-memorial.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Store",
+        "url": "https://www.bluecanoerecords.com/store/c1/Featured_Products.html"
+      },
+      {
+        "name": "Song Downloads",
+        "url": "https://www.bluecanoerecords.com/store/c5/Song_Downloads.html"
+      },
+      {
+        "name": "\"Mary's Mood\" - Charles Langford"
+      }
+    ],
+    "snippet_path": "generated/snippet0188.html",
+    "base_url": "https://www.bluecanoerecords.com/store/p268/%22Mary%27s_Mood%22_-_Charles_Langford.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Etusivu",
+        "url": "http://www.talotarvike.com"
+      },
+      {
+        "name": "Sauna, takat",
+        "url": "http://www.talotarvike.com/sauna-takat/c40"
+      },
+      {
+        "name": "Saunan ovet",
+        "url": "http://www.talotarvike.com/saunan-ovet/c448"
+      },
+      {
+        "name": "Vihtaovet Lasiliukuovi 950x2150 Satiini"
+      }
+    ],
+    "snippet_path": "generated/snippet0189.html",
+    "base_url": "http://www.talotarvike.com/vihtaovet-lasiliukuovi-950x2150-satiini-p25344"
+  },
+  {
+    "expected": [
+      {
+        "name": "Main page",
+        "url": "http://www.mts-shop.eu/"
+      },
+      {
+        "name": "Foto & Video",
+        "url": "http://www.mts-shop.eu/Foto-Video:::233.html"
+      },
+      {
+        "name": "Zubehör Digitalkameras",
+        "url": "http://www.mts-shop.eu/Foto-Video/Zubehoer-Digitalkameras:::233_503.html"
+      },
+      {
+        "name": "TomTom Basic Surface Mounts (2X2) - Montagezubehör für Camcorder - für TomTom Bandit"
+      }
+    ],
+    "snippet_path": "generated/snippet0190.html",
+    "base_url": "http://www.mts-shop.eu/Foto-Video/Zubehoer-Digitalkameras/TomTom-Basic-Surface-Mounts-2X2-Montagezubehoer-fuer-Camcorder-fuer-TomTom-Bandit::408705.html?MODsid=gi4vddn2piltlbjfuh58ga9n30"
+  },
+  {
+    "expected": [
+      {
+        "name": "Hem",
+        "url": "https://www.amway.se/"
+      },
+      {
+        "name": "Skönhet",
+        "url": "https://www.amway.se/skoenhet"
+      },
+      {
+        "name": "Protecting Lotion ARTISTRY YOUTH XTEND™"
+      }
+    ],
+    "snippet_path": "generated/snippet0191.html",
+    "base_url": "https://www.amway.se/product/113803,artistry-youth-xtend-protecting-lotion"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.nutty.com/"
+      },
+      {
+        "name": "Socket Head Screws",
+        "url": "https://www.nutty.com/Socket-Head-Screws_c_197.html"
+      },
+      {
+        "name": "Hex Keys",
+        "url": "https://www.nutty.com/Hex-Keys_c_204.html"
+      },
+      {
+        "name": "5/32 Long Arm Hex Key"
+      }
+    ],
+    "snippet_path": "generated/snippet0192.html",
+    "base_url": "https://www.nutty.com/532-Long-Arm-Hex-Key-_p_12573.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Boutique",
+        "url": "http://www.electro-tunis.tn/"
+      },
+      {
+        "name": "Ordinateur / Tablette",
+        "url": "http://www.electro-tunis.tn/19-ordinateur-tablette"
+      },
+      {
+        "name": "Ordinateurs portables",
+        "url": "http://www.electro-tunis.tn/12-ordinateurs-portables"
+      },
+      {
+        "name": "Pc portable",
+        "url": "http://www.electro-tunis.tn/28-pc-portable"
+      },
+      {
+        "name": "PC portable HP Pavilion 15N-p107nk I7-4510U 4Go 2Go dédiés"
+      }
+    ],
+    "snippet_path": "generated/snippet0193.html",
+    "base_url": "http://www.electro-tunis.tn/pc-portable/57-prix-de-vente-pc-portable-hp-pavilion-15n-p107nk-i7-4510u-4go-2go-ddis-en-tunisie.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "TOP",
+        "url": "http://www.titicaca.co.jp/titicaca/"
+      },
+      {
+        "name": "スライドチェーンブレスレット"
+      }
+    ],
+    "snippet_path": "generated/snippet0194.html",
+    "base_url": "http://www.titicaca.co.jp/titicaca/products/detail.php?product_id=65669"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.homebrewing.org/"
+      },
+      {
+        "name": "Brewing Equipment",
+        "url": "https://www.homebrewing.org/Brewing-Equipment_c_133.html"
+      },
+      {
+        "name": "Boiling Equipment",
+        "url": "https://www.homebrewing.org/Boiling-Equipment_c_481.html"
+      },
+      {
+        "name": "Brew Pots",
+        "url": "https://www.homebrewing.org/Brew-Pots_c_79.html"
+      }
+    ],
+    "snippet_path": "generated/snippet0195.html",
+    "base_url": "https://www.homebrewing.org/102-QT-Stainless-Steel-Brew-Pot-_p_2813.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Anasayfa",
+        "url": "https://partidukkanim.com/?route=common/home"
+      },
+      {
+        "name": "Özel Günler",
+        "url": "https://partidukkanim.com/ozel-gunler"
+      },
+      {
+        "name": "Sevgililer Günü",
+        "url": "https://partidukkanim.com/sevgililer-gunu"
+      },
+      {
+        "name": "Sevgililer Günü Balonları",
+        "url": "https://partidukkanim.com/sevgililer-gunu-balonlari-ucan"
+      },
+      {
+        "name": "Kalpli Kırmızı Balon (50 adet)",
+        "url": "https://partidukkanim.com/kirmizi-kalpli-balon-50-adet-"
+      }
+    ],
+    "snippet_path": "generated/snippet0196.html",
+    "base_url": "https://partidukkanim.com/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.onlinescuba.com/Default.aspx"
+      },
+      {
+        "name": "Regulators",
+        "url": "http://www.onlinescuba.com/Regulators-C97.aspx"
+      },
+      {
+        "name": "Accessories",
+        "url": "http://www.onlinescuba.com/Accessories-C98.aspx"
+      }
+    ],
+    "snippet_path": "generated/snippet0197.html",
+    "base_url": "http://www.onlinescuba.com/Dolphin-Tech-By-IST-2nd-Stage-In-Line-Safety-Shut-Off-Valve-P15663.aspx"
+  },
+  {
+    "expected": [
+      {
+        "name": "ShopMania",
+        "url": "https://www.shopmania.co.za"
+      },
+      {
+        "name": "Computers",
+        "url": "https://www.shopmania.co.za/computers"
+      },
+      {
+        "name": "Components",
+        "url": "https://www.shopmania.co.za/components"
+      },
+      {
+        "name": "Cases and Power Supplies",
+        "url": "https://www.shopmania.co.za/computer-cases"
+      },
+      {
+        "name": "Cooler Master Cases and Power Supplies",
+        "url": "https://www.shopmania.co.za/computer-cases/filter-brand-cooler-master"
+      }
+    ],
+    "snippet_path": "generated/snippet0199.html",
+    "base_url": "https://www.shopmania.co.za/computer-cases/p-cm-1200w-masterwatt-maker-mij-37023590"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.THEPOOLGUYSTORE.COM/"
+      },
+      {
+        "name": "Salt Chlorinator",
+        "url": "http://www.THEPOOLGUYSTORE.COM/Chlorine-Generators-s/544.htm"
+      },
+      {
+        "name": "Pentair IntelliChlor Salt Chlorinator",
+        "url": "http://www.THEPOOLGUYSTORE.COM/Pentair-IntelliChlor-Salt-Chlorinator-s/545.htm"
+      }
+    ],
+    "snippet_path": "generated/snippet0200.html",
+    "base_url": "http://www.thepoolguystore.com/Pentair-IntelliChlor-Chlorine-Generators-p/521105.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "Shop",
+        "url": "https://www.akkuline.de"
+      },
+      {
+        "name": null,
+        "url": "https://www.akkuline.de/.aspx"
+      }
+    ],
+    "snippet_path": "generated/snippet0201.html",
+    "base_url": "https://www.akkuline.de/accucell-ladegeraete-set-acp-69-inkl-2-st-ac1800-aa-ram-batterien/423_item.aspx"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.catholicgiftstores.com"
+      },
+      {
+        "name": "Catholic Gift Ideas",
+        "url": "http://www.catholicgiftstores.com/catholic-store-catholic-gifts.html"
+      },
+      {
+        "name": "Crucifix Pendants",
+        "url": "http://www.catholicgiftstores.com/catholic-gift-ideas-first-communion-gifts-crucifix-pendants.html"
+      },
+      {
+        "name": "Gold Filled Crucifix Pendant"
+      }
+    ],
+    "snippet_path": "generated/snippet0202.html",
+    "base_url": "http://www.catholicgiftstores.com/gold-filled-crucifix-pendant-p-0624gf-18gf.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Podwozie",
+        "url": "https://e-katalog.intercars.com.pl/oferta/0,0,podwozie,nscr/100001,101409/"
+      },
+      {
+        "name": "Amortyzacja pojazdu",
+        "url": "https://e-katalog.intercars.com.pl/oferta/0,0,amortyzacja-pojazdu,nscr/100001,101409,101410/"
+      },
+      {
+        "name": "Amortyzatory zawieszenia",
+        "url": "https://e-katalog.intercars.com.pl/oferta/0,0,amortyzatory-zawieszenia,nscr/100001,101409,101410,101425/"
+      },
+      {
+        "name": "Amortyzator przód",
+        "url": "https://e-katalog.intercars.com.pl/oferta/1,0,amortyzator-przod,nscr/100001,101409,101410,101425,101430/"
+      }
+    ],
+    "snippet_path": "generated/snippet0203.html",
+    "base_url": "https://e-katalog.intercars.com.pl/produkty/3134151514131-MON5550052-amortyzator-przod.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.spycor.com/"
+      },
+      {
+        "name": "Dust Barriers",
+        "url": "http://www.spycor.com/Dust-Barriers-s/5.htm"
+      },
+      {
+        "name": "Construction Poles",
+        "url": "http://www.spycor.com/Construction-Poles-s/49.htm"
+      }
+    ],
+    "snippet_path": "generated/snippet0204.html",
+    "base_url": "http://www.spycor.com/3rd-Hand-Magnetic-Strip-p/3-h%20mag%20strip.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "主页",
+        "url": "https://www.amway.it/zh/"
+      },
+      {
+        "name": "安利家居系列",
+        "url": "https://www.amway.it/zh/casa"
+      },
+      {
+        "name": "衣洁产品",
+        "url": "https://www.amway.it/zh/casa/bucato"
+      },
+      {
+        "name": "洗涤剂",
+        "url": "https://www.amway.it/zh/casa/bucato/detergenti"
+      },
+      {
+        "name": "SA8™ 炫黑深色衣物洗衣液"
+      }
+    ],
+    "snippet_path": "generated/snippet0205.html",
+    "base_url": "https://www.amway.it/zh/product/250508,amway-home-sa8-black-concentrated-liquid-laundry-detergent-for-dark-clothes"
+  },
+  {
+    "expected": [
+      {
+        "name": "HOME",
+        "url": "https://www.massageking.com"
+      },
+      {
+        "name": "Massage Tables",
+        "url": "https://www.massageking.com/categories/Massage-Tables/13/1"
+      },
+      {
+        "name": "Essential 3 AromaShell Diffuser",
+        "url": "https://www.massageking.com/products/Essential-Oil-Diffuser/Essential-3-AromaShell-Diffuser/1877/1/1"
+      }
+    ],
+    "snippet_path": "generated/snippet0206.html",
+    "base_url": "https://www.massageking.com/products/AromaShell-Diffuser/Essential-3-AromaShell-Diffuser/1877/1/1"
+  },
+  {
+    "expected": [
+      {
+        "name": "TM Fashion",
+        "url": "https://fashion-girl.ua/"
+      },
+      {
+        "name": "Товары и услуги",
+        "url": "https://fashion-girl.ua/product_list"
+      },
+      {
+        "name": "Аксессуары",
+        "url": "https://fashion-girl.ua/g11057738-aksessuary"
+      },
+      {
+        "name": "Головные уборы",
+        "url": "https://fashion-girl.ua/g20024046-golovnye-ubory"
+      },
+      {
+        "name": "Шапки",
+        "url": "https://fashion-girl.ua/g16652429-shapki"
+      },
+      {
+        "name": "Женская шапка \"Philipp Plein\" стразы"
+      }
+    ],
+    "snippet_path": "generated/snippet0207.html",
+    "base_url": "https://fashion-girl.ua/p178496494-zhenskaya-shapka-philipp.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.finnishdesignshop.com/index.php"
+      },
+      {
+        "name": "Storage",
+        "url": "https://www.finnishdesignshop.com/storage-c-1495.html"
+      },
+      {
+        "name": "Baskets",
+        "url": "https://www.finnishdesignshop.com/storage-baskets-c-1495_1497.html"
+      },
+      {
+        "name": "Wire basket Classic 24, galvanized"
+      }
+    ],
+    "snippet_path": "generated/snippet0208.html",
+    "base_url": "https://www.finnishdesignshop.com/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.wiccanway.com/"
+      },
+      {
+        "name": "Incense & Supplies",
+        "url": "http://www.wiccanway.com/Incense-Supplies_c_15.html"
+      },
+      {
+        "name": "Incense Censers & Burners",
+        "url": "http://www.wiccanway.com/Incense-Censers-Burners_c_55.html"
+      },
+      {
+        "name": "Pentagram Triple Goddess Ash Catcher"
+      }
+    ],
+    "snippet_path": "generated/snippet0209.html",
+    "base_url": "http://www.wiccanway.com/Pentagram-Triple-Goddess-Ash-Catcher_p_276.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Главная",
+        "url": "https://grafkrasnov.ru"
+      },
+      {
+        "name": "Товары",
+        "url": "https://grafkrasnov.ru/shop/"
+      },
+      {
+        "name": "Вегетарианские",
+        "url": "https://grafkrasnov.ru/товарная-категория/vegetarian/"
+      },
+      {
+        "name": "Постный русский пирог с капустой"
+      }
+    ],
+    "snippet_path": "generated/snippet0210.html",
+    "base_url": "https://grafkrasnov.ru/shop/vegetarian/postnyy-russkiy-pirog-s-kapustoy/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Главная",
+        "url": "http://allmulticam.ru/"
+      },
+      {
+        "name": "3D Магнит \"ВДВ Медведь\""
+      }
+    ],
+    "snippet_path": "generated/snippet0211.html",
+    "base_url": "http://allmulticam.ru/product/%D0%9C%D0%B0%D0%B3%D0%BD%D0%B8%D1%82-%D0%92%D0%94%D0%92-%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8C"
+  },
+  {
+    "expected": [
+      {
+        "name": "Forside",
+        "url": "http://www.magasin.dk"
+      },
+      {
+        "name": "Skønhed",
+        "url": "http://www.magasin.dk/skoenhed"
+      },
+      {
+        "name": "Makeup",
+        "url": "http://www.magasin.dk/skoenhed/makeup"
+      },
+      {
+        "name": "Bryn",
+        "url": "http://www.magasin.dk/skoenhed/makeup/bryn"
+      },
+      {
+        "name": "Farve & redskaber",
+        "url": "http://www.magasin.dk/skoenhed/makeup/bryn/farve-og-redskaber"
+      },
+      {
+        "name": "Naked"
+      }
+    ],
+    "snippet_path": "generated/snippet0212.html",
+    "base_url": "http://www.magasin.dk/naked/VA03734241-00000001_061.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.jezirka-shop.cz/"
+      },
+      {
+        "name": "Jezírkové fólie a geotextilie"
+      }
+    ],
+    "snippet_path": "generated/snippet0213.html",
+    "base_url": "https://www.jezirka-shop.cz/jezirkova-folie-a50"
+  },
+  {
+    "expected": [
+      {
+        "name": "Inicio",
+        "url": "http://www.laroche-posay.cl/"
+      },
+      {
+        "name": "Kerium",
+        "url": "http://www.laroche-posay.cl/productos-tratamientos/Kerium/Caspa-r938.aspx"
+      },
+      {
+        "name": "Kerium Caspa Grasa"
+      }
+    ],
+    "snippet_path": "generated/snippet0214.html",
+    "base_url": "http://www.laroche-posay.cl/productos-tratamientos/Kerium/Kerium-Caspa-Grasa-p5268.aspx"
+  },
+  {
+    "expected": [
+      {
+        "name": "Stoffe",
+        "url": "https://www.stoffe-zanderino.de/stoffe/"
+      },
+      {
+        "name": "Bekleidungsstoffe",
+        "url": "https://www.stoffe-zanderino.de/stoffe/bekleidungsstoffe/"
+      },
+      {
+        "name": "Jerseystoffe",
+        "url": "https://www.stoffe-zanderino.de/stoffe/bekleidungsstoffe/jerseystoffe/"
+      },
+      {
+        "name": "Viskosejersey",
+        "url": "https://www.stoffe-zanderino.de/stoffe/bekleidungsstoffe/jerseystoffe/viskosejersey/"
+      },
+      {
+        "name": "uni",
+        "url": "https://www.stoffe-zanderino.de/stoffe/bekleidungsstoffe/jerseystoffe/viskosejersey/uni/"
+      }
+    ],
+    "snippet_path": "generated/snippet0215.html",
+    "base_url": "https://www.stoffe-zanderino.de/stoffe/bekleidungsstoffe/jerseystoffe/viskosejersey/uni/3944/jersey-viscose-stretch-blau-ca.152cm"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.allsculptures.com/category.php"
+      },
+      {
+        "name": "Musical-Sculptures-Statues"
+      }
+    ],
+    "snippet_path": "generated/snippet0216.html",
+    "base_url": "http://www.allsculptures.com/musical-sculptures.php"
+  },
+  {
+    "expected": [
+      {
+        "name": "Vykupto.cz",
+        "url": "http://www.vykupto.cz/"
+      },
+      {
+        "name": "Služby",
+        "url": "http://www.vykupto.cz/sluzby"
+      },
+      {
+        "name": "Brno",
+        "url": "http://www.vykupto.cz/brno/sluzby"
+      },
+      {
+        "name": null,
+        "url": "http://www.vykupto.cz/brno/sluzby"
+      },
+      {
+        "name": "Brno",
+        "url": "http://www.vykupto.cz/brno/sluzby"
+      },
+      {
+        "name": "Jen 50Kč za jednu lekci na revolučním přístroji Dream Healther. Cvičte pod dohledem zkušeného instruktora pouhých 10 minut (místo hodiny v posilovně) – po prvních dvou týdnech uvidíte výsledky! Nakupte si libovolný počet Vykupónů!"
+      }
+    ],
+    "snippet_path": "generated/snippet0217.html",
+    "base_url": "http://www.vykupto.cz/brno/280-jen-50kc-za-jednu-lekci-na-revolucnim-pristroji"
+  },
+  {
+    "expected": [
+      {
+        "name": "Главная",
+        "url": "http://hobbystar.ru/"
+      },
+      {
+        "name": "Запчасти к моделям",
+        "url": "http://hobbystar.ru/zapchasti-k-modelyam129c"
+      },
+      {
+        "name": "Крепежные элементы"
+      }
+    ],
+    "snippet_path": "generated/snippet0218.html",
+    "base_url": "http://hobbystar.ru/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Product Index",
+        "url": "https://www.digikey.sg/products/en"
+      },
+      {
+        "name": "Connectors, Interconnects",
+        "url": "https://www.digikey.sg/products/en/connectors-interconnects/20"
+      },
+      {
+        "name": "Terminal Blocks - Headers, Plugs and Sockets",
+        "url": "https://www.digikey.sg/products/en/connectors-interconnects/terminal-blocks-headers-plugs-and-sockets/370"
+      },
+      {
+        "name": "Phoenix Contact 1792757"
+      }
+    ],
+    "snippet_path": "generated/snippet0219.html",
+    "base_url": "https://www.digikey.sg/product-detail/en/phoenix-contact/1792757/277-1062-ND/260430"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.dartproshop.com/"
+      },
+      {
+        "name": "Dart Cabinets and Backboards",
+        "url": "http://www.dartproshop.com/index.php?main_page=index&cPath=105&zenid=ce45d61995c1e1572ae9dee417058973"
+      },
+      {
+        "name": "Pine Dartboard Cabinet"
+      }
+    ],
+    "snippet_path": "generated/snippet0220.html",
+    "base_url": "http://www.dartproshop.com/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.remotecontrolhelicoptershop.com/"
+      },
+      {
+        "name": "Syma",
+        "url": "http://www.remotecontrolhelicoptershop.com/syma-m1"
+      },
+      {
+        "name": "Syma S027G 3ch Airwolf Helicopter"
+      }
+    ],
+    "snippet_path": "generated/snippet0221.html",
+    "base_url": "http://www.remotecontrolhelicoptershop.com/rc-helicopters-c1/indoor-helicopters-c2/syma-s027g-3ch-airwolf-helicopter-p17"
+  },
+  {
+    "expected": [
+      {
+        "name": "Úvod",
+        "url": "https://www.kompresory-vzduchotechnika.cz/cz"
+      },
+      {
+        "name": "Pneumatické nářadí",
+        "url": "https://www.kompresory-vzduchotechnika.cz/c/pneumaticke-naradi-m7"
+      },
+      {
+        "name": "Tlakové maznice",
+        "url": "https://www.kompresory-vzduchotechnika.cz/c/pneumaticke-naradi-m7/tlakove-maznice"
+      },
+      {
+        "name": "Tlaková maznice SG-401"
+      }
+    ],
+    "snippet_path": "generated/snippet0222.html",
+    "base_url": "https://www.kompresory-vzduchotechnika.cz/p/4797/tlakova-maznice-sg-401"
+  },
+  {
+    "expected": [
+      {
+        "name": "Return to Home",
+        "url": "http://www.pcx.com.mx/"
+      },
+      {
+        "name": "Periféricos",
+        "url": "http://www.pcx.com.mx/62-perifericos"
+      },
+      {
+        "name": "Monitores y Proyectores",
+        "url": "http://www.pcx.com.mx/22-monitores-y-proyectores"
+      },
+      {
+        "name": "Monitores LED",
+        "url": "http://www.pcx.com.mx/70-monitores-led"
+      },
+      {
+        "name": "Benq DL2020 - Monitor 19.5\" - 1366 x 768 - DVI - VGA - 5MS"
+      }
+    ],
+    "snippet_path": "generated/snippet0223.html",
+    "base_url": "http://www.pcx.com.mx/monitores-y-proyectores/2450-benq-dl2020-monitor-195-1366-x-768-dvi-vga-5ms.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Kategorien",
+        "url": "https://shop.maxtrader.de/epages/MAXTraderGmbH.sf/de_DE/?ObjectPath=/Shops/MAXTraderGmbH/Categories"
+      },
+      {
+        "name": "Outdoor",
+        "url": "https://shop.maxtrader.de/epages/MAXTraderGmbH.sf/de_DE/?ObjectPath=/Shops/MAXTraderGmbH/Categories/Outdoor"
+      },
+      {
+        "name": "Schlafsäcke & Isomatten",
+        "url": "https://shop.maxtrader.de/epages/MAXTraderGmbH.sf/de_DE/?ObjectPath=/Shops/MAXTraderGmbH/Categories/Outdoor/Schlafsaecke__Isomatten"
+      },
+      {
+        "name": "Deckenschlafsäcke",
+        "url": "https://shop.maxtrader.de/epages/MAXTraderGmbH.sf/de_DE/?ObjectPath=/Shops/MAXTraderGmbH/Categories/Outdoor/Schlafsaecke__Isomatten/Deckenschlafsaecke"
+      },
+      {
+        "name": "Skandika Dundee Decken-Schlafsack (RV rechts)"
+      }
+    ],
+    "snippet_path": "generated/snippet0224.html",
+    "base_url": "https://shop.maxtrader.de/epages/MAXTraderGmbH.sf/de_DE/?ObjectPath=/Shops/MAXTraderGmbH/Products/16104-R"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.ElegantLighters.com/"
+      },
+      {
+        "name": "Alfred Dunhill Lighters",
+        "url": "http://www.ElegantLighters.com/Alfred-Dunhill-Lighters-Cigar-Cigarette-Pipe-s/1814.htm"
+      }
+    ],
+    "snippet_path": "generated/snippet0225.html",
+    "base_url": "http://www.elegantlighters.com/Alfred-Dunhill-Eight-Pattern-Palladium-Rollagas-p/rle1348.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "ShopMania",
+        "url": "https://www.shopmania.co.za"
+      },
+      {
+        "name": "Computers",
+        "url": "https://www.shopmania.co.za/computers"
+      },
+      {
+        "name": "Computer Systems",
+        "url": "https://www.shopmania.co.za/computer-systems"
+      },
+      {
+        "name": "Notebooks"
+      },
+      {
+        "name": "1"
+      }
+    ],
+    "snippet_path": "generated/snippet0226.html",
+    "base_url": "https://www.shopmania.co.za/notebooks/filter-video_memory-2048"
+  },
+  {
+    "expected": [
+      {
+        "name": "Guyane",
+        "url": "https://www.cyphoma.com/guyane/annonces"
+      },
+      {
+        "name": "Auto Moto",
+        "url": "https://www.cyphoma.com/guyane/annonces/auto-moto"
+      },
+      {
+        "name": "Voitures",
+        "url": "https://www.cyphoma.com/guyane/annonces/voitures"
+      }
+    ],
+    "snippet_path": "generated/snippet0227.html",
+    "base_url": "https://www.cyphoma.com/guyane/annonces/voitures/peugeot-206-tunee"
+  },
+  {
+    "expected": [
+      {
+        "name": "Aloitussivu",
+        "url": "http://www.edel-optics.fi/"
+      },
+      {
+        "name": "Silmälasit/lasit",
+        "url": "http://www.edel-optics.fi/Silmälasit-lasit.html"
+      },
+      {
+        "name": "Boss",
+        "url": "http://www.edel-optics.fi/Boss-Silmälasit-lasit.html"
+      },
+      {
+        "name": "BOSS 0765 (QIH)"
+      }
+    ],
+    "snippet_path": "generated/snippet0228.html",
+    "base_url": "http://www.edel-optics.fi/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Strona główna",
+        "url": "https://www.designforhome.pl/"
+      },
+      {
+        "name": "SALON",
+        "url": "https://www.designforhome.pl/c/5/salon.html"
+      },
+      {
+        "name": "Zegary",
+        "url": "https://www.designforhome.pl/c/221/zegary-salon.html"
+      },
+      {
+        "name": "Umbra TAKE 5 Zegar Ścienny - Czarny",
+        "url": null
+      }
+    ],
+    "snippet_path": "generated/snippet0229.html",
+    "base_url": "https://www.designforhome.pl/p/221/14041/umbra-take-5-zegar-scienny-czarny-zegary-salon.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.creatormundi.com"
+      },
+      {
+        "name": "Gifts By Season",
+        "url": "http://www.creatormundi.com/product-category/seasons/"
+      },
+      {
+        "name": "Advent & Christmas Gifts",
+        "url": "http://www.creatormundi.com/product-category/seasons/advent-christmas-gifts/"
+      },
+      {
+        "name": "The Holy Infant"
+      }
+    ],
+    "snippet_path": "generated/snippet0230.html",
+    "base_url": "http://www.creatormundi.com/product/the-holy-infant/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Sign Standoffs",
+        "url": "http://www.signstandoffs.com/"
+      },
+      {
+        "name": "Screw Caps",
+        "url": "http://www.signstandoffs.com/C-29100/Standoff-Caps-Stainless-Steel-Brass-Knobs-with-Several-Finishes"
+      },
+      {
+        "name": "SKU: CCAPBAG75"
+      }
+    ],
+    "snippet_path": "generated/snippet0232.html",
+    "base_url": "http://www.signstandoffs.com/Archive/Product/12868",
+    "xfail": "Extraction of node tail does not work correctly if there is non-flat structure"
+  },
+  {
+    "expected": [
+      {
+        "name": "Главная",
+        "url": "http://atvstar.ru"
+      },
+      {
+        "name": "Продукция",
+        "url": "http://atvstar.ru/produktsiya/"
+      },
+      {
+        "name": "Отвалы для снега",
+        "url": "http://atvstar.ru/catalog/otvaly-dlya-snega/"
+      },
+      {
+        "name": "Отвал для снега для квадроцикла 150 см"
+      }
+    ],
+    "snippet_path": "generated/snippet0233.html",
+    "base_url": "http://atvstar.ru/produktsiya/otvaly-dlya-snega/otval-dlya-snega-dlya-kvadrotsikla/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Torna alla homepage",
+        "url": "http://www.ebay.it"
+      },
+      {
+        "name": "Bellezza e salute",
+        "url": "http://www.ebay.it/sch/Bellezza-e-salute-/26395/i.html"
+      },
+      {
+        "name": "Cura del viso e della pelle",
+        "url": "http://www.ebay.it/sch/Cura-del-viso-e-della-pelle-/11863/i.html"
+      },
+      {
+        "name": "Labbra: balsamo e trattamenti",
+        "url": "http://www.ebay.it/sch/Labbra-balsamo-e-trattamenti-/36870/i.html"
+      }
+    ],
+    "snippet_path": "generated/snippet0234.html",
+    "base_url": "https://www.ebay.it/itm/Euphidra-Rosso-Labbra-RZ18-/222830988687?hash=item33e1c30d8f",
+    "xfail": "There is a very strange nested ul elements. The model should rather return more inner element"
+  },
+  {
+    "expected": [
+      {
+        "name": "Gopher",
+        "url": "https://www.gophersport.com/"
+      },
+      {
+        "name": "Sports",
+        "url": "https://www.gophersport.com/sports?cl=1"
+      },
+      {
+        "name": "Basketball",
+        "url": "https://www.gophersport.com/sports/basketball"
+      },
+      {
+        "name": "Performer™ Custom Logo Rubber Basketballs"
+      }
+    ],
+    "snippet_path": "generated/snippet0235.html",
+    "base_url": "https://www.gophersport.com/sports/basketball/custom-logo-rubber-basketballs"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.warehouse-lighting.com/"
+      },
+      {
+        "name": "Residential Lighting Fixtures",
+        "url": "https://www.warehouse-lighting.com/residential-lighting"
+      },
+      {
+        "name": "Decorative lamps",
+        "url": "https://www.warehouse-lighting.com/residential-lighting/decorative-lamps"
+      },
+      {
+        "name": "Table lamps",
+        "url": "https://www.warehouse-lighting.com/store/c/14362-Table-lamps.aspx"
+      }
+    ],
+    "snippet_path": "generated/snippet0236.html",
+    "base_url": "https://www.warehouse-lighting.com/store/p/18598-Sorcerer-Table-Lamp-32328CLR-Clear-Acrylic-Finish-by-Kenroy-Home.aspx"
+  },
+  {
+    "expected": [
+      {
+        "name": "KV Store",
+        "url": "https://www.kvstore.it/"
+      },
+      {
+        "name": "PORTAROTOLO MODELLO GRETA"
+      }
+    ],
+    "snippet_path": "generated/snippet0237.html",
+    "base_url": "https://www.kvstore.it/portarotolo-glamour"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.ephedrawarehouse.com/"
+      },
+      {
+        "name": "All Diet Pills",
+        "url": "http://www.ephedrawarehouse.com/all-diet-pills.html"
+      },
+      {
+        "name": "ALRI T-X"
+      }
+    ],
+    "snippet_path": "generated/snippet0238.html",
+    "base_url": "http://www.ephedrawarehouse.com/alri-t-x-thyroid-diet-pill-alr-tx.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.amway.ie/"
+      },
+      {
+        "name": "Beauty",
+        "url": "https://www.amway.ie/beauty"
+      },
+      {
+        "name": "Make-up",
+        "url": "https://www.amway.ie/beauty/make-up"
+      },
+      {
+        "name": "Face",
+        "url": "https://www.amway.ie/beauty/make-up/face"
+      },
+      {
+        "name": "Blush Refill ARTISTRY SIGNATURE COLOR™"
+      }
+    ],
+    "snippet_path": "generated/snippet0239.html",
+    "base_url": "https://www.amway.ie/product/118398,artistry-signature-color-blush-refill-golden-light"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.drmass.com/index.html"
+      },
+      {
+        "name": "Anatomy Model",
+        "url": "http://www.drmass.com/anatomy.html"
+      },
+      {
+        "name": "Full Body Skeleton Models",
+        "url": "http://www.drmass.com/anatomy-skeletons.html"
+      },
+      {
+        "name": "Super Skeleton Sam, on hanging stand"
+      }
+    ],
+    "snippet_path": "generated/snippet0240.html",
+    "base_url": "http://www.drmass.com/superskeleton.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.HolidayCoro.com/"
+      },
+      {
+        "name": "DIY Products",
+        "url": "http://www.HolidayCoro.com/Products-s/1983.htm"
+      },
+      {
+        "name": "RGB Lights / Bulbs / Strip",
+        "url": "http://www.HolidayCoro.com/RGB-Lights-and-Bulbs-s/1971.htm"
+      },
+      {
+        "name": "Smart / Pixel RGB Lights - Nodes / Bullets",
+        "url": "http://www.HolidayCoro.com/Smart-Pixel-Nodes-s/1963.htm"
+      }
+    ],
+    "snippet_path": "generated/snippet0241.html",
+    "base_url": "http://www.holidaycoro.com/Smart-Pixel-LED-RGB-8mm-12mm-Nodes-12v-DC-p/711.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "Главная",
+        "url": "http://gsmpress.ru/main.html"
+      },
+      {
+        "name": "Смартфоны",
+        "url": "http://gsmpress.ru/phones"
+      },
+      {
+        "name": "LG",
+        "url": "http://gsmpress.ru/phonesbrand/lg.html"
+      }
+    ],
+    "snippet_path": "generated/snippet0242.html",
+    "base_url": "http://gsmpress.ru/phone-LG-Optimus-Vu-price.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Designeri",
+        "url": "https://www.fragrantica.ro/creatori/"
+      },
+      {
+        "name": "D E",
+        "url": "https://www.fragrantica.ro/designers-4/#D"
+      },
+      {
+        "name": "Demeter Fragrance",
+        "url": "https://www.fragrantica.ro/creatori/Demeter-Fragrance.html"
+      }
+    ],
+    "snippet_path": "generated/snippet0243.html",
+    "base_url": "https://www.fragrantica.ro/parfum/Demeter-Fragrance/Candy-Cane-Truffle-23284.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Главная",
+        "url": "https://shop-stoyal.ru/"
+      },
+      {
+        "name": "Увеличение пениса",
+        "url": "https://shop-stoyal.ru/catalog/big-penis.html"
+      },
+      {
+        "name": "Pro Extender® System"
+      }
+    ],
+    "snippet_path": "generated/snippet0244.html",
+    "base_url": "https://shop-stoyal.ru/catalog/pro-extender.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "ShopMania",
+        "url": "https://www.shopmania.co.za"
+      },
+      {
+        "name": "Computers",
+        "url": "https://www.shopmania.co.za/computers"
+      },
+      {
+        "name": "Components",
+        "url": "https://www.shopmania.co.za/components"
+      },
+      {
+        "name": "Motherboards",
+        "url": "https://www.shopmania.co.za/motherboards"
+      },
+      {
+        "name": "MSI Motherboards",
+        "url": "https://www.shopmania.co.za/motherboards/filter-brand-msi"
+      }
+    ],
+    "snippet_path": "generated/snippet0245.html",
+    "base_url": "https://www.shopmania.co.za/motherboards/p-msi-z270-gaming-m3-34843709"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.formymobile.co.uk/index.php"
+      },
+      {
+        "name": "Apple iPhone parts and accessories",
+        "url": "http://www.formymobile.co.uk/products.php?cat=284"
+      }
+    ],
+    "snippet_path": "generated/snippet0246.html",
+    "base_url": "http://www.formymobile.co.uk/iphone-3g-3gs-screen-protector"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.creativeglassguild.co.uk/"
+      },
+      {
+        "name": "Tools & Kilns",
+        "url": "http://www.creativeglassguild.co.uk/cat/glass-tools-kilns-fusing-stained"
+      },
+      {
+        "name": "Glass Bottle Cutters & Recycling",
+        "url": "http://www.creativeglassguild.co.uk/cat/glass-tools-kilns-fusing-stained/bottle-cutters-and-recycling"
+      },
+      {
+        "name": "Ephrem's Bottle Cutting Kit - Neck Cutting Adapter",
+        "url": "http://www.creativeglassguild.co.uk/prod/bottle-cutter-kit-neck-cutting-adapter"
+      }
+    ],
+    "snippet_path": "generated/snippet0247.html",
+    "base_url": "http://www.creativeglassguild.co.uk/prod/bottle-cutter-kit-neck-cutting-adapter"
+  },
+  {
+    "expected": [
+      {
+        "name": "StoreFront",
+        "url": "http://onlinestore.usatoday.com/storefront.aspx"
+      },
+      {
+        "name": "Sports Weekly Previous Issues",
+        "url": "http://onlinestore.usatoday.com/sports-weekly-previous-issues-c2.aspx"
+      },
+      {
+        "name": "1998",
+        "url": "http://onlinestore.usatoday.com/1998-c150.aspx"
+      },
+      {
+        "name": "February",
+        "url": "http://onlinestore.usatoday.com/february-c154.aspx"
+      },
+      {
+        "name": "02/04/1998 Issue of Sports Weekly"
+      }
+    ],
+    "snippet_path": "generated/snippet0248.html",
+    "base_url": "http://onlinestore.usatoday.com/02041998-issue-of-sports-weekly-p1261.aspx"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://oldfashioncandy.com/"
+      },
+      {
+        "name": "Sour Lips Lollipops Fundraiser"
+      }
+    ],
+    "snippet_path": "generated/snippet0249.html",
+    "base_url": "https://oldfashioncandy.com/high-school-fundraisers/sour-lips-fundraiser"
+  },
+  {
+    "expected": [
+      {
+        "name": "ShopMania",
+        "url": "https://www.shopmania.pl"
+      },
+      {
+        "name": "Komputery",
+        "url": "https://www.shopmania.pl/komputery"
+      },
+      {
+        "name": "Systemy komputerowe",
+        "url": "https://www.shopmania.pl/systemy-komputerowe"
+      },
+      {
+        "name": "Notebooki",
+        "url": "https://www.shopmania.pl/notebooki"
+      },
+      {
+        "name": "Notebooki Apple",
+        "url": "https://www.shopmania.pl/notebooki/filtrowac-marka-apple"
+      }
+    ],
+    "snippet_path": "generated/snippet0250.html",
+    "base_url": "https://www.shopmania.pl/notebooki/p-apple-macbook-pro-me293pl-a-38424802"
+  },
+  {
+    "expected": [
+      {
+        "name": "Volver a Inicio",
+        "url": "http://www.ahorrototal.com/"
+      },
+      {
+        "name": "SALONES",
+        "url": "https://www.ahorrototal.com/es/140-salones"
+      },
+      {
+        "name": "MESAS TV",
+        "url": "https://www.ahorrototal.com/es/248-mesas-tv"
+      },
+      {
+        "name": "Mesa TV económica en roble y cristal 110 cm"
+      }
+    ],
+    "snippet_path": "generated/snippet0251.html",
+    "base_url": "https://www.ahorrototal.com/es/mesas-tv/35153-mesa-tv-economica-en-roble-y-cristal-110-cm.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.magictricks.com/"
+      },
+      {
+        "name": "INDEX",
+        "url": "https://www.magictricks.com/guide.html"
+      },
+      {
+        "name": "WHERE TO START",
+        "url": "https://www.magictricks.com/where-to-start.html"
+      },
+      {
+        "name": "A-Z List of Tricks",
+        "url": "https://www.magictricks.com/complete-product-list.html"
+      },
+      {
+        "name": "Las Vegas Dice Trick"
+      }
+    ],
+    "snippet_path": "generated/snippet0252.html",
+    "base_url": "https://www.magictricks.com/las-vegas-dice-trick.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Accueil",
+        "url": "https://www.maxicoffee.com"
+      },
+      {
+        "name": "Accessoires Café / Thé",
+        "url": "https://www.maxicoffee.com/accessoires-cafe-c-113.html?osCsid=9r8d3qhotq7hba1fpg784p0qp4"
+      },
+      {
+        "name": "Contenants isothermes",
+        "url": "https://www.maxicoffee.com/contenants-isothermes-c-113_5.html?osCsid=9r8d3qhotq7hba1fpg784p0qp4"
+      },
+      {
+        "name": "Mugs isothermes / Tumblers",
+        "url": "https://www.maxicoffee.com/mugs-isothermes-tumblers-c-113_5_64.html?osCsid=9r8d3qhotq7hba1fpg784p0qp4"
+      }
+    ],
+    "snippet_path": "generated/snippet0253.html",
+    "base_url": "https://www.maxicoffee.com/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.toothbrushexpress.com/"
+      },
+      {
+        "name": "All",
+        "url": "http://www.toothbrushexpress.com/AllToothbrushes"
+      },
+      {
+        "name": "GUM Red Cote Disclosing Tablets 824"
+      }
+    ],
+    "snippet_path": "generated/snippet0254.html",
+    "base_url": "http://www.toothbrushexpress.com/GUM-Red-Cote-Disclosing-Tablets-824_p_211.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Каталог",
+        "url": "https://www.gameray.ru/catalog/"
+      },
+      {
+        "name": "экшены",
+        "url": "https://www.gameray.ru/actions/"
+      },
+      {
+        "name": "Saints Row: The Third"
+      }
+    ],
+    "snippet_path": "generated/snippet0255.html",
+    "base_url": "https://www.gameray.ru/saints_row_the_third/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Categories",
+        "url": "https://shop.strato.de/epages/61349091.sf/de_DE/?ObjectPath=/Shops/61349091/Categories"
+      },
+      {
+        "name": "KnitPro",
+        "url": "https://shop.strato.de/epages/61349091.sf/de_DE/?ObjectPath=/Shops/61349091/Categories/KnitPro"
+      },
+      {
+        "name": "KnitPro \"Symfonie\"",
+        "url": "https://shop.strato.de/epages/61349091.sf/de_DE/?ObjectPath=/Shops/61349091/Categories/KnitPro/KnitPro_Symfonie"
+      },
+      {
+        "name": "KnitPro Symfonie Holz Häkelnadeln mit einer Spi...",
+        "url": "https://shop.strato.de/epages/61349091.sf/de_DE/?ObjectPath=/Shops/61349091/Categories/KnitPro/KnitPro_Symfonie/%22KnitPro%20Symfonie%20Holz%20H%C3%A4kelnadeln%20mit%20einer%20Spitze%22"
+      },
+      {
+        "name": "Symfonie Holz Häkelnadel 5,0mm"
+      }
+    ],
+    "snippet_path": "generated/snippet0256.html",
+    "base_url": "https://shop.strato.de/epages/61349091.sf/de_DE/?ObjectPath=/Shops/61349091/Products/440047"
+  },
+  {
+    "expected": [
+      {
+        "name": "Strona główna",
+        "url": "https://www.sportclub.com.pl/"
+      },
+      {
+        "name": "Naciągi tenisowe",
+        "url": "https://www.sportclub.com.pl/pol_m_Naciagi-tenisowe-17293.html"
+      },
+      {
+        "name": "Technifibre",
+        "url": "https://www.sportclub.com.pl/pol_m_Naciagi-tenisowe_Technifibre-17340.html"
+      }
+    ],
+    "snippet_path": "generated/snippet0257.html",
+    "base_url": "https://www.sportclub.com.pl/pol_m_Naciagi-tenisowe_Technifibre-17340.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "EUROPAGES - B2B ara",
+        "url": "http://www.europages.com.tr/"
+      },
+      {
+        "name": "AVEA ENERJI ELEKTRIK VE OTOMASYON SAN. TIC. LTD. ŞTI."
+      }
+    ],
+    "snippet_path": "generated/snippet0258.html",
+    "base_url": "http://www.europages.com.tr/AVEA-ENERJI-ELEKTRIK-VE-OTOMASYON-SAN-TIC-LTD-STI/00000004713329-511136001.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.hoskinghardwood.com/"
+      },
+      {
+        "name": "Hardwood Floors",
+        "url": "https://www.hoskinghardwood.com/Hardwood-Floors.aspx?dId=7"
+      },
+      {
+        "name": "Somerset Hardwood Flooring",
+        "url": "https://www.hoskinghardwood.com/Hardwood-Floors/Somerset-Hardwood-Flooring.aspx?bId=5"
+      },
+      {
+        "name": "Somerset Prefinished Engineered Collection",
+        "url": "https://www.hoskinghardwood.com/Series/Hardwood-Floors/Somerset-Hardwood-Flooring/Somerset-Prefinished-Engineered-Collection.aspx?cId=163"
+      },
+      {
+        "name": "5 IN. Hickory Engineered (Specialty Collection)",
+        "url": "https://www.hoskinghardwood.com/Hardwood-Floors/Somerset-Hardwood-Flooring/5-IN-Hickory-Engineered-(Specialty-Collection).aspx?sId=2988"
+      },
+      {
+        "name": "Hickory Natural"
+      }
+    ],
+    "snippet_path": "generated/snippet0259.html",
+    "base_url": "https://www.hoskinghardwood.com/Hardwood-Floors/Somerset-Hardwood-Flooring/5-IN-Hickory-Engineered/Hickory-Natural.aspx?pId=57273"
+  },
+  {
+    "expected": [
+      {
+        "name": "Catalogue",
+        "url": "http://dauphinblanc.com/catalogue/"
+      },
+      {
+        "name": "Médiumnité",
+        "url": "http://dauphinblanc.com/categories/cheminement-interieur/mediumnite/"
+      },
+      {
+        "name": "Se libérer des âmes errantes"
+      }
+    ],
+    "snippet_path": "generated/snippet0262.html",
+    "base_url": "http://dauphinblanc.com/catalogue/se-liberer-des-ames-errantes/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://store.factoryeffex.com/"
+      },
+      {
+        "name": "Graphics",
+        "url": "http://store.factoryeffex.com/Graphics"
+      },
+      {
+        "name": "Official Licensed Graphic Kits",
+        "url": "http://store.factoryeffex.com/LicensedGraphicKits"
+      },
+      {
+        "name": "Sport Bike",
+        "url": "http://store.factoryeffex.com/sport-bike"
+      },
+      {
+        "name": "Honda",
+        "url": "http://store.factoryeffex.com/Honda_c_913.html"
+      },
+      {
+        "name": "EV-X Honda Complete Graphic Wrap Kit"
+      }
+    ],
+    "snippet_path": "generated/snippet0263.html",
+    "base_url": "http://store.factoryeffex.com/EV-X-Honda-Complete-Graphic-Wrap-Kit_p_2014.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "MA-Shops",
+        "url": "https://www.ma-shops.co.uk/?lang=en"
+      },
+      {
+        "name": "Pollandt",
+        "url": "https://www.ma-shops.co.uk/pollandt/?lang=en"
+      },
+      {
+        "name": "Paper money, banknotes",
+        "url": "https://www.ma-shops.co.uk/pollandt/cat.php5?catid=1150&lang=en"
+      },
+      {
+        "name": "Germany",
+        "url": "https://www.ma-shops.co.uk/pollandt/cat.php5?catid=10963&lang=en"
+      },
+      {
+        "name": "Federal Republic, 1948 - today",
+        "url": "https://www.ma-shops.co.uk/pollandt/cat.php5?catid=7254&lang=en"
+      },
+      {
+        "name": "Bank Deutscher Länder 1948-1949",
+        "url": "https://www.ma-shops.co.uk/pollandt/cat.php5?catid=13019&lang=en"
+      }
+    ],
+    "snippet_path": "generated/snippet0264.html",
+    "base_url": "https://www.ma-shops.co.uk/pollandt/item.php5?id=25697&lang=en"
+  },
+  {
+    "expected": [
+      {
+        "name": "Accueil",
+        "url": "http://www.promotheatre.com/"
+      },
+      {
+        "name": "Théâtre Contemporain",
+        "url": "http://www.promotheatre.com/genres/theatre_contemporain"
+      },
+      {
+        "name": "LE PAQUET AVEC GERARD JUGNOT"
+      }
+    ],
+    "snippet_path": "generated/snippet0265.html",
+    "base_url": "http://www.promotheatre.com/petit_theatre_de_paris/le_paquet_avec_gerard_jugnot.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.readyliftstore.com/"
+      },
+      {
+        "name": "ReadyLift Videos",
+        "url": "http://www.readyliftstore.com/ReadyLift_Videos_s/149.htm"
+      }
+    ],
+    "snippet_path": "generated/snippet0268.html",
+    "base_url": "http://www.readyliftstore.com/2007_2013_GM_1500_4WD_4_Inch_Mild_Lift_Kit_p/rl69-3485.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "Designers",
+        "url": "https://www.fragrantica.com/designers/"
+      },
+      {
+        "name": "F-H",
+        "url": "https://www.fragrantica.com/designers-5/#H"
+      },
+      {
+        "name": "Hollister",
+        "url": "https://www.fragrantica.com/designers/Hollister.html"
+      }
+    ],
+    "snippet_path": "generated/snippet0269.html",
+    "base_url": "https://www.fragrantica.com/perfume/Hollister/Jake-4310.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.soultanicals.com"
+      },
+      {
+        "name": "Hair Care",
+        "url": "http://www.soultanicals.com/hair-care/"
+      },
+      {
+        "name": "Master Hair Cleanse- Curl Detox"
+      }
+    ],
+    "snippet_path": "generated/snippet0270.html",
+    "base_url": "http://www.soultanicals.com/master-hair-cleanse-curl-detox/"
+  },
+  {
+    "expected": [
+      {
+        "name": "SW",
+        "url": "http://www.stuartweitzman.com/home/"
+      },
+      {
+        "name": "Bridal",
+        "url": "http://www.stuartweitzman.com/bridal/"
+      },
+      {
+        "name": "Bags",
+        "url": "http://www.stuartweitzman.com/bridal/handbags/"
+      },
+      {
+        "name": "KEEPING"
+      }
+    ],
+    "snippet_path": "generated/snippet0271.html",
+    "base_url": "http://www.stuartweitzman.com/products/keeping/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Main page",
+        "url": "https://www.poppers-shop.de"
+      },
+      {
+        "name": "Catalog",
+        "url": "https://www.poppers-shop.de/shop/index.php"
+      },
+      {
+        "name": "Stimulant",
+        "url": "https://www.poppers-shop.de/shop/index.php?cPath=314"
+      }
+    ],
+    "snippet_path": "generated/snippet0272.html",
+    "base_url": "https://www.poppers-shop.de/shop/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Главная",
+        "url": "http://homedorf.ru/"
+      },
+      {
+        "name": "Для ванной",
+        "url": "http://homedorf.ru/catalog/bathroom"
+      },
+      {
+        "name": "Навесные полки и вешалки для ванной",
+        "url": "http://homedorf.ru/catalog/polki-i-veshalki"
+      },
+      {
+        "name": "Подвесные полки",
+        "url": "http://homedorf.ru/catalog/podvesnye-polki"
+      },
+      {
+        "name": "Подвесная полка-корзина"
+      }
+    ],
+    "snippet_path": "generated/snippet0273.html",
+    "base_url": "http://homedorf.ru/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Diseñadores",
+        "url": "https://www.fragrantica.es/disenador/"
+      },
+      {
+        "name": "D E",
+        "url": "https://www.fragrantica.es/designers-4/#D"
+      },
+      {
+        "name": "Demeter Fragrance",
+        "url": "https://www.fragrantica.es/disenador/Demeter-Fragrance.html"
+      }
+    ],
+    "snippet_path": "generated/snippet0274.html",
+    "base_url": "https://www.fragrantica.es/perfume/Demeter-Fragrance/Devils-Food-7758.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.OrionLeatherCompany.com/"
+      },
+      {
+        "name": "Our Collections",
+        "url": "http://www.OrionLeatherCompany.com/Collections-s/352.htm"
+      }
+    ],
+    "snippet_path": "generated/snippet0275.html",
+    "base_url": "http://www.orionleathercompany.com/1-1-4-Tan-English-Bridle-Leather-Dress-Belt-p/35enbrtandomestnbklb070gvblksn.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.gps.co.uk/default.asp"
+      },
+      {
+        "name": "EFIS Systems",
+        "url": "https://www.gps.co.uk/efis-systems/c-1-439/"
+      },
+      {
+        "name": "Dynon Avionics EFIS",
+        "url": "https://www.gps.co.uk/efis-systems/dynon-avionics-efis/c-1-439-105/"
+      },
+      {
+        "name": "Accessories",
+        "url": "https://www.gps.co.uk/efis-systems/dynon-avionics-efis/accessories/c-1-439-105-111/"
+      },
+      {
+        "name": "Dynon EGT Clamp Probe (100405-001)"
+      }
+    ],
+    "snippet_path": "generated/snippet0277.html",
+    "base_url": "https://www.gps.co.uk/dynon-egt-clamp-probe-100405-001/p-0-714/",
+    "xfail": "Nested list elements. It is not supported for now."
+  },
+  {
+    "expected": [
+      {
+        "name": "Halloween Costumes",
+        "url": "https://www.wondercostumes.com/"
+      },
+      {
+        "name": "Theme Costumes",
+        "url": "https://www.wondercostumes.com/theme_costumes-cttche.html"
+      },
+      {
+        "name": "Professional Costumes",
+        "url": "https://www.wondercostumes.com/professional-costumes-qsprofess.html"
+      },
+      {
+        "name": "Cheerleader Costumes"
+      }
+    ],
+    "snippet_path": "generated/snippet0278.html",
+    "base_url": "https://www.wondercostumes.com/cheerleader-costume-qscheerleader.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "https://www.nailsuperstore.com/"
+      },
+      {
+        "name": "Nail Brush & Preps",
+        "url": "https://www.nailsuperstore.com/nail-supplies/nail-brush-preps/43"
+      },
+      {
+        "name": "Nail Preps",
+        "url": "https://www.nailsuperstore.com/nail-supply/nail-preps/198"
+      }
+    ],
+    "snippet_path": "generated/snippet0279.html",
+    "base_url": "https://www.nailsuperstore.com/nail-products/opi-nail-prep-bond-aid-ph-balancing-agent/49778"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.creditcardsco.com/"
+      },
+      {
+        "name": "Credit Cards",
+        "url": "http://www.creditcardsco.com/credit-cards.html"
+      },
+      {
+        "name": "Simply Cash OPEN AMEX Business Card Reviews & Application"
+      },
+      {
+        "name": "Info"
+      }
+    ],
+    "snippet_path": "generated/snippet0280.html",
+    "base_url": "http://www.creditcardsco.com/american-express-simply-cash-business-card.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "CoolerKit.dk",
+        "url": "https://www.coolerkit.dk/shop/frontpage.html"
+      },
+      {
+        "name": "Luftkøling",
+        "url": "https://www.coolerkit.dk/shop/luftkoeling-886s1.html"
+      },
+      {
+        "name": "CPU Kølere",
+        "url": "https://www.coolerkit.dk/shop/cpu-koelere-213s1.html"
+      },
+      {
+        "name": "AMD Socket 754/939/940/F",
+        "url": "https://www.coolerkit.dk/shop/amd-socket-754-227c1.html"
+      }
+    ],
+    "snippet_path": "generated/snippet0281.html",
+    "base_url": "https://www.coolerkit.dk/shop/thermalright-true-spirit-3669p.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Accueil",
+        "url": "https://www.lierac.fr/"
+      },
+      {
+        "name": "Homme"
+      }
+    ],
+    "snippet_path": "generated/snippet0283.html",
+    "base_url": "https://www.lierac.fr/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Solar Bewässerungssystem",
+        "url": "https://www.solarversand.de/solar-bewaesserungssystem/"
+      },
+      {
+        "name": "Ersatzteile",
+        "url": "https://www.solarversand.de/solar-bewaesserungssystem/ersatzteile/"
+      }
+    ],
+    "snippet_path": "generated/snippet0284.html",
+    "base_url": "https://www.solarversand.de/t-stueck-weiss-fuer-druckschlauch-911507/#product--publish-comment"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.downloadandprint.com"
+      },
+      {
+        "name": "Beyond Weddings",
+        "url": "http://www.downloadandprint.com/templates-category/beyond-weddings/"
+      },
+      {
+        "name": "Baby Shower",
+        "url": "http://www.downloadandprint.com/templates-category/beyond-weddings/beyond-weddings-baby-shower/"
+      }
+    ],
+    "snippet_path": "generated/snippet0285.html",
+    "base_url": "http://www.downloadandprint.com/templates/baby-shower-template-onsie-clothesline-thank-you/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Животные",
+        "url": "http://endorphone.com.ua/case/animals"
+      }
+    ],
+    "snippet_path": "generated/snippet0286.html",
+    "base_url": "http://endorphone.com.ua/case/animals/korichnevyy-shchenok-na-belom-fone-m3-note"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.allposters.co.uk"
+      },
+      {
+        "name": "Subjects",
+        "url": "http://www.allposters.co.uk/-st/Subjects-Posters_c41633_.htm"
+      },
+      {
+        "name": "Hobbies",
+        "url": "http://www.allposters.co.uk/-st/Hobby-Posters_c1404_.htm"
+      },
+      {
+        "name": "Gambling",
+        "url": "http://www.allposters.co.uk/-st/Gambling-Posters_c56023_.htm"
+      },
+      {
+        "name": "Poker",
+        "url": "http://www.allposters.co.uk/-st/Poker-Posters_c71679_.htm"
+      }
+    ],
+    "snippet_path": "generated/snippet0287.html",
+    "base_url": "http://www.allposters.co.uk/-sp/SOML-Poker-Night-Posters_i7360038_.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "Главная",
+        "url": "http://www.vasko.ru/"
+      },
+      {
+        "name": "Товары для дачи",
+        "url": "http://www.vasko.ru/to_catalog/action_categDesc/id_787/"
+      },
+      {
+        "name": "Газонокосилки и триммеры",
+        "url": "http://www.vasko.ru/to_catalog/action_categDesc/id_1142/"
+      },
+      {
+        "name": "Запчасти, принадлежности",
+        "url": "http://www.vasko.ru/to_catalog/action_categDesc/id_1207/"
+      }
+    ],
+    "snippet_path": "generated/snippet0288.html",
+    "base_url": "http://www.vasko.ru/to_catalog/action_goodDesc/id_40266/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Shopping",
+        "url": "http://www.kelkoo.de"
+      },
+      {
+        "name": "Geschenke, Gutscheine & Tickets",
+        "url": "http://www.kelkoo.de/c-100014113-geschenke-gutscheine-tickets.html"
+      }
+    ],
+    "snippet_path": "generated/snippet0289.html",
+    "base_url": "http://www.kelkoo.de/c-100014113-geschenke-gutscheine-tickets/keyword/tasse"
+  },
+  {
+    "expected": [
+      {
+        "name": "Top",
+        "url": "http://www.aeconline.ae/13/category/category_product4_13.html"
+      },
+      {
+        "name": "Metals (05)",
+        "url": "http://www.aeconline.ae/13/category/13/24/94/category_product_13.html"
+      }
+    ],
+    "snippet_path": "generated/snippet0290.html",
+    "base_url": "http://www.aeconline.ae/13/category/13/30/73/category_product_13.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.bludot.com.au/"
+      },
+      {
+        "name": "Modern SHILF Shelving Version 1.0"
+      }
+    ],
+    "snippet_path": "generated/snippet0292.html",
+    "base_url": "http://www.bludot.com.au/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.creatormundi.com"
+      },
+      {
+        "name": "Gifts By Season",
+        "url": "http://www.creatormundi.com/product-category/seasons/"
+      },
+      {
+        "name": "Advent & Christmas Gifts",
+        "url": "http://www.creatormundi.com/product-category/seasons/advent-christmas-gifts/"
+      },
+      {
+        "name": "Guidance"
+      }
+    ],
+    "snippet_path": "generated/snippet0293.html",
+    "base_url": "http://www.creatormundi.com/product/guidance/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home Page",
+        "url": "http://www.shop2wear.com/"
+      },
+      {
+        "name": "MLB Baseball Sunglasses",
+        "url": "http://www.shop2wear.com/MLB-Baseball-Sun-Glasses.asp"
+      },
+      {
+        "name": "Florida Marlins Sunglasses"
+      }
+    ],
+    "snippet_path": "generated/snippet0294.html",
+    "base_url": "http://www.shop2wear.com/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Главная",
+        "url": "http://kislis.com/"
+      },
+      {
+        "name": "Белье",
+        "url": "http://kislis.com/underwear/"
+      },
+      {
+        "name": "Трусы",
+        "url": "http://kislis.com/underwear/briefs/"
+      }
+    ],
+    "snippet_path": "generated/snippet0295.html",
+    "base_url": "http://kislis.com/underwear/briefs/trusy-zhenskie-infinity-lingerie-227731-florenca/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.cheesemonthclub.com/"
+      },
+      {
+        "name": "The International Beer Club"
+      }
+    ],
+    "snippet_path": "generated/snippet0296.html",
+    "base_url": "http://www.cheesemonthclub.com/the-international-beer-club.htm"
+  },
+  {
+    "expected": [
+      {
+        "name": "Home",
+        "url": "http://www.worldpaintsupply.com"
+      },
+      {
+        "name": "Painting Supplies",
+        "url": "http://www.worldpaintsupply.com/categories/Painting-Supplies/"
+      },
+      {
+        "name": "Caulks, Sealants, Adhesives, Drywall Materials",
+        "url": "http://www.worldpaintsupply.com/categories/Painting-Supplies/Caulks%2C-Sealants%2C-Adhesives%2C-Drywall-Materials-/"
+      },
+      {
+        "name": "Red Devil Masonry and Concrete Sealant Gray 10 oz."
+      }
+    ],
+    "snippet_path": "generated/snippet0297.html",
+    "base_url": "http://www.worldpaintsupply.com/red-devil-masonry-and-concrete-sealant-gray-10-oz/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Ardes.bg",
+        "url": "https://ardes.bg/"
+      },
+      {
+        "name": "Лаптопи",
+        "url": "https://ardes.bg/laptopi/laptopi"
+      },
+      {
+        "name": "Лаптопи HP",
+        "url": "https://ardes.bg/laptopi/laptopi/hp"
+      }
+    ],
+    "snippet_path": "generated/snippet0298.html",
+    "base_url": "https://ardes.bg/product/hp-probook-450-g2-chanta-hp-83733"
+  },
+  {
+    "expected": [
+      {
+        "name": "Accueil",
+        "url": "https://www.maniac-auto.com/fr/"
+      },
+      {
+        "name": "Protection & Cire",
+        "url": "https://www.maniac-auto.com/fr/132-protection-cire"
+      },
+      {
+        "name": "Cire Naturelle",
+        "url": "https://www.maniac-auto.com/fr/90-cire-naturelle"
+      },
+      {
+        "name": "Fuzion Carnauba Polymer Estate Wax Mini Wolfgang"
+      }
+    ],
+    "snippet_path": "generated/snippet0299.html",
+    "base_url": "https://www.maniac-auto.com/fr/cire-naturelle/14-fuzion-carnauba-polymer-estate-wax-mini.html"
+  },
+  {
+    "expected": [
+      {
+        "name": "Úvodní strana",
+        "url": "https://www.officedepot.cz/"
+      },
+      {
+        "name": "Třídění a archivace",
+        "url": "https://www.officedepot.cz/trideni-archivace/"
+      },
+      {
+        "name": "Prospektové obaly",
+        "url": "https://www.officedepot.cz/prospektove-obaly/"
+      },
+      {
+        "name": "Závěsné \"U\" obaly Niceday - A4, 55 mikronů, čiré, 50 ks"
+      }
+    ],
+    "snippet_path": "generated/snippet0300.html",
+    "base_url": "https://www.officedepot.cz/zavesne-u-obaly-niceday-a4-55-mikronu-cire-50-ks/"
+  }
+]

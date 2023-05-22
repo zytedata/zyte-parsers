@@ -43,3 +43,10 @@ module = [
     "html_text.*",
 ]
 ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = [
+    "tests.*",
+]
+# Allow test functions to be untyped
+disallow_untyped_defs = false
