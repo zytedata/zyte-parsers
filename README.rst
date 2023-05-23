@@ -22,16 +22,12 @@ zyte-parsers
    :target: https://zyte-parsers.readthedocs.io/en/stable/?badge=stable
    :alt: Documentation Status
 
-``zyte-parsers`` contains functions that extract data from webpage parts.
+.. description starts
 
-Quick Start
-***********
+``zyte-parsers`` is a Python 3.7+ library that contains functions to extract
+data from webpage parts.
 
-Installation
-============
+.. description ends
 
-.. code-block::
-
-    pip install zyte-parsers
-
-Requires **Python 3.7+**.
+* Documentation: https://zyte-parsers.readthedocs.io/en/latest/
+* License: BSD 3-clause

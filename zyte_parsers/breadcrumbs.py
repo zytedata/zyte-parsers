@@ -42,6 +42,7 @@ def extract_breadcrumbs(
     with next item can be a child of element with previous breadcrumb item.
     It also post-processes extracted breadcrumbs by using semantic markup or
     the location of breadcrumb separators.
+
     :param node: Node representing and including breadcrumb component.
     :param base_url: Base URL of site.
     :param max_search_depth: Max depth for searching anchors.

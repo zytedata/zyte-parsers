@@ -5,3 +5,4 @@ Changes
 ------------------
 
 * Initial version.
+* Includes extracting of :class:`.Breadcrumb` objects.
