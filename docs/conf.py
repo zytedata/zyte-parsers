@@ -20,7 +20,7 @@ extensions = [
     "sphinx.ext.viewcode",
 ]
 
-templates_path = ["_templates"]
+# templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 
@@ -28,7 +28,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = "sphinx_rtd_theme"
-html_static_path = ["_static"]
+# html_static_path = ["_static"]
 
 intersphinx_mapping = {
     "python": (
