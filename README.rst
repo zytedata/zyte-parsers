@@ -10,12 +10,12 @@ zyte-parsers
    :target: https://pypi.python.org/pypi/zyte-parsers
    :alt: Supported Python Versions
 
-.. image:: https://github.com/scrapinghub/zyte-parsers/workflows/tox/badge.svg
-   :target: https://github.com/scrapinghub/zyte-parsers/actions
+.. image:: https://github.com/zytedata/zyte-parsers/workflows/tox/badge.svg
+   :target: https://github.com/zytedata/zyte-parsers/actions
    :alt: Build Status
 
-.. image:: https://codecov.io/github/scrapinghub/zyte-parsers/coverage.svg?branch=master
-   :target: https://codecov.io/gh/scrapinghub/zyte-parsers
+.. image:: https://codecov.io/github/zytedata/zyte-parsers/coverage.svg?branch=master
+   :target: https://codecov.io/gh/zytedata/zyte-parsers
    :alt: Coverage report
 
 .. image:: https://readthedocs.org/projects/zyte-parsers/badge/?version=stable
