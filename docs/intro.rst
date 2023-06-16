@@ -11,6 +11,15 @@ elements. The input element can be an instance of either
 Data types
 ==========
 
+Brand
+-----
+
+.. autoclass:: zyte_parsers.Brand
+   :members:
+   :undoc-members:
+
+.. autofunction:: zyte_parsers.extract_brand
+
 Breadcrumbs
 -----------
 
