@@ -25,6 +25,15 @@ Breadcrumbs
 
 .. autofunction:: zyte_parsers.extract_breadcrumbs
 
+GTIN
+----
+
+.. autoclass:: zyte_parsers.Gtin
+   :members:
+   :undoc-members:
+
+.. autofunction:: zyte_parsers.extract_gtin
+
 Price
 -----
 

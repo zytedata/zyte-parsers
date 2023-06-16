@@ -24,10 +24,13 @@ classifiers = [
 requires-python = ">=3.8"
 dependencies = [
     "attrs>=21.3.0",
+    "gtin-validator>=1.0.3",
     "html-text",
     "lxml",
     "parsel",
     "price-parser>=0.3.4",
+    "python-stdnum>=1.19",
+    "six",  # unstated dependency of gtin-validator
     "w3lib",
 ]
 dynamic = ["version"]
@@ -47,7 +50,9 @@ multi_line_output = 3
 
 [[tool.mypy.overrides]]
 module = [
+    "gtin.validator.*",
     "html_text.*",
+    "stdnum.*",
 ]
 ignore_missing_imports = true
 
