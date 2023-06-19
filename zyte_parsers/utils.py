@@ -78,7 +78,9 @@ def extract_link(a_node: SelectorOrElement, base_url: str) -> Optional[str]:
     return link
 
 
-def extract_text(node: SelectorOrElement, guess_layout: bool = False) -> Optional[str]:
+def extract_text(
+    node: Optional[SelectorOrElement], guess_layout: bool = False
+) -> Optional[str]:
     """Extract text from HTML using ``html_text``.
 
     >>> extract_text(fromstring("<p>foo  bar </p>"))
@@ -86,6 +88,8 @@ def extract_text(node: SelectorOrElement, guess_layout: bool = False) -> Optiona
     >>> extract_text(Selector(text="<p>foo  bar </p>"))
     'foo bar'
     """
+    if node is None:
+        return None
     node = input_to_element(node)
     value = html_text.extract_text(node, guess_layout=guess_layout)
     if value:

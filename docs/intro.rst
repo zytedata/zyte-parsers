@@ -40,3 +40,14 @@ Price
 -----
 
 .. autofunction:: zyte_parsers.extract_price
+
+Ratings and review count
+------------------------
+
+.. autoclass:: zyte_parsers.AggregateRating
+   :members:
+   :undoc-members:
+
+.. autofunction:: zyte_parsers.extract_rating
+.. autofunction:: zyte_parsers.extract_rating_stars
+.. autofunction:: zyte_parsers.extract_review_count
