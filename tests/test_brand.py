@@ -1,6 +1,6 @@
 from lxml.html import fromstring
 
-from zyte_parsers.brand import Brand, extract_brand
+from zyte_parsers.brand import extract_brand_name
 
 
 def test_extract_brand():
@@ -15,11 +15,11 @@ def test_extract_brand():
     )
 
     def exa(xpath):
-        return extract_brand(root.xpath(xpath)[0], search_depth=2)
+        return extract_brand_name(root.xpath(xpath)[0], search_depth=2)
 
-    assert exa('//div[@id="brand"]') == Brand("simple brand")
-    assert exa('//img[@id="img-alt"]') == Brand("my alt brand")
-    assert exa('//img[@id="img-title"]') == Brand("my title brand")
+    assert exa('//div[@id="brand"]') == "simple brand"
+    assert exa('//img[@id="img-alt"]') == "my alt brand"
+    assert exa('//img[@id="img-title"]') == "my title brand"
     assert exa('//img[@id="img-bare"]') is None
-    assert exa('//div[@id="wrapper"]') == Brand("my alt brand")
-    assert exa('//img[@id="img-long"]') == Brand("short brand")
+    assert exa('//div[@id="wrapper"]') == "my alt brand"
+    assert exa('//img[@id="img-long"]') == "short brand"

@@ -14,11 +14,7 @@ Data types
 Brand
 -----
 
-.. autoclass:: zyte_parsers.Brand
-   :members:
-   :undoc-members:
-
-.. autofunction:: zyte_parsers.extract_brand
+.. autofunction:: zyte_parsers.extract_brand_name
 
 Breadcrumbs
 -----------
