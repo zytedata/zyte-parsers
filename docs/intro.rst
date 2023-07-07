@@ -8,8 +8,8 @@ elements. The input element can be an instance of either
 
 .. autoclass:: zyte_parsers.SelectorOrElement
 
-Data types
-==========
+Parsers
+=======
 
 Brand
 -----
