@@ -1,7 +1,7 @@
 Changes
 =======
 
-0.2.0 (YYYY-MM-DD)
+0.2.0 (2023-07-07)
 ------------------
 
 * Add the ``extract_brand_name`` function for extracting brands.
