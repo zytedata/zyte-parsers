@@ -1,8 +1,9 @@
+import itertools
 from typing import Any, Callable, Iterable, Optional
 from urllib.parse import urljoin
 
 import html_text
-from lxml.html import fromstring  # noqa: F401
+from lxml.html import HtmlElement, fromstring  # noqa: F401
 from parsel import Selector  # noqa: F401
 from w3lib.html import strip_html5_whitespace
 
@@ -108,3 +109,17 @@ def first_satisfying(
         return next(x for x in xs if condition_fun(x))
     except StopIteration:
         return default
+
+
+def iterwalk_limited(node: HtmlElement, search_depth: int) -> Iterable[HtmlElement]:
+    yield node
+
+    if search_depth <= 0:
+        return
+
+    for child in node:
+        yield from iterwalk_limited(child, search_depth - 1)
+
+
+def take(iterable: Iterable[Any], n: int):
+    return list(itertools.islice(iterable, n))

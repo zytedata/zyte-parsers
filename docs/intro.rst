@@ -8,8 +8,13 @@ elements. The input element can be an instance of either
 
 .. autoclass:: zyte_parsers.SelectorOrElement
 
-Data types
-==========
+Parsers
+=======
+
+Brand
+-----
+
+.. autofunction:: zyte_parsers.extract_brand_name
 
 Breadcrumbs
 -----------
