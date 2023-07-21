@@ -27,6 +27,7 @@ dependencies = [
     "html-text",
     "lxml",
     "parsel",
+    "price-parser>=0.3.4",
     "w3lib",
 ]
 dynamic = ["version"]
