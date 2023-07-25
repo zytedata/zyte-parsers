@@ -1,4 +1,3 @@
-from decimal import Decimal
 from typing import Optional
 
 from price_parser import Price
@@ -7,12 +6,14 @@ from zyte_parsers import SelectorOrElement
 from zyte_parsers.utils import extract_text
 
 
-def extract_price(node: SelectorOrElement) -> Optional[Decimal]:
+def extract_price(
+    node: SelectorOrElement, *, currency_hint: Optional[str] = None
+) -> Price:
     """Extract a price value from a node that contains it.
 
     :param node: Node including the price text.
-    :return: The price value or None.
+    :param currency_hint: Currency hint for ``price-parser``.
+    :return: The price value as a ``price_parser.Price`` object.
     """
     text = extract_text(node)
-    price_parsed = Price.fromstring(text)
-    return price_parsed.amount
+    return Price.fromstring(text, currency_hint=currency_hint)
