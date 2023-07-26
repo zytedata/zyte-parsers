@@ -16,6 +16,8 @@ from zyte_parsers.price import extract_price
         ("<p>23.5</p>", "USD", Price(Decimal(23.5), "USD", "23.5")),
         ("<p>$23.5</p>", "USD", Price(Decimal(23.5), "$", "23.5")),
         ("<p>£23.5</p>", "USD", Price(Decimal(23.5), "£", "23.5")),
+        ("<p>23.5</p>", "<b>USD</b>", Price(Decimal(23.5), "USD", "23.5")),
+        ("<p>23.5</p>", fromstring("<b>USD</b>"), Price(Decimal(23.5), "USD", "23.5")),
     ],
 )
 def test_price_simple(html, currency_hint, expected):
