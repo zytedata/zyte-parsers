@@ -24,3 +24,8 @@ Breadcrumbs
    :undoc-members:
 
 .. autofunction:: zyte_parsers.extract_breadcrumbs
+
+Price
+-----
+
+.. autofunction:: zyte_parsers.extract_price
