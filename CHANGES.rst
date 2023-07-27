@@ -1,6 +1,12 @@
 Changes
 =======
 
+0.3.0 (YYYY-MM-DD)
+------------------
+
+* Now requires ``price-parser >= 0.3.4``.
+* Add the ``extract_price`` function for extracting prices and currencies.
+
 0.2.0 (2023-07-07)
 ------------------
 
