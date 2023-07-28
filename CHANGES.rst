@@ -1,7 +1,7 @@
 Changes
 =======
 
-0.3.0 (YYYY-MM-DD)
+0.3.0 (2023-07-28)
 ------------------
 
 * Now requires ``price-parser >= 0.3.4``.
