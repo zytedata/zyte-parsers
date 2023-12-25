@@ -1,5 +1,5 @@
 import re
-from typing import Optional
+from typing import Optional, Union
 
 import attr
 from gtin.validator import is_valid_GTIN
@@ -34,7 +34,7 @@ GTIN_PREFIX_REGEX = re.compile("|".join(GTIN_PREFIX), re.IGNORECASE)
 GTIN_CENTER_REGEX = re.compile(r"^\D*|\D*$")
 
 
-def extract_gtin(node: SelectorOrElement) -> Optional[Gtin]:
+def extract_gtin(node: Union[SelectorOrElement, str]) -> Optional[Gtin]:
     """Extract a GTIN (Global Trade Item Number) from a node that contains its text.
 
     It detects the GTIN type and returns it together with the cleaned GTIN
@@ -44,8 +44,12 @@ def extract_gtin(node: SelectorOrElement) -> Optional[Gtin]:
     :param node: Node including the GTIN text.
     :return: A GTIN item.
     """
-    node = input_to_element(node)
-    gtin = extract_text(node)
+    gtin: Optional[str]
+    if isinstance(node, str):
+        gtin = node
+    else:
+        node = input_to_element(node)
+        gtin = extract_text(node)
     gtin_id = extract_gtin_id(gtin)
     gtin_class = gtin_classification(gtin_id)
     if gtin_class:

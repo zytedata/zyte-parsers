@@ -1,5 +1,6 @@
 import pytest
 from lxml.html import fromstring
+from parsel import Selector
 
 from zyte_parsers.gtin import Gtin, extract_gtin, extract_gtin_id, gtin_classification
 
@@ -171,3 +172,11 @@ GTINS = [
 @pytest.mark.parametrize(["value", "expected"], GTINS)
 def test_extract_gtin(value, expected):
     assert expected == extract_gtin(fromstring(f"<p>{value}</p>"))
+
+
+def test_extract_gtin_types():
+    value = "978-1-933624-34-1"
+    expected = Gtin("isbn13", "9781933624341")
+    assert expected == extract_gtin(value)
+    assert expected == extract_gtin(fromstring(f"<p>{value}</p>"))
+    assert expected == extract_gtin(Selector(text=f"<p>{value}</p>"))
