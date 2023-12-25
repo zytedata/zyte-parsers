@@ -58,7 +58,7 @@ def extract_gtin(node: Union[SelectorOrElement, str]) -> Optional[Gtin]:
     return None
 
 
-def remove_gtin_numeric_prefix(gtin_code: str) -> str:
+def _remove_gtin_numeric_prefix(gtin_code: str) -> str:
     """
     The function removes the gtin specific numeric prefix from the gtin text if
     length after prefix removal is the expected length for that prefix.
@@ -91,7 +91,7 @@ def extract_gtin_id(gtin_code: Optional[str]) -> Optional[str]:
     """
     if gtin_code:
         gtin_id_alphanum = GTIN_MATCH_SPECIAL_CHARACTER_REGEX.sub("", gtin_code)
-        gtin_id_suffix = remove_gtin_numeric_prefix(gtin_id_alphanum)
+        gtin_id_suffix = _remove_gtin_numeric_prefix(gtin_id_alphanum)
         gtin_center = GTIN_CENTER_REGEX.sub("", gtin_id_suffix)
         gtin_id = GTIN_MATCH_NON_NUMERIC_REGEX.sub("", gtin_center)
         if gtin_id == gtin_center:
