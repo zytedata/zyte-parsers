@@ -4,7 +4,8 @@ Intro
 
 ``zyte-parsers`` provides functions that extract specific data from HTML
 elements. The input element can be an instance of either
-:class:`parsel.selector.Selector` or :class:`lxml.html.HtmlElement`.
+:class:`parsel.selector.Selector` or :class:`lxml.html.HtmlElement`. Some
+functions also support passing a string as input.
 
 .. autoclass:: zyte_parsers.SelectorOrElement
 

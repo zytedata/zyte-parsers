@@ -6,7 +6,6 @@ from gtin.validator import is_valid_GTIN
 from stdnum import isbn, ismn, issn
 
 from . import SelectorOrElement
-from .api import input_to_element
 from .utils import extract_text
 
 
@@ -35,20 +34,19 @@ GTIN_CENTER_REGEX = re.compile(r"^\D*|\D*$")
 
 
 def extract_gtin(node: Union[SelectorOrElement, str]) -> Optional[Gtin]:
-    """Extract a GTIN (Global Trade Item Number) from a node that contains its text.
+    """Extract a GTIN (Global Trade Item Number) from a node or a string that contains its text.
 
     It detects the GTIN type and returns it together with the cleaned GTIN
     value. The following types are supported: `isbn10`, `isbn13`, `issn`,
     `ismn`, `upc`, `gtin8`, `gtin13`, `gtin14`.
 
-    :param node: Node including the GTIN text.
+    :param node: A node or a string that includes the GTIN text.
     :return: A GTIN item.
     """
     gtin: Optional[str]
     if isinstance(node, str):
         gtin = node
     else:
-        node = input_to_element(node)
         gtin = extract_text(node)
     gtin_id = extract_gtin_id(gtin)
     gtin_class = gtin_classification(gtin_id)
