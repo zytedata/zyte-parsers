@@ -1,4 +1,4 @@
-__version__ = "0.3.0"
+__version__ = "0.4.0"
 
 from .api import SelectorOrElement
 from .brand import extract_brand_name
