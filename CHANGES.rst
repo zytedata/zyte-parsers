@@ -1,6 +1,21 @@
 Changes
 =======
 
+0.4.0 (YYYY-MM-DD)
+------------------
+
+* New dependencies:
+
+  * ``gtin-validator >= 1.0.3``
+  * ``python-stdnum >= 1.19``
+  * ``six``
+
+* Add the ``extract_gtin`` function for extracting GTIN values of various
+  types.
+* Add support for text input to ``extract_price``.
+* Add support for Python 3.12.
+* CI improvements.
+
 0.3.0 (2023-07-28)
 ------------------
 
