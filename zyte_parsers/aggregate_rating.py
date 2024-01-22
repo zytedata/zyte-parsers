@@ -33,7 +33,7 @@ def extract_rating(node: SelectorOrElement) -> AggregateRating:
     node_nums = _get_rating_numbers(node_text)
     if len(node_nums) == 2:
         rating_value = node_nums[0]
-        best_rating = node_nums[1]
+        best_rating = _check_best_rating(node_nums[1], rating_value)
     elif len(node_nums) == 1:
         rating_value = node_nums[0]
         assert isinstance(rating_value, float)

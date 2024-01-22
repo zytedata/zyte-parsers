@@ -39,7 +39,7 @@
     "html": "<div xd-target-node=\"\">5 Average   1 Review</div>",
     "parent_html": "<div class=\"reviews_summary\">\n\t\t\t\t\t\t\t<div class=\"review_stars_lg\" title=\"5 stars, 1 reviews\"><div style=\"width:100%\"></div></div>\n\t\t\t\t\t\t\t<div xd-target-node=\"\">5 Average   1 Review</div>\n\t\t\t\t\t\t</div>",
     "ratingValue": 5.0,
-    "bestRating": 1.0
+    "bestRating": null
   },
   {
     "html": "<span itemprop=\"ratingValue\" xd-target-node=\"\">4.8</span>",
@@ -51,7 +51,7 @@
     "html": "<div xd-target-node=\"\">4.8 Average   4 Reviews</div>",
     "parent_html": "<div class=\"reviews_summary\">\n\t\t\t\t\t\t\t<div class=\"review_stars_lg\" title=\"4.8 stars, 4 reviews\"><div style=\"width:95%\"></div></div>\n\t\t\t\t\t\t\t<div xd-target-node=\"\">4.8 Average   4 Reviews</div>\n\t\t\t\t\t\t</div>",
     "ratingValue": 4.8,
-    "bestRating": 4.0
+    "bestRating": null
   },
   {
     "html": "<li xmlns:xlink=\"http://www.w3.org/1999/xlink\" class=\"product-review__star-rating ui-list h3\" xd-target-node=\"\">5.0</li>",
@@ -117,7 +117,7 @@
     "html": "<div class=\"product-header-reviews-count\" xd-target-node=\"\">\n                        4.8 (178)\n                    </div>",
     "parent_html": "<div class=\"product-header-reviews-container\">\n                    <div class=\"product-header-reviews-stars\">\n                        <div class=\"repeat-star-icon background\"></div>\n                        <div class=\"repeat-star-icon rating\" style=\"width: 95%\"></div>\n                    </div>\n                    <div class=\"product-header-reviews-count\" xd-target-node=\"\">\n                        4.8 (178)\n                    </div>\n                </div>",
     "ratingValue": 4.8,
-    "bestRating": 178.0
+    "bestRating": null
   },
   {
     "html": "<span itemprop=\"ratingValue\" id=\"spanAvgRating\" xd-target-node=\"\">4.39</span>",
@@ -855,7 +855,7 @@
     "html": "<span class=\"rugs-color--orange rugs-font--body1 rugs-bv-star-ratings\" xd-target-node=\"\">\n4.8 (594)\n</span>",
     "parent_html": "<span class=\"bv-extras--reveal-stars bv-extras--reveal-middle\">\n<div class=\"star-ratings-css\">\n<div class=\"star-ratings-css-top rugs-color--orange\" style=\"width:95.016%\">\n<i class=\"fas fa-star\"></i>\n<i class=\"fas fa-star\"></i>\n<i class=\"fas fa-star\"></i>\n<i class=\"fas fa-star\"></i>\n<i class=\"fas fa-star\"></i>\n</div>\n<div class=\"star-ratings-css-bottom rugs-color--grey4\">\n<i class=\"fas fa-star\"></i>\n<i class=\"fas fa-star\"></i>\n<i class=\"fas fa-star\"></i>\n<i class=\"fas fa-star\"></i>\n<i class=\"fas fa-star\"></i>\n</div>\n</div>\n<span class=\"rugs-color--orange rugs-font--body1 rugs-bv-star-ratings\" xd-target-node=\"\">\n4.8 (594)\n</span>\n</span>",
     "ratingValue": 4.8,
-    "bestRating": 594.0
+    "bestRating": null
   },
   {
     "html": "<h1 class=\"pr-review-snapshot-snippets-headline\" xd-target-node=\"\">5</h1>",
@@ -1089,7 +1089,7 @@
     "html": "<span xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\" class=\"review-count\" data-v-6a664c4b=\"\" xd-target-node=\"\">\n    0.0 (0)\n  </span>",
     "parent_html": "<div xmlns:xlink=\"http://www.w3.org/1999/xlink\" class=\"review-stars\" data-v-6a664c4b=\"\" data-v-62c52a2c=\"\"><svg focusable=\"false\" aria-hidden=\"true\" class=\"review-star\" data-v-2aea0506=\"\" data-v-6a664c4b=\"\"><use xlink:href=\"#icon-star-empty\" data-v-2aea0506=\"\"></use></svg><svg focusable=\"false\" aria-hidden=\"true\" class=\"review-star\" data-v-2aea0506=\"\" data-v-6a664c4b=\"\"><use xlink:href=\"#icon-star-empty\" data-v-2aea0506=\"\"></use></svg><svg focusable=\"false\" aria-hidden=\"true\" class=\"review-star\" data-v-2aea0506=\"\" data-v-6a664c4b=\"\"><use xlink:href=\"#icon-star-empty\" data-v-2aea0506=\"\"></use></svg><svg focusable=\"false\" aria-hidden=\"true\" class=\"review-star\" data-v-2aea0506=\"\" data-v-6a664c4b=\"\"><use xlink:href=\"#icon-star-empty\" data-v-2aea0506=\"\"></use></svg><svg focusable=\"false\" aria-hidden=\"true\" class=\"review-star\" data-v-2aea0506=\"\" data-v-6a664c4b=\"\"><use xlink:href=\"#icon-star-empty\" data-v-2aea0506=\"\"></use></svg> <span class=\"visually-hidden\" data-v-6a664c4b=\"\">Rating: 0.0/5</span> <span aria-hidden=\"true\" class=\"review-count\" data-v-6a664c4b=\"\" xd-target-node=\"\">\n    0.0 (0)\n  </span></div>",
     "ratingValue": 0.0,
-    "bestRating": 0.0
+    "bestRating": null
   },
   {
     "html": "<span itemprop=\"ratingValue\" style=\"margin-left:5px;\" xd-target-node=\"\">5.4</span>",
@@ -1311,7 +1311,7 @@
     "html": "<div class=\"review-number\" xd-target-node=\"\">1.0 (2)</div>",
     "parent_html": "<div class=\"star-area\" data-model-id=\"MD06200016\" data-super-category-name=\"home-appliances\" data-category-name=\"Cooking_Appliance\" data-sub-category-name=\"\" data-model-year=\"2019\" data-model-name=\"LRE3193ST\" data-model-salesmodelcode=\"LRE3193ST.FSTUNAG\" data-sku=\"LRE3193ST\" data-model-suffixcode=\"FSTUNAG\" data-bu=\"HA\" data-model-overallscore=\"1.0\" data-model-reviewcnt=\"2\" data-price=\".00\" data-msrp=\"0.0\" data-buname-one=\"HA\" data-buname-two=\"Cooking_Appliance\" data-buname-three=\"\" data-biztype=\"B2C\" aria-hidden=\"true\">\n                                        <div class=\"star\">\n                                            <div class=\"bg-star\">\n                                                <div class=\"carmine-star\" style=\"width: 20%\"></div>\n                                            </div>\n                                        </div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"review-number\" xd-target-node=\"\">1.0 (2)</div>\n                                    </div>",
     "ratingValue": 1.0,
-    "bestRating": 2.0
+    "bestRating": null
   },
   {
     "html": "<span class=\"tt-c-reviews-summary__rating-number\" xd-target-node=\"\">5.0</span>",
@@ -1443,7 +1443,7 @@
     "html": "<a tabindex=\"-1\" href=\"#template-product-detail-reviews\" manual_cm_sp=\"ProductPage-_-ReadReviews-_-NA\" manual_cm_re=\"ProductPage-_-ReadReviews-_-NA\" class=\"count\" xd-target-node=\"\">5 out of 3 reviews</a>",
     "parent_html": "<dd class=\"rating clearfix\">\n                <a href=\"#template-product-detail-reviews\" manual_cm_sp=\"ProductPage-_-ReadReviews-_-NA\" manual_cm_re=\"ProductPage-_-ReadReviews-_-NA\">\n\n\n    <div class=\"rateit \" itemprop=\"aggregateRating\" itemscope=\"\" itemtype=\"https://schema.org/AggregateRating\" aria-label=\"Rating of 5 out of 5 based on 3 customer reviews\">\n        <div class=\"rateit-range\">\n            <div class=\"rateit-selected rateit-preset\" style=\"width:100%\">\n                    <div class=\"hidden\">\n                        <span itemprop=\"ratingValue\">5</span>\n                        <span itemprop=\"bestRating\">5.0</span>\n                            <span itemprop=\"reviewCount\">3</span>\n                    </div>\n            </div>\n        </div>\n    </div>\n\n                </a>\n                     <a tabindex=\"-1\" href=\"#template-product-detail-reviews\" manual_cm_sp=\"ProductPage-_-ReadReviews-_-NA\" manual_cm_re=\"ProductPage-_-ReadReviews-_-NA\" class=\"count\" xd-target-node=\"\">5 out of 3 reviews</a>\n                     <a tabindex=\"-1\" href=\"#template-product-detail-reviews\" class=\"read-reviews\" manual_cm_sp=\"ProductPage-_-ReadReviews-_-NA\" manual_cm_re=\"ProductPage-_-ReadReviews-_-NA\">READ REVIEWS</a>\n            </dd>",
     "ratingValue": 5.0,
-    "bestRating": 3.0
+    "bestRating": null
   },
   {
     "html": "<span class=\"value\" xd-target-node=\"\">5 out of 5</span>",
@@ -1455,7 +1455,7 @@
     "html": "<a tabindex=\"-1\" href=\"#template-product-detail-reviews\" manual_cm_sp=\"ProductPage-_-ReadReviews-_-NA\" manual_cm_re=\"ProductPage-_-ReadReviews-_-NA\" class=\"count\" xd-target-node=\"\">5 out of 1 reviews</a>",
     "parent_html": "<dd class=\"rating clearfix\">\n                <a href=\"#template-product-detail-reviews\" manual_cm_sp=\"ProductPage-_-ReadReviews-_-NA\" manual_cm_re=\"ProductPage-_-ReadReviews-_-NA\">\n\n\n    <div class=\"rateit \" itemprop=\"aggregateRating\" itemscope=\"\" itemtype=\"https://schema.org/AggregateRating\" aria-label=\"Rating of 5 out of 5 based on 1 customer reviews\">\n        <div class=\"rateit-range\">\n            <div class=\"rateit-selected rateit-preset\" style=\"width:100%\">\n                    <div class=\"hidden\">\n                        <span itemprop=\"ratingValue\">5</span>\n                        <span itemprop=\"bestRating\">5.0</span>\n                            <span itemprop=\"reviewCount\">1</span>\n                    </div>\n            </div>\n        </div>\n    </div>\n\n                </a>\n                     <a tabindex=\"-1\" href=\"#template-product-detail-reviews\" manual_cm_sp=\"ProductPage-_-ReadReviews-_-NA\" manual_cm_re=\"ProductPage-_-ReadReviews-_-NA\" class=\"count\" xd-target-node=\"\">5 out of 1 reviews</a>\n                     <a tabindex=\"-1\" href=\"#template-product-detail-reviews\" class=\"read-reviews\" manual_cm_sp=\"ProductPage-_-ReadReviews-_-NA\" manual_cm_re=\"ProductPage-_-ReadReviews-_-NA\">READ REVIEWS</a>\n            </dd>",
     "ratingValue": 5.0,
-    "bestRating": 1.0
+    "bestRating": null
   },
   {
     "html": "<span class=\"value\" xd-target-node=\"\">5 out of 5</span>",
