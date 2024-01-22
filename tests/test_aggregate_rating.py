@@ -1,6 +1,9 @@
+import json
+
 import pytest
 from lxml.html import fromstring
 
+from tests.utils import TEST_DATA_ROOT
 from zyte_parsers.aggregate_rating import (
     AggregateRating,
     _get_rating_numbers,
@@ -31,6 +34,18 @@ from zyte_parsers.aggregate_rating import (
 )
 def test_extract_rating(node, expected):
     assert extract_rating(node) == expected
+
+
+@pytest.mark.parametrize(
+    "item",
+    json.loads((TEST_DATA_ROOT / "rating_values.json").read_text(encoding="utf8")),
+)
+def test_extract_rating_fixture(item):
+    value = extract_rating(
+        fromstring(item["parent_html"]).xpath("*[@xd-target-node]")[0]
+    )
+    assert value.ratingValue == item["ratingValue"]
+    assert value.bestRating == item["bestRating"]
 
 
 def test_extract_rating_tail():
