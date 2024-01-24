@@ -1,7 +1,7 @@
 Changes
 =======
 
-0.5.0 (YYYY-MM-DD)
+0.5.0 (2024-01-24)
 ------------------
 
 * Add the ``extract_rating`` and ``extract_rating_stars`` functions for
