@@ -1,6 +1,13 @@
 Changes
 =======
 
+0.5.0 (YYYY-MM-DD)
+------------------
+
+* Add the ``extract_rating`` and ``extract_rating_stars`` functions for
+  extracting values.
+* Add the ``extract_review_count`` function for extracting review counts.
+
 0.4.0 (2023-12-26)
 ------------------
 
