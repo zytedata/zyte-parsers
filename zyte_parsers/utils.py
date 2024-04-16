@@ -3,7 +3,12 @@ from typing import Any, Callable, Iterable, Optional
 from urllib.parse import urljoin
 
 import html_text
-from lxml.html import HtmlElement, fromstring  # noqa: F401
+from lxml.html import (  # noqa: F401
+    HtmlComment,
+    HtmlElement,
+    fragment_fromstring,
+    fromstring,
+)
 from parsel import Selector  # noqa: F401
 from w3lib.html import strip_html5_whitespace
 
@@ -87,10 +92,14 @@ def extract_text(
     'foo bar'
     >>> extract_text(Selector(text="<p>foo  bar </p>"))
     'foo bar'
+    >>> extract_text(fragment_fromstring("<!-- a comment -->"))
+    >>> extract_text(Selector(text="<!-- a comment -->"))
     """
     if node is None:
         return None
     node = input_to_element(node)
+    if isinstance(node, HtmlComment):
+        return None
     value = html_text.extract_text(node, guess_layout=guess_layout)
     if value:
         return value

@@ -5724,5 +5724,26 @@
     ],
     "snippet_path": "generated/snippet0300.html",
     "base_url": "https://www.officedepot.cz/zavesne-u-obaly-niceday-a4-55-mikronu-cire-50-ks/"
+  },
+  {
+    "expected": [
+      {
+        "name": "Haberler",
+        "url": "https://www.hurriyet.com.tr"
+      },
+      {
+        "name": "Yerel Haberler",
+        "url": "https://www.hurriyet.com.tr/yerel-haberler/"
+      },
+      {
+        "name": "Ankara",
+        "url": "https://www.hurriyet.com.tr/ankara-haberleri/"
+      },
+      {
+        "name": "ABB’den Balcı’ya Ulus yanıtı"
+      }
+    ],
+    "snippet_path": "comments1.html",
+    "base_url": "https://www.hurriyet.com.tr/yerel-haberler/ankara/abbden-balciya-ulus-yaniti-41547223"
   }
 ]
