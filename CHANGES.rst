@@ -1,7 +1,7 @@
 Changes
 =======
 
-0.5.1 (YYYY-MM-DD)
+0.5.1 (2024-10-11)
 ------------------
 
 * Fixed breadcrumb extraction from HTML that includes comments.
