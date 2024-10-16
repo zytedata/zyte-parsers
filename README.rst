@@ -24,7 +24,7 @@ zyte-parsers
 
 .. description starts
 
-``zyte-parsers`` is a Python 3.7+ library that contains functions to extract
+``zyte-parsers`` is a Python 3.9+ library that contains functions to extract
 data from webpage parts.
 
 .. description ends
