@@ -57,7 +57,7 @@ def strip_urljoin(base_url: Optional[str], url: Optional[str]) -> str:
 
 
 def add_https_to_url(url: str) -> str:
-    if url.startswith(('http://', 'https://')):
+    if url.startswith(("http://", "https://")):
         return url
 
     parsed_url = urlparse(url)
