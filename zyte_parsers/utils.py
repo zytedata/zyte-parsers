@@ -84,7 +84,7 @@ def extract_link(
     except ValueError:
         link = None
 
-    if not force_safe:
+    if not link or not force_safe:
         return link
 
     try:
