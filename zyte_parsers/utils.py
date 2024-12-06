@@ -68,7 +68,7 @@ def add_https_to_url(url: str) -> str:
 
 
 def extract_link(
-    a_node: SelectorOrElement, base_url: str, force_safe=False
+    a_node: SelectorOrElement, base_url: str, force_safe: bool = False
 ) -> Optional[str]:
     """
     Extract the absolute url link from an ``<a>`` HTML tag.
