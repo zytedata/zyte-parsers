@@ -61,10 +61,16 @@ def add_https_to_url(url: str) -> str:
         return url
 
     parsed_url = urlparse(url)
-    if not parsed_url.scheme and parsed_url.netloc:
+
+    # If it's a relative URL, return it as-is
+    if not parsed_url.netloc:
+        return url
+
+    # Handle missing scheme
+    if not parsed_url.scheme:
         parsed_url = parsed_url._replace(scheme="https")
 
-    return str(urlunparse(parsed_url))
+    return urlunparse(parsed_url)  # type: ignore
 
 
 def extract_link(
