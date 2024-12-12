@@ -56,12 +56,12 @@ def test_extract_link(html_input, base_url, expected_output):
         (
             "<a href='//example.com/foo'>",
             "",
-            "https://example.com/foo",
+            "//example.com/foo",
         ),
         # no base url
         ("<a href='foo'>", "", "foo"),
         ("<a href='/foo '>", "", "/foo"),
-        ("<a href='//foo '>", "", "https://foo"),
+        ("<a href='//foo '>", "", "//foo"),
         ("<a href='' data-url='http://example.com'>", "", "http://example.com"),
         ("<a href='http://example.com'>", "", "http://example.com"),
     ],

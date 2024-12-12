@@ -1,6 +1,6 @@
 import itertools
 from typing import Any, Callable, Iterable, Optional
-from urllib.parse import urljoin, urlparse, urlunparse
+from urllib.parse import urljoin
 
 import html_text
 from lxml.html import (  # noqa: F401
@@ -56,23 +56,6 @@ def strip_urljoin(base_url: Optional[str], url: Optional[str]) -> str:
     return urljoin(base_url or "", url or "")
 
 
-def add_https_to_url(url: str) -> str:
-    if url.startswith(("http://", "https://")):
-        return url
-
-    parsed_url = urlparse(url)
-
-    # If it's a relative URL, return it as-is
-    if not parsed_url.netloc:
-        return url
-
-    # Handle missing scheme
-    if not parsed_url.scheme:
-        parsed_url = parsed_url._replace(scheme="https")
-
-    return urlunparse(parsed_url)  # type: ignore
-
-
 def extract_link(
     a_node: SelectorOrElement, base_url: str, force_safe: bool = False
 ) -> Optional[str]:
@@ -94,14 +77,9 @@ def extract_link(
         return link
 
     try:
-        safe_link = safe_url_string(link)
+        return safe_url_string(link)
     except ValueError:
         return None
-
-    # add scheme (https) when missing schema and no base url
-    safe_link = add_https_to_url(safe_link)
-
-    return safe_link
 
 
 def extract_text(
