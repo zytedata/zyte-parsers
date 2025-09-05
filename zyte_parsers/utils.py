@@ -59,14 +59,14 @@ def extract_link(a_node: SelectorOrElement, base_url: str) -> Optional[str]:
     """
     Extract the absolute url link from an ``<a>`` HTML tag.
 
-    >>> extract_link(fromstring("<a href=' http://example.com'"), "")
+    >>> extract_link(fromstring("<a href=' http://example.com'></a>"), "")
     'http://example.com'
-    >>> extract_link(fromstring("<a href='/foo '"), "http://example.com")
+    >>> extract_link(fromstring("<a href='/foo '></a>"), "http://example.com")
     'http://example.com/foo'
-    >>> extract_link(fromstring("<a href='' data-url='http://example.com'"), "")
+    >>> extract_link(fromstring("<a href='' data-url='http://example.com'></a>"), "")
     'http://example.com'
-    >>> extract_link(fromstring("<a href='javascript:void(0)'"), "")
-    >>> extract_link(Selector(text="<a href='http://example.com'").css("a")[0], "")
+    >>> extract_link(fromstring("<a href='javascript:void(0)'></a>"), "")
+    >>> extract_link(Selector(text="<a href='http://example.com'></a>").css("a")[0], "")
     'http://example.com'
     """
     a_node = input_to_element(a_node)
