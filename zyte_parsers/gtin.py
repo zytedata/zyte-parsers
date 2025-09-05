@@ -1,5 +1,5 @@
-from contextlib import suppress
 import re
+from contextlib import suppress
 from typing import Optional, Union
 
 import attr
