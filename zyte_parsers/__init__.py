@@ -8,3 +8,17 @@ from .gtin import Gtin, extract_gtin
 from .price import extract_price
 from .review import extract_review_count
 from .star_rating import extract_rating_stars
+
+__all__ = [
+    "AggregateRating",
+    "Breadcrumb",
+    "Gtin",
+    "SelectorOrElement",
+    "extract_brand_name",
+    "extract_breadcrumbs",
+    "extract_gtin",
+    "extract_price",
+    "extract_rating",
+    "extract_rating_stars",
+    "extract_review_count",
+]

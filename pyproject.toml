@@ -49,10 +49,17 @@ zyte_parsers = ["py.typed"]
 profile = "black"
 multi_line_output = 3
 
+[tool.mypy]
+implicit_reexport = false
+
+# to be fixed
+[[tool.mypy.overrides]]
+module = ["html_text", "price_parser"]
+implicit_reexport = true
+
 [[tool.mypy.overrides]]
 module = [
     "gtin.validator.*",
-    "html_text.*",
     "stdnum.*",
 ]
 ignore_missing_imports = true
@@ -62,4 +69,4 @@ module = [
     "tests.*",
 ]
 # Allow test functions to be untyped
-disallow_untyped_defs = false
+allow_untyped_defs = true
