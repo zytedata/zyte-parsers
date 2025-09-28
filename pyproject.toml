@@ -1,17 +1,17 @@
 [build-system]
-requires = ["setuptools"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling>=1.27.0"]
+build-backend = "hatchling.build"
 
 [project]
 name = "zyte-parsers"
 description = "Parsing of data from web pages."
 authors = [{name = "Zyte Group Ltd", email = "info@zyte.com"}]
 readme = "README.rst"
-license = {file = "LICENSE"}
+license = "MIT"
+license-files = ["LICENSE"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: BSD License",
     "Natural Language :: English",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
@@ -39,11 +39,17 @@ dynamic = ["version"]
 [project.urls]
 Source = "https://github.com/zytedata/zyte-parsers"
 
-[tool.setuptools.dynamic]
-version = {attr = "zyte_parsers.__version__"}
+[tool.hatch.version]
+path = "zyte_parsers/__init__.py"
 
-[tool.setuptools.package-data]
-zyte_parsers = ["py.typed"]
+[tool.hatch.build.targets.sdist]
+include = [
+    "/docs",
+    "/tests",
+    "/zyte_parsers",
+    "/CHANGES.rst",
+    "/tox.ini",
+]
 
 [tool.isort]
 profile = "black"
