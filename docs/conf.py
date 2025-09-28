@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = "zyte-parsers"
-copyright = "2023, Zyte Group Ltd"
+project_copyright = "2023, Zyte Group Ltd"
 author = "Zyte Group Ltd"
 release = "0.1.0"
 

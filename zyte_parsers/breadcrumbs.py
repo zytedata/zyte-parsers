@@ -1,7 +1,7 @@
 import re
 import string
 from collections import Counter
-from typing import List, Optional, Tuple
+from typing import Optional
 
 import attr
 
@@ -31,7 +31,7 @@ RSTRIP_SEP_REG = re.compile(rf"\s+{SEP_REG_STR}$")
 
 def extract_breadcrumbs(
     node: SelectorOrElement, *, base_url: Optional[str], max_search_depth: int = 10
-) -> Optional[Tuple[Breadcrumb, ...]]:
+) -> Optional[tuple[Breadcrumb, ...]]:
     """Extract breadcrumb items from node that represents breadcrumb component.
 
     It finds all anchor elements to specified maximal depth. Anchors are
@@ -130,9 +130,9 @@ def extract_breadcrumbs(
 
     node = input_to_element(node)
 
-    breadcrumbs: List[Breadcrumb] = []
-    markup_hier: List[List[str]] = []
-    separators: List[bool] = []
+    breadcrumbs: list[Breadcrumb] = []
+    markup_hier: list[list[str]] = []
+    separators: list[bool] = []
     extract_breadcrumbs_rec(
         node,
         0,
@@ -149,7 +149,7 @@ def extract_breadcrumbs(
 
 def _parse_breadcrumb_name(
     name: Optional[str],
-) -> Tuple[Optional[str], Optional[str], Optional[str]]:
+) -> tuple[Optional[str], Optional[str], Optional[str]]:
     """Split extracted name into left separator, clean name and right separator."""
     if name:
         stripped_name = name.strip()
@@ -239,7 +239,7 @@ def _postprocess_using_separators(breadcrumbs, separators):
 
 def _extract_markup_type(node):
     def check_schema(name):
-        for schema_attr in {"itemtype", "typeof"}:
+        for schema_attr in ("itemtype", "typeof"):
             if name in node.get(schema_attr, "").lower():
                 return True
         return False
@@ -248,6 +248,7 @@ def _extract_markup_type(node):
         return "data-vocabulary"
     if check_schema("listitem"):
         return "schema"
+    return None
 
 
 def _remove_duplicated_first_and_last_items(breadcrumbs):
@@ -276,7 +277,7 @@ def _has_special_class(class_attr: str) -> bool:
     if class_attr:
         return any(
             cls_name in c.translate(_PUNCTUATION_TRANS).lower().strip()
-            for cls_name in {"dropdown", "actions"}
+            for cls_name in ("dropdown", "actions")
             for c in class_attr.split()
         )
     return False

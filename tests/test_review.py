@@ -33,6 +33,6 @@ REVIEW_COUNT_CASES = [
 ]
 
 
-@pytest.mark.parametrize(["value", "expected"], REVIEW_COUNT_CASES)
+@pytest.mark.parametrize(("value", "expected"), REVIEW_COUNT_CASES)
 def test_review_count_extraction(value, expected):
     assert expected == extract_review_count_from_text(value)

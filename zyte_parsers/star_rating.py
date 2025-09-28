@@ -1,6 +1,7 @@
+from __future__ import annotations
+
 import copy
 import re
-from typing import List, Optional, Set
 from urllib.parse import urlparse
 
 from lxml.etree import strip_attributes
@@ -21,7 +22,7 @@ OF_STAR_PATTERNS = [
 ]
 
 
-def extract_rating_stars(node: SelectorOrElement) -> Optional[float]:
+def extract_rating_stars(node: SelectorOrElement) -> float | None:
     """Extract a rating value from a node containing rating stars.
 
     :param node: Node that includes the rating stars.
@@ -32,7 +33,7 @@ def extract_rating_stars(node: SelectorOrElement) -> Optional[float]:
         node = copy.deepcopy(node)
         strip_attributes(node, "ng-class")
 
-    extractions: Set[float] = set()
+    extractions: set[float] = set()
     for subnode in node.iter():
         extractions.update(
             extractor(subnode)  # type: ignore[misc]
@@ -56,7 +57,7 @@ def extract_rating_stars(node: SelectorOrElement) -> Optional[float]:
         return value
 
     if len(extractions) == 2:
-        li_extractions: List[float] = sorted(extractions)
+        li_extractions: list[float] = sorted(extractions)
         if li_extractions[1] == BEST_RATING:
             value, _ = extractions
             assert isinstance(value, float)
@@ -65,9 +66,9 @@ def extract_rating_stars(node: SelectorOrElement) -> Optional[float]:
     return None
 
 
-def _extract_rating_stars_attrib(node: HtmlElement) -> Optional[float]:
+def _extract_rating_stars_attrib(node: HtmlElement) -> float | None:
     """Extract from title like "4 of out 5 stars"."""
-    texts: List[str] = list(
+    texts: list[str] = list(
         filter(
             None,
             (
@@ -85,7 +86,7 @@ def _extract_rating_stars_attrib(node: HtmlElement) -> Optional[float]:
     return None
 
 
-def _extract_rating_stars_img(node: HtmlElement) -> Optional[float]:
+def _extract_rating_stars_img(node: HtmlElement) -> float | None:
     """Extract from the image name."""
     src = node.attrib.get("src", "").strip()
     if not src or src.startswith("data:"):
@@ -94,7 +95,7 @@ def _extract_rating_stars_img(node: HtmlElement) -> Optional[float]:
     return _single_like_a_number(name)
 
 
-def _single_like_a_number(text: str) -> Optional[float]:
+def _single_like_a_number(text: str) -> float | None:
     """Things similar to numbers in file names and URLs."""
     # 5.0, 5-0, 5_0, 50 are all fine
     numbers = re.findall(r"\d+[.\-_,]?\d*", text)
@@ -117,15 +118,11 @@ def _extract_rating_stars_nodes_quick_check(node: HtmlElement) -> bool:
     children = list(node)
     if len(children) != N_CHILD_STARS:
         return False
-    if len({ch.tag for ch in children}) != 1:
-        return False
-    return True
+    return len({ch.tag for ch in children}) == 1
 
 
-def _extract_rating_stars_nodes(node: HtmlElement) -> Optional[float]:
-    """Look for N_CHILD_STARS children,
-    first N of one kind and rest of another kind.
-    """
+def _extract_rating_stars_nodes(node: HtmlElement) -> float | None:
+    """Look for N_CHILD_STARS children, first N of one kind and rest of another kind."""
     if not _extract_rating_stars_nodes_quick_check(node):
         return None
     children = list(node)
@@ -140,8 +137,8 @@ def _extract_rating_stars_nodes(node: HtmlElement) -> Optional[float]:
     return None
 
 
-def _extract_rating_stars_class(node: HtmlElement) -> Optional[float]:
-    """Extract rating from html class"""
+def _extract_rating_stars_class(node: HtmlElement) -> float | None:
+    """Extract rating from html class."""
     matches = set()
     for cls in node.attrib.get("class", "").lower().split():
         if "star" in cls or "rate" in cls or "rating" in cls:
@@ -154,7 +151,7 @@ def _extract_rating_stars_class(node: HtmlElement) -> Optional[float]:
     return None
 
 
-def _extract_rating_stars_style_width(node: HtmlElement) -> Optional[float]:
+def _extract_rating_stars_style_width(node: HtmlElement) -> float | None:
     """Extract based on 'style="width:60%"' inline style."""
     style = node.attrib.get("style", "").lower().replace(" ", "")
     assert BEST_RATING == 5

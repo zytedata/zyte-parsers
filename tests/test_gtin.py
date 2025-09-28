@@ -96,7 +96,7 @@ GTIN_CLASSIFICATION_CASES = [
 ]
 
 
-@pytest.mark.parametrize(["value", "expected"], GTIN_CLASSIFICATION_CASES)
+@pytest.mark.parametrize(("value", "expected"), GTIN_CLASSIFICATION_CASES)
 def test_gtin_classification(value, expected):
     assert expected == gtin_classification(value)
 
@@ -158,7 +158,7 @@ GTIN_IDS = [
 ]
 
 
-@pytest.mark.parametrize(["value", "expected"], GTIN_IDS)
+@pytest.mark.parametrize(("value", "expected"), GTIN_IDS)
 def test_extract_gtin_id(value, expected):
     assert expected == extract_gtin_id(value)
 
@@ -169,7 +169,7 @@ GTINS = [
 ]
 
 
-@pytest.mark.parametrize(["value", "expected"], GTINS)
+@pytest.mark.parametrize(("value", "expected"), GTINS)
 def test_extract_gtin(value, expected):
     assert expected == extract_gtin(fromstring(f"<p>{value}</p>"))
 

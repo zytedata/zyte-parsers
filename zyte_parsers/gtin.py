@@ -44,11 +44,7 @@ def extract_gtin(node: Union[SelectorOrElement, str]) -> Optional[Gtin]:
     :param node: A node or a string that includes the GTIN text.
     :return: A GTIN item.
     """
-    gtin: Optional[str]
-    if isinstance(node, str):
-        gtin = node
-    else:
-        gtin = extract_text(node)
+    gtin = node if isinstance(node, str) else extract_text(node)
     gtin_id = extract_gtin_id(gtin)
     gtin_class = gtin_classification(gtin_id)
     if gtin_class:

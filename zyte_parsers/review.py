@@ -1,5 +1,6 @@
+from __future__ import annotations
+
 import re
-from typing import Optional
 
 from price_parser.parser import parse_number
 
@@ -7,7 +8,7 @@ from .api import SelectorOrElement, input_to_element
 from .utils import extract_text
 
 
-def extract_review_count(node: SelectorOrElement) -> Optional[int]:
+def extract_review_count(node: SelectorOrElement) -> int | None:
     """Extract review count from a node containing it.
 
     :param node: Node that includes the review count.
@@ -15,13 +16,12 @@ def extract_review_count(node: SelectorOrElement) -> Optional[int]:
     """
     node = input_to_element(node)
     node_text = extract_text(node)
-    review_count = extract_review_count_from_text(node_text)
-    return review_count
+    return extract_review_count_from_text(node_text)
 
 
-def extract_review_count_from_text(node_text: Optional[str]) -> Optional[int]:
+def extract_review_count_from_text(node_text: str | None) -> int | None:
     """
-    Extracts reviewCount from the text. If the text consists of single number then
+    Extract reviewCount from the text. If the text consists of single number then
     it is returned as reviewCount. If the text consists of more than one numbers
     and one number if present in brackets() then this number is extracted as the
     reviewCount e.g. ("4.5/5 (4 reviews)"). Other ambiguous cases are ignored.
@@ -44,7 +44,7 @@ def extract_review_count_from_text(node_text: Optional[str]) -> Optional[int]:
     return None
 
 
-def normalize_to_int(review_count_text: str) -> Optional[int]:
+def normalize_to_int(review_count_text: str) -> int | None:
     count_decimal = parse_number(review_count_text)
     if count_decimal is None:
         return None

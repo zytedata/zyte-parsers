@@ -1,15 +1,19 @@
-from typing import Optional, Union
+from __future__ import annotations
+
+from typing import TYPE_CHECKING
 
 from price_parser import Price
 
-from zyte_parsers import SelectorOrElement
 from zyte_parsers.utils import extract_text
+
+if TYPE_CHECKING:
+    from zyte_parsers import SelectorOrElement
 
 
 def extract_price(
-    node: Union[SelectorOrElement, str],
+    node: SelectorOrElement | str,
     *,
-    currency_hint: Union[SelectorOrElement, str, None] = None,
+    currency_hint: SelectorOrElement | str | None = None,
 ) -> Price:
     """Extract a price value from a node or a string that contains it.
 
@@ -20,11 +24,7 @@ def extract_price(
         ``currency_hint``.
     :return: The price value as a ``price_parser.Price`` object.
     """
-    text: Optional[str]
-    if isinstance(node, str):
-        text = node
-    else:
-        text = extract_text(node)
+    text = node if isinstance(node, str) else extract_text(node)
     if currency_hint is not None and not isinstance(currency_hint, str):
         currency_hint = extract_text(currency_hint)
     return Price.fromstring(text, currency_hint=currency_hint)

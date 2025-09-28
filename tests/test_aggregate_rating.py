@@ -12,7 +12,7 @@ from zyte_parsers.aggregate_rating import (
 
 
 @pytest.mark.parametrize(
-    ["node", "expected"],
+    ("node", "expected"),
     [
         (
             fromstring("<div>4.1</div>"),
@@ -76,6 +76,6 @@ RATING_VALUE_CASES = [
 ]
 
 
-@pytest.mark.parametrize(["value", "expected"], RATING_VALUE_CASES)
+@pytest.mark.parametrize(("value", "expected"), RATING_VALUE_CASES)
 def test_get_rating_numbers(value, expected):
     assert expected == _get_rating_numbers(value)
