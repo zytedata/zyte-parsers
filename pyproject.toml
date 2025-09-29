@@ -39,6 +39,17 @@ dynamic = ["version"]
 [project.urls]
 Source = "https://github.com/zytedata/zyte-parsers"
 
+[tool.bumpversion]
+current_version = "0.5.1"
+commit = true
+tag = true
+tag_name = "{new_version}"
+
+[[tool.bumpversion.files]]
+filename = "zyte_parsers/__init__.py"
+search = "__version__ = \"{current_version}\""
+replace = "__version__ = \"{new_version}\""
+
 [tool.hatch.version]
 path = "zyte_parsers/__init__.py"
 
