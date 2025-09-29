@@ -50,6 +50,9 @@ filename = "zyte_parsers/__init__.py"
 search = "__version__ = \"{current_version}\""
 replace = "__version__ = \"{new_version}\""
 
+[tool.coverage.run]
+branch = true
+
 [tool.hatch.version]
 path = "zyte_parsers/__init__.py"
 
