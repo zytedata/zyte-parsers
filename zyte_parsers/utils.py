@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import itertools
-from typing import TYPE_CHECKING, Any, Callable
+from typing import TYPE_CHECKING, Callable, TypeVar
 from urllib.parse import urljoin
 
 import html_text
@@ -18,6 +18,9 @@ from zyte_parsers.api import SelectorOrElement, input_to_element
 
 if TYPE_CHECKING:
     from collections.abc import Iterable
+
+
+_T = TypeVar("_T")
 
 
 def is_js_url(url: str) -> bool:
@@ -57,7 +60,7 @@ def strip_urljoin(base_url: str | None, url: str | None) -> str:
     return urljoin(base_url or "", url or "")
 
 
-def extract_link(a_node: SelectorOrElement, base_url: str) -> str | None:
+def extract_link(a_node: SelectorOrElement, base_url: str | None) -> str | None:
     """
     Extract the absolute url link from an ``<a>`` HTML tag.
 
@@ -109,8 +112,10 @@ def extract_text(
 
 
 def first_satisfying(
-    xs: Iterable, condition_fun: Callable[[Any], Any] = lambda x: x, default: Any = None
-) -> Any:
+    xs: Iterable[_T],
+    condition_fun: Callable[[_T], bool] = lambda x: bool(x),
+    default: _T | None = None,
+) -> _T | None:
     """Return the first item in ``xs`` that satisfies the condition.
 
     >>> first_satisfying([0, "", 1])
@@ -136,5 +141,5 @@ def iterwalk_limited(node: HtmlElement, search_depth: int) -> Iterable[HtmlEleme
         yield from iterwalk_limited(child, search_depth - 1)
 
 
-def take(iterable: Iterable[Any], n: int):
+def take(iterable: Iterable[_T], n: int) -> list[_T]:
     return list(itertools.islice(iterable, n))

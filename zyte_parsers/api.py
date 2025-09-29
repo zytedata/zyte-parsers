@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import Union
+from typing import Union, cast
 
 from lxml.html import HtmlComment, HtmlElement
 from parsel import Selector
@@ -19,4 +19,4 @@ def input_to_element(node: SelectorOrElement) -> HtmlElement | HtmlComment:
     """Convert a supported input object to a HtmlElement or HtmlComment."""
     if isinstance(node, (HtmlElement, HtmlComment)):
         return node
-    return node.root
+    return cast("HtmlElement | HtmlComment", node.root)

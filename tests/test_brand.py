@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import json
 
 import pytest
@@ -18,7 +20,7 @@ def test_extract_brand_simple():
         "</div>"
     )
 
-    def exa(xpath):
+    def exa(xpath: str) -> str | None:
         return extract_brand_name(root.xpath(xpath)[0], search_depth=2)
 
     assert exa('//div[@id="brand"]') == "simple brand"

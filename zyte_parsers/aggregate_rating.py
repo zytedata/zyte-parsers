@@ -60,7 +60,7 @@ def _check_best_rating(value: float, rating_value: float) -> Optional[float]:
 
 
 def _get_rating_numbers(node_text: Optional[str]) -> list[float]:
-    rating_nums: list = []
+    rating_nums: list[float] = []
     if node_text:
         node_nums = re.findall(r"\d*,\d+|\d*\.\d+|\d+", node_text)
         rating_nums = [
