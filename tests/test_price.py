@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from decimal import Decimal
 
 import pytest
@@ -25,12 +27,12 @@ from zyte_parsers.price import extract_price
         ),
     ],
 )
-def test_price_simple(html, currency_hint, expected):
+def test_price_simple(html: str, currency_hint: str | None, expected: Price) -> None:
     result = extract_price(fromstring(html), currency_hint=currency_hint)
     assert result == expected
 
 
-def test_extract_price_types():
+def test_extract_price_types() -> None:
     value = "23.5"
     expected = Price(Decimal("23.5"), None, "23.5")
     assert expected == extract_price(value)

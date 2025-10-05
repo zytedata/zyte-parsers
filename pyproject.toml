@@ -79,13 +79,6 @@ module = [
 ]
 ignore_missing_imports = true
 
-[[tool.mypy.overrides]]
-module = [
-    "tests.*",
-]
-# Allow test functions to be untyped
-allow_untyped_defs = true
-
 [tool.ruff.lint]
 extend-select = [
     # flake8-builtins

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from typing import Any
 
 import pytest
 from lxml.html import fromstring
@@ -9,7 +10,7 @@ from tests.utils import TEST_DATA_ROOT
 from zyte_parsers.brand import extract_brand_name
 
 
-def test_extract_brand_simple():
+def test_extract_brand_simple() -> None:
     root = fromstring(
         '<div id="brand">simple brand</div>'
         '<div id="wrapper">'
@@ -35,7 +36,7 @@ def test_extract_brand_simple():
     "item",
     json.loads((TEST_DATA_ROOT / "brand_values.json").read_text(encoding="utf8")),
 )
-def test_extract_brand(item):
+def test_extract_brand(item: dict[str, Any]) -> None:
     if item.get("xfail"):
         pytest.xfail(item["xfail"])
 

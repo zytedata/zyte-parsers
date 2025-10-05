@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import pytest
 from lxml.html import fromstring
 from parsel import Selector
@@ -97,7 +99,7 @@ GTIN_CLASSIFICATION_CASES = [
 
 
 @pytest.mark.parametrize(("value", "expected"), GTIN_CLASSIFICATION_CASES)
-def test_gtin_classification(value, expected):
+def test_gtin_classification(value: str, expected: str | None) -> None:
     assert expected == gtin_classification(value)
 
 
@@ -159,7 +161,7 @@ GTIN_IDS = [
 
 
 @pytest.mark.parametrize(("value", "expected"), GTIN_IDS)
-def test_extract_gtin_id(value, expected):
+def test_extract_gtin_id(value: str, expected: str) -> None:
     assert expected == extract_gtin_id(value)
 
 
@@ -170,11 +172,11 @@ GTINS = [
 
 
 @pytest.mark.parametrize(("value", "expected"), GTINS)
-def test_extract_gtin(value, expected):
+def test_extract_gtin(value: str, expected: Gtin | None) -> None:
     assert expected == extract_gtin(fromstring(f"<p>{value}</p>"))
 
 
-def test_extract_gtin_types():
+def test_extract_gtin_types() -> None:
     value = "978-1-933624-34-1"
     expected = Gtin("isbn13", "9781933624341")
     assert expected == extract_gtin(value)
