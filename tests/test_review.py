@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import pytest
 
 from zyte_parsers.review import extract_review_count_from_text
@@ -33,6 +35,6 @@ REVIEW_COUNT_CASES = [
 ]
 
 
-@pytest.mark.parametrize(["value", "expected"], REVIEW_COUNT_CASES)
-def test_review_count_extraction(value, expected):
+@pytest.mark.parametrize(("value", "expected"), REVIEW_COUNT_CASES)
+def test_review_count_extraction(value: str, expected: int | None) -> None:
     assert expected == extract_review_count_from_text(value)

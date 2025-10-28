@@ -1,4 +1,5 @@
 import re
+from contextlib import suppress
 from typing import Optional, Union
 
 import attr
@@ -43,11 +44,7 @@ def extract_gtin(node: Union[SelectorOrElement, str]) -> Optional[Gtin]:
     :param node: A node or a string that includes the GTIN text.
     :return: A GTIN item.
     """
-    gtin: Optional[str]
-    if isinstance(node, str):
-        gtin = node
-    else:
-        gtin = extract_text(node)
+    gtin = node if isinstance(node, str) else extract_text(node)
     gtin_id = extract_gtin_id(gtin)
     gtin_class = gtin_classification(gtin_id)
     if gtin_class:
@@ -115,45 +112,29 @@ def gtin_classification(gtin: Optional[str]) -> Optional[str]:
     if not gtin:
         return None
 
-    try:
-        ismn_validity = ismn.validate(gtin)
-    except Exception:
-        ismn_validity = False
+    with suppress(Exception):
+        if ismn.validate(gtin):
+            return "ismn"
 
-    if ismn_validity:
-        return "ismn"
+    with suppress(Exception):
+        if isbn.validate(gtin):
+            if len(gtin) == 10:
+                return "isbn10"
+            if len(gtin) == 13:
+                return "isbn13"
 
-    try:
-        isbn_validity = isbn.validate(gtin)
-    except Exception:
-        isbn_validity = False
+    with suppress(Exception):
+        if issn.validate(gtin):
+            return "issn"
 
-    if isbn_validity and len(gtin) == 10:
-        return "isbn10"
-
-    if isbn_validity and len(gtin) == 13:
-        return "isbn13"
-
-    try:
-        issn_validity = issn.validate(gtin)
-    except Exception:
-        issn_validity = False
-
-    if issn_validity:
-        return "issn"
-
-    gtin_valid = is_valid_GTIN(gtin)
-
-    if gtin_valid and len(gtin) == 8:
-        return "gtin8"
-
-    if gtin_valid and len(gtin) == 14:
-        return "gtin14"
-
-    if gtin_valid and len(gtin) == 13:
-        return "gtin13"
-
-    if gtin_valid and len(gtin) == 12:
-        return "upc"
+    if is_valid_GTIN(gtin):
+        if len(gtin) == 8:
+            return "gtin8"
+        if len(gtin) == 14:
+            return "gtin14"
+        if len(gtin) == 13:
+            return "gtin13"
+        if len(gtin) == 12:
+            return "upc"
 
     return None

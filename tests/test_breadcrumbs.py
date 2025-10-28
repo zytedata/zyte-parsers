@@ -1,5 +1,7 @@
+from __future__ import annotations
+
 import json
-from typing import Optional, Tuple
+from typing import Any
 
 import pytest
 from lxml.html import fromstring
@@ -13,7 +15,7 @@ from zyte_parsers.breadcrumbs import (
 
 
 @pytest.mark.parametrize(
-    ["name", "expected"],
+    ("name", "expected"),
     [
         (None, (None, None, None)),
         ("", (None, None, None)),
@@ -37,7 +39,9 @@ from zyte_parsers.breadcrumbs import (
         ("> > >", (">", ">", ">")),
     ],
 )
-def test_parsing_breadcrumbs_name(name, expected):
+def test_parsing_breadcrumbs_name(
+    name: str, expected: tuple[str | None, str | None, str | None]
+) -> None:
     result = _parse_breadcrumb_name(name)
     assert result == expected
 
@@ -49,8 +53,8 @@ def test_parsing_breadcrumbs_name(name, expected):
     ),
     ids=lambda item: f"[{item['snippet_path']}] - {item['base_url']}",
 )
-def test_extract_breadcrumbs(item):
-    def print_breadcrumbs(breadcrumbs: Optional[Tuple[Breadcrumb, ...]]) -> None:
+def test_extract_breadcrumbs(item: dict[str, Any]) -> None:
+    def print_breadcrumbs(breadcrumbs: tuple[Breadcrumb, ...] | None) -> None:
         if breadcrumbs is None:
             print("Breadcrumbs were not extracted")
         else:

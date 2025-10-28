@@ -1,14 +1,20 @@
+from __future__ import annotations
+
 import itertools
-from typing import Iterable, Optional
+from typing import TYPE_CHECKING
 
-from lxml.html import HtmlElement
-
-from . import SelectorOrElement
 from .api import input_to_element
 from .utils import extract_text, iterwalk_limited, take
 
+if TYPE_CHECKING:
+    from collections.abc import Iterable
 
-def extract_brand_name(node: SelectorOrElement, search_depth: int = 0) -> Optional[str]:
+    from lxml.html import HtmlElement
+
+    from . import SelectorOrElement
+
+
+def extract_brand_name(node: SelectorOrElement, search_depth: int = 0) -> str | None:
     """Extract a brand name from a node that contains it.
 
     It tries element text and image alt and title attributes.
@@ -27,7 +33,7 @@ def extract_brand_name(node: SelectorOrElement, search_depth: int = 0) -> Option
     return results[0] if results else None
 
 
-def _extract_brand(node: HtmlElement, search_depth: int = 0) -> Iterable[Optional[str]]:
+def _extract_brand(node: HtmlElement, search_depth: int = 0) -> Iterable[str | None]:
     if node.tag == "img":
         return extract_image_text(node, 0)
     value = extract_text(node)
@@ -37,7 +43,7 @@ def _extract_brand(node: HtmlElement, search_depth: int = 0) -> Iterable[Optiona
 
 
 def extract_image_text(node: HtmlElement, search_depth: int = 0) -> Iterable[str]:
-    def extract_text_from_image(node: HtmlElement) -> Iterable[Optional[str]]:
+    def extract_text_from_image(node: HtmlElement) -> Iterable[str | None]:
         for attrib in ["alt", "title"]:
             yield (node.attrib.get(attrib) or "").strip()
 
@@ -45,6 +51,4 @@ def extract_image_text(node: HtmlElement, search_depth: int = 0) -> Iterable[str
     images = filter(lambda n: n.tag == "img", nodes)
     attribs = map(extract_text_from_image, images)
     flat_attribs = itertools.chain.from_iterable(attribs)
-    valid_attribs = (a for a in flat_attribs if a)
-
-    return valid_attribs
+    return (a for a in flat_attribs if a)

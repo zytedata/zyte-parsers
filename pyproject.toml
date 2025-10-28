@@ -1,17 +1,17 @@
 [build-system]
-requires = ["setuptools"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling>=1.27.0"]
+build-backend = "hatchling.build"
 
 [project]
 name = "zyte-parsers"
 description = "Parsing of data from web pages."
 authors = [{name = "Zyte Group Ltd", email = "info@zyte.com"}]
 readme = "README.rst"
-license = {file = "LICENSE"}
+license = "MIT"
+license-files = ["LICENSE"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: BSD License",
     "Natural Language :: English",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
@@ -20,6 +20,7 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     "Programming Language :: Python :: Implementation :: CPython",
 ]
 requires-python = ">=3.9"
@@ -37,29 +38,184 @@ dependencies = [
 dynamic = ["version"]
 
 [project.urls]
+Homepage = "https://github.com/zytedata/zyte-parsers"
+Documentation = "https://zyte-parsers.readthedocs.io/"
 Source = "https://github.com/zytedata/zyte-parsers"
+Tracker = "https://github.com/zytedata/zyte-parsers/issues"
+"Release notes" = "https://zyte-parsers.readthedocs.io/en/latest/changelog.html"
 
-[tool.setuptools.dynamic]
-version = {attr = "zyte_parsers.__version__"}
+[tool.bumpversion]
+current_version = "0.6.0"
+commit = true
+tag = true
+tag_name = "{new_version}"
 
-[tool.setuptools.package-data]
-zyte_parsers = ["py.typed"]
+[[tool.bumpversion.files]]
+filename = "zyte_parsers/__init__.py"
+search = "__version__ = \"{current_version}\""
+replace = "__version__ = \"{new_version}\""
 
-[tool.isort]
-profile = "black"
-multi_line_output = 3
+[[tool.bumpversion.files]]
+filename = 'CHANGES.rst'
+search = "\\(unreleased\\)$"
+replace = "({now:%Y-%m-%d})"
+regex = true
+
+[tool.coverage.run]
+branch = true
+
+[tool.hatch.version]
+path = "zyte_parsers/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/docs",
+    "/tests",
+    "/zyte_parsers",
+    "/CHANGES.rst",
+    "/tox.ini",
+]
+
+[tool.mypy]
+strict = true
 
 [[tool.mypy.overrides]]
 module = [
     "gtin.validator.*",
-    "html_text.*",
-    "stdnum.*",
 ]
 ignore_missing_imports = true
 
-[[tool.mypy.overrides]]
-module = [
-    "tests.*",
+[tool.ruff.lint]
+extend-select = [
+    # flake8-builtins
+    "A",
+    # flake8-async
+    "ASYNC",
+    # flake8-bugbear
+    "B",
+    # flake8-comprehensions
+    "C4",
+    # flake8-commas
+    "COM",
+    # pydocstyle
+    "D",
+    # flake8-future-annotations
+    "FA",
+    # flynt
+    "FLY",
+    # refurb
+    "FURB",
+    # isort
+    "I",
+    # flake8-implicit-str-concat
+    "ISC",
+    # flake8-logging
+    "LOG",
+    # Perflint
+    "PERF",
+    # pygrep-hooks
+    "PGH",
+    # flake8-pie
+    "PIE",
+    # pylint
+    "PL",
+    # flake8-pytest-style
+    "PT",
+    # flake8-use-pathlib
+    "PTH",
+    # flake8-pyi
+    "PYI",
+    # flake8-quotes
+    "Q",
+    # flake8-return
+    "RET",
+    # flake8-raise
+    "RSE",
+    # Ruff-specific rules
+    "RUF",
+    # flake8-bandit
+    "S",
+    # flake8-simplify
+    "SIM",
+    # flake8-slots
+    "SLOT",
+    # flake8-debugger
+    "T10",
+    # flake8-type-checking
+    "TC",
+    # pyupgrade
+    "UP",
+    # pycodestyle warnings
+    "W",
+    # flake8-2020
+    "YTT",
 ]
-# Allow test functions to be untyped
-disallow_untyped_defs = false
+ignore = [
+    # Trailing comma missing
+    "COM812",
+    # Missing docstring in public module
+    "D100",
+    # Missing docstring in public class
+    "D101",
+    # Missing docstring in public method
+    "D102",
+    # Missing docstring in public function
+    "D103",
+    # Missing docstring in public package
+    "D104",
+    # Missing docstring in magic method
+    "D105",
+    # Missing docstring in public nested class
+    "D106",
+    # Missing docstring in __init__
+    "D107",
+    # One-line docstring should fit on one line with quotes
+    "D200",
+    # No blank lines allowed after function docstring
+    "D202",
+    # 1 blank line required between summary line and description
+    "D205",
+    # Multi-line docstring closing quotes should be on a separate line
+    "D209",
+    # First line should end with a period
+    "D400",
+    # First line should be in imperative mood; try rephrasing
+    "D401",
+    # First line should not be the function's "signature"
+    "D402",
+    # Too many return statements
+    "PLR0911",
+    # Too many branches
+    "PLR0912",
+    # Too many arguments in function definition
+    "PLR0913",
+    # Too many statements
+    "PLR0915",
+    # Magic value used in comparison
+    "PLR2004",
+    # String contains ambiguous {}.
+    "RUF001",
+    # Docstring contains ambiguous {}.
+    "RUF002",
+    # Comment contains ambiguous {}.
+    "RUF003",
+    # Mutable class attributes should be annotated with `typing.ClassVar`
+    "RUF012",
+    # Use of `assert` detected
+    "S101",
+]
+
+[tool.ruff.lint.flake8-type-checking]
+runtime-evaluated-decorators = ["attrs.s"]
+
+[tool.ruff.lint.isort]
+split-on-trailing-comma = false
+
+[tool.ruff.lint.per-file-ignores]
+# forbid "from __future__ import annotations" in files with attr classes
+"zyte_parsers/aggregate_rating.py" = ["FA100"]
+"zyte_parsers/gtin.py" = ["FA100"]
+"zyte_parsers/breadcrumbs.py" = ["FA100"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "pep257"

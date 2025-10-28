@@ -1,3 +1,7 @@
+from __future__ import annotations
+
+from typing import Any
+
 import pytest
 from lxml.html import fromstring
 
@@ -368,7 +372,7 @@ RATING_STARS_TEST_CASES = [
 
 
 @pytest.mark.parametrize("case", RATING_STARS_TEST_CASES)
-def test_extract_rating_stars(case):
+def test_extract_rating_stars(case: dict[str, Any]) -> None:
     if case.get("xfail"):
         pytest.xfail()
     node = fromstring(case["html"])

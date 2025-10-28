@@ -1,6 +1,6 @@
 import re
 from math import isnan
-from typing import Any, List, Optional
+from typing import Any, Optional
 
 import attr
 from lxml.html import HtmlElement
@@ -56,14 +56,11 @@ def _check_best_rating(value: float, rating_value: float) -> Optional[float]:
     >>> _check_best_rating(22.43, 4.0) is None
     True
     """
-    best_rating = (
-        value if value >= rating_value and value in POSSIBLE_BEST_RATINGS else None
-    )
-    return best_rating
+    return value if value >= rating_value and value in POSSIBLE_BEST_RATINGS else None
 
 
-def _get_rating_numbers(node_text: Optional[str]) -> List[float]:
-    rating_nums: List = []
+def _get_rating_numbers(node_text: Optional[str]) -> list[float]:
+    rating_nums: list[float] = []
     if node_text:
         node_nums = re.findall(r"\d*,\d+|\d*\.\d+|\d+", node_text)
         rating_nums = [
@@ -108,5 +105,4 @@ def _normalize_rating(rating_val: Any) -> Optional[float]:
         rating_val = float(rating_val)
     else:
         rating_val = None
-    rating_val = _remove_nan_from_float(rating_val)
-    return rating_val
+    return _remove_nan_from_float(rating_val)
