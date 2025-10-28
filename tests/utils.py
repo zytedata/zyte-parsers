@@ -1,8 +1,8 @@
 from pathlib import Path
 
 import pytest
-from lxml.html import fromstring  # noqa: F401
-from parsel import Selector  # noqa: F401
+from lxml.html import fromstring
+from parsel import Selector
 
 from zyte_parsers.utils import extract_link
 
@@ -10,7 +10,7 @@ TEST_DATA_ROOT = Path(__file__).parent / "data"
 
 
 @pytest.mark.parametrize(
-    ("html_input, base_url, expected_output"),
+    ("html_input", "base_url", "expected_output"),
     [
         ("<a href=' http://example.com'>", "", "http://example.com"),
         ("<a href='foo'>", "http://example.com", "http://example.com/foo"),
@@ -45,7 +45,7 @@ def test_extract_link(html_input: str, base_url: str, expected_output: str) -> N
 
 
 @pytest.mark.parametrize(
-    ("html_input, base_url, expected_output"),
+    ("html_input", "base_url", "expected_output"),
     [
         # Spaces in the path
         (
