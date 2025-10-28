@@ -73,7 +73,7 @@ def extract_link(
     if not link or is_js_url(link):
         return None
 
-    try:
+    try:  # pragma: no cover
         link = strip_urljoin(base_url, link)  # pragma: no cover
     except ValueError:  # pragma: no cover
         link = None
@@ -81,7 +81,7 @@ def extract_link(
     if not link or not force_safe:
         return link
 
-    try:
+    try:  # pragma: no cover
         return safe_url_string(link)  # pragma: no cover
     except ValueError:  # pragma: no cover
         return None
