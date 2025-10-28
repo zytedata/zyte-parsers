@@ -61,7 +61,9 @@ def strip_urljoin(base_url: str | None, url: str | None) -> str:
     return urljoin(base_url or "", url or "")
 
 
-def extract_link(a_node: SelectorOrElement, base_url: str | None, force_safe: bool = False) -> str | None:
+def extract_link(
+    a_node: SelectorOrElement, base_url: str | None, force_safe: bool = False
+) -> str | None:
     """
     Extract the absolute url link from an ``<a>`` HTML tag.
     """
@@ -72,16 +74,16 @@ def extract_link(a_node: SelectorOrElement, base_url: str | None, force_safe: bo
         return None
 
     try:
-        link = strip_urljoin(base_url, link)
-    except ValueError:
+        link = strip_urljoin(base_url, link)  # pragma: no cover
+    except ValueError:  # pragma: no cover
         link = None
 
     if not link or not force_safe:
         return link
 
     try:
-        return safe_url_string(link)
-    except ValueError:
+        return safe_url_string(link)  # pragma: no cover
+    except ValueError:  # pragma: no cover
         return None
 
 

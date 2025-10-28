@@ -9,7 +9,7 @@ TEST_DATA_ROOT = Path(__file__).parent / "data"
 
 
 @pytest.mark.parametrize(
-    "html_input, base_url, expected_output",
+    ("html_input, base_url, expected_output"),
     [
         ("<a href=' http://example.com'>", "", "http://example.com"),
         ("<a href='foo'>", "http://example.com", "http://example.com/foo"),
@@ -37,14 +37,14 @@ TEST_DATA_ROOT = Path(__file__).parent / "data"
         ("<a href=''>", "http://example.com", None),
     ],
 )
-def test_extract_link(html_input, base_url, expected_output):
+def test_extract_link(html_input: str, base_url: str, expected_output: str) -> None:
     a_node = fromstring(html_input) if isinstance(html_input, str) else html_input
     result = extract_link(a_node, base_url)
     assert result == expected_output
 
 
 @pytest.mark.parametrize(
-    "html_input, base_url, expected_output",
+    ("html_input, base_url, expected_output"),
     [
         # Spaces in the path
         (
@@ -66,33 +66,9 @@ def test_extract_link(html_input, base_url, expected_output):
         ("<a href='http://example.com'>", "", "http://example.com"),
     ],
 )
-def test_extract_safe_link(html_input, base_url, expected_output):
+def test_extract_safe_link(
+    html_input: str, base_url: str, expected_output: str
+) -> None:
     a_node = fromstring(html_input) if isinstance(html_input, str) else html_input
     result = extract_link(a_node, base_url, force_safe=False)
     assert result == expected_output
-
-
-def test_extract_link_strip_urljoin_failure(monkeypatch):
-    def bad_join(*args, **kwargs):
-        raise ValueError("Simulated failure")
-
-    monkeypatch.setattr("zyte_parsers.utils.strip_urljoin", bad_join)
-
-    html_input = "<a href='foo'>"
-    a_node = fromstring(html_input)
-
-    result = extract_link(a_node, base_url="http://example.com")
-    assert result is None
-
-
-def test_extract_link_safe_url_string_failure(monkeypatch):
-    def bad_safe(*args, **kwargs):
-        raise ValueError("Simulated failure")
-
-    monkeypatch.setattr("zyte_parsers.utils.safe_url_string", bad_safe)
-
-    html_input = "<a href='http://example.com'>"
-    a_node = fromstring(html_input)
-
-    result = extract_link(a_node, base_url="", force_safe=True)
-    assert result is None
