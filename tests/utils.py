@@ -1,9 +1,10 @@
 from pathlib import Path
 
 import pytest
+from lxml.html import fromstring  # noqa: F401
 from parsel import Selector  # noqa: F401
 
-from zyte_parsers.utils import extract_link, fromstring
+from zyte_parsers.utils import extract_link
 
 TEST_DATA_ROOT = Path(__file__).parent / "data"
 
