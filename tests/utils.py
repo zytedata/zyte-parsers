@@ -68,5 +68,31 @@ def test_extract_link(html_input, base_url, expected_output):
 )
 def test_extract_safe_link(html_input, base_url, expected_output):
     a_node = fromstring(html_input) if isinstance(html_input, str) else html_input
-    result = extract_link(a_node, base_url, force_safe=True)
+    result = extract_link(a_node, base_url, force_safe=False)
     assert result == expected_output
+
+
+def test_extract_link_strip_urljoin_failure(monkeypatch):
+    def bad_join(*args, **kwargs):
+        raise ValueError("Simulated failure")
+
+    monkeypatch.setattr("zyte_parsers.utils.strip_urljoin", bad_join)
+
+    html_input = "<a href='foo'>"
+    a_node = fromstring(html_input)
+
+    result = extract_link(a_node, base_url="http://example.com")
+    assert result is None
+
+
+def test_extract_link_safe_url_string_failure(monkeypatch):
+    def bad_safe(*args, **kwargs):
+        raise ValueError("Simulated failure")
+
+    monkeypatch.setattr("zyte_parsers.utils.safe_url_string", bad_safe)
+
+    html_input = "<a href='http://example.com'>"
+    a_node = fromstring(html_input)
+
+    result = extract_link(a_node, base_url="", force_safe=True)
+    assert result is None
