@@ -30,4 +30,4 @@ data from webpage parts.
 .. description ends
 
 * Documentation: https://zyte-parsers.readthedocs.io/en/latest/
-* License: BSD 3-clause
+* License: Apache 2.0
