@@ -77,7 +77,7 @@ def extract_breadcrumbs(
         * breadcrumb item has to contain name or url.
         * relative URLs are joined with base URL.
         """
-        if node.tag in {"button"}:
+        if node.tag == "button":
             return
 
         if node.tag == "a" or len(node) == 0:

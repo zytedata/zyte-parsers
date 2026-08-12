@@ -113,7 +113,7 @@ def extract_text(
 
 def first_satisfying(
     xs: Iterable[_T],
-    condition_fun: Callable[[_T], bool] = lambda x: bool(x),
+    condition_fun: Callable[[_T], bool] = bool,
     default: _T | None = None,
 ) -> _T | None:
     """Return the first item in ``xs`` that satisfies the condition.
