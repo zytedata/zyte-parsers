@@ -1,6 +1,5 @@
 import re
 from contextlib import suppress
-from typing import Optional, Union
 
 import attr
 from gtin.validator import is_valid_GTIN
@@ -34,7 +33,7 @@ GTIN_PREFIX_REGEX = re.compile("|".join(GTIN_PREFIX), re.IGNORECASE)
 GTIN_CENTER_REGEX = re.compile(r"^\D*|\D*$")
 
 
-def extract_gtin(node: Union[SelectorOrElement, str]) -> Optional[Gtin]:
+def extract_gtin(node: SelectorOrElement | str) -> Gtin | None:
     """Extract a GTIN (Global Trade Item Number) from a node or a string that contains its text.
 
     It detects the GTIN type and returns it together with the cleaned GTIN
@@ -75,7 +74,7 @@ def _remove_gtin_numeric_prefix(gtin_code: str) -> str:
     return gtin_code
 
 
-def extract_gtin_id(gtin_code: Optional[str]) -> Optional[str]:
+def extract_gtin_id(gtin_code: str | None) -> str | None:
     """
     The function extracts the gtin_id from the text. For text like
     'EAN13: 7350053850019', first 'EAN13' is extracted then the gtin_id is
@@ -94,7 +93,7 @@ def extract_gtin_id(gtin_code: Optional[str]) -> Optional[str]:
     return None
 
 
-def gtin_classification(gtin: Optional[str]) -> Optional[str]:
+def gtin_classification(gtin: str | None) -> str | None:
     """
     The function performs gtin classification for the gtin code.
     The gtin classification is performed based on a number of rules associated

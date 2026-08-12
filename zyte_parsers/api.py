@@ -1,11 +1,11 @@
 from __future__ import annotations
 
-from typing import Union, cast
+from typing import TypeAlias, cast
 
 from lxml.html import HtmlComment, HtmlElement
 from parsel import Selector
 
-SelectorOrElement = Union[Selector, HtmlElement, HtmlComment]
+SelectorOrElement: TypeAlias = Selector | HtmlElement | HtmlComment
 
 
 def input_to_selector(node: SelectorOrElement) -> Selector:

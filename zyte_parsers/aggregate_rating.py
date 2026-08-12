@@ -1,6 +1,6 @@
 import re
 from math import isnan
-from typing import Any, Optional
+from typing import Any
 
 import attr
 from lxml.html import HtmlElement
@@ -11,8 +11,8 @@ from .utils import extract_text
 
 @attr.s(frozen=True, auto_attribs=True)
 class AggregateRating:
-    bestRating: Optional[float] = None
-    ratingValue: Optional[float] = None
+    bestRating: float | None = None
+    ratingValue: float | None = None
 
 
 POSSIBLE_BEST_RATINGS = {4.0, 5.0, 6.0, 10.0, 20.0, 100.0}
@@ -43,7 +43,7 @@ def extract_rating(node: SelectorOrElement) -> AggregateRating:
     return AggregateRating(ratingValue=rating_value, bestRating=best_rating)
 
 
-def _check_best_rating(value: float, rating_value: float) -> Optional[float]:
+def _check_best_rating(value: float, rating_value: float) -> float | None:
     """
     Function checks the bestRating value takes a valid value from one of the
     preselected set of values and is less than ratingValue.
@@ -59,7 +59,7 @@ def _check_best_rating(value: float, rating_value: float) -> Optional[float]:
     return value if value >= rating_value and value in POSSIBLE_BEST_RATINGS else None
 
 
-def _get_rating_numbers(node_text: Optional[str]) -> list[float]:
+def _get_rating_numbers(node_text: str | None) -> list[float]:
     rating_nums: list[float] = []
     if node_text:
         node_nums = re.findall(r"\d*,\d+|\d*\.\d+|\d+", node_text)
@@ -73,7 +73,7 @@ def _get_rating_numbers(node_text: Optional[str]) -> list[float]:
 
 def _extract_best_rating_tail_or_next(
     node: HtmlElement, rating_value: float
-) -> Optional[float]:
+) -> float | None:
     best_rating_text_candidates = [node.tail, extract_text(node.getnext())]
     for best_rating_text in best_rating_text_candidates:
         rating_nums = _get_rating_numbers(best_rating_text)
@@ -84,18 +84,18 @@ def _extract_best_rating_tail_or_next(
     return None
 
 
-def _remove_nan_from_float(val: Optional[float]) -> Optional[float]:
+def _remove_nan_from_float(val: float | None) -> float | None:
     return val if isinstance(val, float) and not isnan(val) else None
 
 
-def _str_to_float(rating: str) -> Optional[float]:
+def _str_to_float(rating: str) -> float | None:
     try:
         return float(rating)
     except ValueError:
         return None
 
 
-def _normalize_rating(rating_val: Any) -> Optional[float]:
+def _normalize_rating(rating_val: Any) -> float | None:
     if isinstance(rating_val, str):
         # convert values like 4,5 to 4.5
         rating_val = rating_val.replace(",", ".")

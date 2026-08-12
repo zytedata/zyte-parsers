@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import itertools
-from typing import TYPE_CHECKING, Callable, TypeVar
+from typing import TYPE_CHECKING, TypeVar
 from urllib.parse import urljoin
 
 import html_text
@@ -17,7 +17,7 @@ from w3lib.html import strip_html5_whitespace
 from zyte_parsers.api import SelectorOrElement, input_to_element
 
 if TYPE_CHECKING:
-    from collections.abc import Iterable
+    from collections.abc import Callable, Iterable
 
 
 _T = TypeVar("_T")

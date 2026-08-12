@@ -1,7 +1,7 @@
 import re
 import string
 from collections import Counter
-from typing import Literal, Optional, Union, cast
+from typing import Literal, cast
 
 import attr
 from lxml.html import HtmlComment, HtmlElement
@@ -12,8 +12,8 @@ from .utils import extract_link, extract_text, first_satisfying
 
 @attr.s(frozen=True, auto_attribs=True)
 class Breadcrumb:
-    name: Optional[str] = None
-    url: Optional[str] = None
+    name: str | None = None
+    url: str | None = None
 
 
 _PUNCTUATION_TRANS = str.maketrans("", "", string.punctuation)
@@ -31,8 +31,8 @@ RSTRIP_SEP_REG = re.compile(rf"\s+{SEP_REG_STR}$")
 
 
 def extract_breadcrumbs(
-    node: SelectorOrElement, *, base_url: Optional[str], max_search_depth: int = 10
-) -> Optional[tuple[Breadcrumb, ...]]:
+    node: SelectorOrElement, *, base_url: str | None, max_search_depth: int = 10
+) -> tuple[Breadcrumb, ...] | None:
     """Extract breadcrumb items from node that represents breadcrumb component.
 
     It finds all anchor elements to specified maximal depth. Anchors are
@@ -51,11 +51,11 @@ def extract_breadcrumbs(
     """
 
     def extract_breadcrumbs_rec(
-        node: Union[HtmlElement, HtmlComment],
+        node: HtmlElement | HtmlComment,
         search_depth: int,
         breadcrumbs_accum: list[Breadcrumb],
         markup_hier_accum: list[list[str]],
-        separators_accum: list[Optional[str]],
+        separators_accum: list[str | None],
         list_tag_occured: bool,
         curr_markup_hier: list[str],
     ) -> None:
@@ -135,7 +135,7 @@ def extract_breadcrumbs(
 
     breadcrumbs: list[Breadcrumb] = []
     markup_hier: list[list[str]] = []
-    separators: list[Optional[str]] = []
+    separators: list[str | None] = []
     extract_breadcrumbs_rec(
         node,
         0,
@@ -151,8 +151,8 @@ def extract_breadcrumbs(
 
 
 def _parse_breadcrumb_name(
-    name: Optional[str],
-) -> tuple[Optional[str], Optional[str], Optional[str]]:
+    name: str | None,
+) -> tuple[str | None, str | None, str | None]:
     """Split extracted name into left separator, clean name and right separator."""
     if name:
         stripped_name = name.strip()
@@ -181,8 +181,8 @@ def _parse_breadcrumb_name(
 def _postprocess_breadcrumbs(
     breadcrumbs: list[Breadcrumb],
     markup_hier: list[list[str]],
-    separators: list[Optional[str]],
-) -> Optional[tuple[Breadcrumb, ...]]:
+    separators: list[str | None],
+) -> tuple[Breadcrumb, ...] | None:
     """
     Post-process breadcrumbs using the following procedures:
     * If there is only a single breadcrumb with name and without link, try to
@@ -224,15 +224,15 @@ def _postprocess_using_markup(
 
     return [
         b
-        for idx, (b, h) in enumerate(zip(breadcrumbs, markup_hier))
+        for idx, (b, h) in enumerate(zip(breadcrumbs, markup_hier, strict=True))
         if idx in indices_to_leave or len(h) > 0
     ]
 
 
 def _postprocess_using_separators(
-    breadcrumbs: list[Breadcrumb], separators: list[Optional[str]]
+    breadcrumbs: list[Breadcrumb], separators: list[str | None]
 ) -> list[Breadcrumb]:
-    def prev_sep(idx: int) -> Optional[str]:
+    def prev_sep(idx: int) -> str | None:
         return separators[idx - 1] if 0 <= idx - 1 < len(separators) else None
 
     most_common_seps = Counter(filter(None, separators)).most_common()
@@ -243,14 +243,14 @@ def _postprocess_using_separators(
 
     return [
         b
-        for idx, (b, sep) in enumerate(zip(breadcrumbs, separators))
+        for idx, (b, sep) in enumerate(zip(breadcrumbs, separators, strict=True))
         if sep == main_sep or (prev_sep(idx) == main_sep)
     ]
 
 
 def _extract_markup_type(
-    node: Union[HtmlElement, HtmlComment],
-) -> Optional[Literal["data-vocabulary", "schema"]]:
+    node: HtmlElement | HtmlComment,
+) -> Literal["data-vocabulary", "schema"] | None:
     def check_schema(name: str) -> bool:
         for schema_attr in ("itemtype", "typeof"):
             if name in cast("str", node.get(schema_attr, "")).lower():
