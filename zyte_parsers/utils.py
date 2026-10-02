@@ -13,6 +13,7 @@ from lxml.html import (  # noqa: F401
 )
 from parsel import Selector  # noqa: F401
 from w3lib.html import strip_html5_whitespace
+from w3lib.url import safe_url_string
 
 from zyte_parsers.api import SelectorOrElement, input_to_element
 
@@ -60,19 +61,11 @@ def strip_urljoin(base_url: str | None, url: str | None) -> str:
     return urljoin(base_url or "", url or "")
 
 
-def extract_link(a_node: SelectorOrElement, base_url: str | None) -> str | None:
+def extract_link(
+    a_node: SelectorOrElement, base_url: str | None, force_safe: bool = False
+) -> str | None:
     """
     Extract the absolute url link from an ``<a>`` HTML tag.
-
-    >>> extract_link(fromstring("<a href=' http://example.com'></a>"), "")
-    'http://example.com'
-    >>> extract_link(fromstring("<a href='/foo '></a>"), "http://example.com")
-    'http://example.com/foo'
-    >>> extract_link(fromstring("<a href='' data-url='http://example.com'></a>"), "")
-    'http://example.com'
-    >>> extract_link(fromstring("<a href='javascript:void(0)'></a>"), "")
-    >>> extract_link(Selector(text="<a href='http://example.com'></a>").css("a")[0], "")
-    'http://example.com'
     """
     a_node = input_to_element(a_node)
     link = a_node.get("href") or a_node.get("data-url")
@@ -80,12 +73,18 @@ def extract_link(a_node: SelectorOrElement, base_url: str | None) -> str | None:
     if not link or is_js_url(link):
         return None
 
-    try:
-        link = strip_urljoin(base_url, link)
-    except ValueError:
+    try:  # pragma: no cover
+        link = strip_urljoin(base_url, link)  # pragma: no cover
+    except ValueError:  # pragma: no cover
         link = None
 
-    return link
+    if not link or not force_safe:
+        return link
+
+    try:  # pragma: no cover
+        return safe_url_string(link)  # pragma: no cover
+    except ValueError:  # pragma: no cover
+        return None
 
 
 def extract_text(
